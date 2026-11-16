@@ -1,0 +1,9 @@
+.venv/
+__pycache__/
+*.pyc
+python/
+py.tar.gz
+.streamlit/secrets.toml
+timemachine/fred_key.txt
+backtest_results*/
+.DS_Store

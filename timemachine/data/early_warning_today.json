@@ -1,0 +1,80 @@
+{
+ "oos_test": {
+  "lights_picked_on_1955_1990": [
+   "Oil up 50%+ in a year",
+   "Yield curve inverted",
+   "Inflation up 1.5+ pt in a year",
+   "Valuation in top 10% of history so far",
+   "Market calm (vol in bottom 20%)"
+  ],
+  "today_count": 2,
+  "in_sample_1955_1990": [
+   {
+    "lights_on": "0",
+    "months": 201,
+    "hit_rate_pct": 5.0
+   },
+   {
+    "lights_on": "1",
+    "months": 119,
+    "hit_rate_pct": 22.7
+   },
+   {
+    "lights_on": "2+",
+    "months": 112,
+    "hit_rate_pct": 32.1
+   }
+  ],
+  "out_of_sample_1991_2025": [
+   {
+    "lights_on": "0",
+    "months": 115,
+    "hit_rate_pct": 3.5
+   },
+   {
+    "lights_on": "1",
+    "months": 193,
+    "hit_rate_pct": 16.6
+   },
+   {
+    "lights_on": "2+",
+    "months": 110,
+    "hit_rate_pct": 30.0
+   }
+  ]
+ },
+ "asof": "2026-10-31",
+ "base_rate_pct": 16.7,
+ "lights_on": [
+  "10-year at or above 5%",
+  "Valuation in top 10% of history so far",
+  "Oil up 50%+ in a year",
+  "Margin debt up 30%+ in a year"
+ ],
+ "core_lights": [
+  "Oil up 50%+ in a year",
+  "Yield curve inverted",
+  "Inflation up 1.5+ pt in a year",
+  "Valuation in top 10% of history so far"
+ ],
+ "core_count_today": 2,
+ "composite": [
+  {
+   "lights_on": "0",
+   "months": 378,
+   "hit_rate_pct": 4.8
+  },
+  {
+   "lights_on": "1",
+   "months": 338,
+   "hit_rate_pct": 23.1
+  },
+  {
+   "lights_on": "2+",
+   "months": 134,
+   "hit_rate_pct": 34.3
+  }
+ ],
+ "n_months": 850,
+ "n_big_declines": 11
+}

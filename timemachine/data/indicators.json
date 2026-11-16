@@ -1,0 +1,352 @@
+{
+ "sp500": [
+  "S&P 500",
+  "Markets",
+  "index",
+  "Month-end close of the S&P 500 (monthly averages before 1950).",
+  null
+ ],
+ "sp500_ret_12m": [
+  "S&P 500, 12-month return",
+  "Markets",
+  "%",
+  "Price change over the last year.",
+  null
+ ],
+ "sp500_ret_6m": [
+  "S&P 500, 6-month return",
+  "Markets",
+  "%",
+  "Price change over the last 6 months.",
+  null
+ ],
+ "drawdown_from_ath": [
+  "Drop from all-time high",
+  "Markets",
+  "%",
+  "How far below its record high the S&P is.",
+  null
+ ],
+ "realized_vol": [
+  "Realized volatility",
+  "Markets",
+  "%",
+  "How much the S&P has actually been swinging (annualized).",
+  true
+ ],
+ "vix": [
+  "VIX (fear gauge)",
+  "Markets",
+  "index",
+  "Options-implied volatility; VXO before 1990. Starts 1986.",
+  true
+ ],
+ "cape": [
+  "Shiller CAPE",
+  "Markets",
+  "x",
+  "Price / 10-year average inflation-adjusted earnings. ~17 is the long-run average.",
+  true
+ ],
+ "short_rate": [
+  "Short-term rate",
+  "Rates & bonds",
+  "%",
+  "Fed funds rate (T-bill before 1954, commercial paper before 1934).",
+  null
+ ],
+ "fed_funds": [
+  "Fed funds rate",
+  "Rates & bonds",
+  "%",
+  "The Fed's main policy rate (from 1954).",
+  null
+ ],
+ "short_rate_chg_12m": [
+  "Fed tightening (12m change)",
+  "Rates & bonds",
+  "pp",
+  "How much short rates moved in the last year. Big positive = Fed hiking.",
+  true
+ ],
+ "real_short_rate": [
+  "Real short rate",
+  "Rates & bonds",
+  "%",
+  "Short rate minus inflation. Positive = money is genuinely tight.",
+  true
+ ],
+ "tbill_3m": [
+  "3-month T-bill",
+  "Rates & bonds",
+  "%",
+  "Yield on 3-month Treasury bills.",
+  null
+ ],
+ "t2y": [
+  "2-year Treasury",
+  "Rates & bonds",
+  "%",
+  "From 1976.",
+  null
+ ],
+ "t10y": [
+  "10-year Treasury",
+  "Rates & bonds",
+  "%",
+  "Long-term government borrowing cost (Shiller long rate before 1953).",
+  null
+ ],
+ "t10y_chg_12m": [
+  "10-year change (12m)",
+  "Rates & bonds",
+  "pp",
+  "How much long rates rose in a year.",
+  true
+ ],
+ "t10y_above_4": [
+  "10-year above 4%?",
+  "Rates & bonds",
+  "flag",
+  "1 = yes.",
+  null
+ ],
+ "t10y_above_5": [
+  "10-year above 5%?",
+  "Rates & bonds",
+  "flag",
+  "1 = yes.",
+  null
+ ],
+ "curve_10y_3m": [
+  "Yield curve (10y - 3m)",
+  "Rates & bonds",
+  "pp",
+  "Negative = inverted, a classic recession warning.",
+  false
+ ],
+ "curve_10y_2y": [
+  "Yield curve (10y - 2y)",
+  "Rates & bonds",
+  "pp",
+  "From 1976. Negative = inverted.",
+  false
+ ],
+ "curve_inverted": [
+  "Curve inverted?",
+  "Rates & bonds",
+  "flag",
+  "1 = 10y below 3m.",
+  null
+ ],
+ "mortgage_30y": [
+  "30-year mortgage rate",
+  "Rates & bonds",
+  "%",
+  "From 1971.",
+  null
+ ],
+ "baa_aaa_spread": [
+  "Credit spread (BAA - AAA)",
+  "Credit",
+  "pp",
+  "Extra yield on riskier corporate bonds. Widening = lenders getting nervous. Back to 1919.",
+  true
+ ],
+ "baa_aaa_chg_12m": [
+  "Credit spread change (12m)",
+  "Credit",
+  "pp",
+  "Widening over the last year.",
+  true
+ ],
+ "baa_10y_spread": [
+  "BAA - 10y Treasury",
+  "Credit",
+  "pp",
+  "Corporate borrowing premium over Treasuries.",
+  true
+ ],
+ "baa": [
+  "BAA corporate yield",
+  "Credit",
+  "%",
+  "What medium-quality companies pay to borrow.",
+  null
+ ],
+ "aaa": [
+  "AAA corporate yield",
+  "Credit",
+  "%",
+  "What top-quality companies pay to borrow.",
+  null
+ ],
+ "hy_spread": [
+  "High-yield spread",
+  "Credit",
+  "pp",
+  "Junk-bond premium (FRED only provides the last ~3 years).",
+  true
+ ],
+ "ted_spread": [
+  "TED spread",
+  "Credit",
+  "pp",
+  "Bank funding stress, 1986-2021.",
+  true
+ ],
+ "lending_standards": [
+  "Banks tightening loans",
+  "Credit",
+  "% net",
+  "Net % of banks tightening business-loan standards (from 1990).",
+  true
+ ],
+ "cpi_yoy": [
+  "Inflation (CPI)",
+  "Inflation & prices",
+  "%",
+  "Consumer prices vs a year ago.",
+  true
+ ],
+ "core_cpi_yoy": [
+  "Core inflation",
+  "Inflation & prices",
+  "%",
+  "CPI excluding food and energy (from 1958).",
+  true
+ ],
+ "food_home_yoy": [
+  "Grocery inflation",
+  "Inflation & prices",
+  "%",
+  "Food-at-home CPI vs a year ago.",
+  true
+ ],
+ "gasoline_yoy": [
+  "Gasoline price change",
+  "Inflation & prices",
+  "%",
+  "Gasoline CPI vs a year ago.",
+  true
+ ],
+ "oil_price": [
+  "Oil price (WTI)",
+  "Inflation & prices",
+  "$/bbl",
+  "From 1946.",
+  null
+ ],
+ "oil_yoy": [
+  "Oil price change",
+  "Inflation & prices",
+  "%",
+  "Oil vs a year ago.",
+  true
+ ],
+ "home_price_yoy": [
+  "Home prices",
+  "Housing",
+  "%",
+  "Case-Shiller national index vs a year ago (from 1988).",
+  null
+ ],
+ "housing_starts": [
+  "Housing starts",
+  "Housing",
+  "k/yr",
+  "New homes started, annualized (from 1959).",
+  null
+ ],
+ "unemployment": [
+  "Unemployment rate",
+  "Economy",
+  "%",
+  "From 1948.",
+  true
+ ],
+ "unemployment_chg_12m": [
+  "Unemployment change (12m)",
+  "Economy",
+  "pp",
+  "Rising unemployment is how recessions show up.",
+  true
+ ],
+ "payrolls_yoy": [
+  "Job growth",
+  "Economy",
+  "%",
+  "Payroll jobs vs a year ago.",
+  false
+ ],
+ "gdp_growth": [
+  "Real GDP growth",
+  "Economy",
+  "% ann.",
+  "Latest quarter, annualized (from 1947).",
+  false
+ ],
+ "indpro_yoy": [
+  "Industrial production",
+  "Economy",
+  "%",
+  "Factory/mine/utility output vs a year ago (from 1920).",
+  false
+ ],
+ "consumer_sentiment": [
+  "Consumer sentiment",
+  "Economy",
+  "index",
+  "University of Michigan survey (from 1952).",
+  false
+ ],
+ "recession_announced": [
+  "Recession officially announced?",
+  "Economy",
+  "flag",
+  "NBER had declared a recession by this date (real-time announcements began in 1980).",
+  true
+ ],
+ "margin_debt": [
+  "Margin debt",
+  "Leverage & banks",
+  "$bn",
+  "Money investors borrowed against stocks (FINRA, from 1997).",
+  null
+ ],
+ "margin_debt_yoy": [
+  "Margin debt growth",
+  "Leverage & banks",
+  "%",
+  "Margin debt vs a year ago. Fast growth = leveraged speculation (FINRA, from 1998).",
+  true
+ ],
+ "bank_failures_12m": [
+  "Bank failures (12m)",
+  "Leverage & banks",
+  "count",
+  "FDIC-insured banks failed or assisted in the last 12 months (from 1934).",
+  true
+ ],
+ "bank_failed_assets_12m": [
+  "Failed bank assets (12m)",
+  "Leverage & banks",
+  "$bn",
+  "Total assets of banks that failed in the last 12 months (nominal dollars, from 1934).",
+  true
+ ],
+ "m2_yoy": [
+  "Money supply growth (M2)",
+  "Money & dollar",
+  "%",
+  "From 1960.",
+  null
+ ],
+ "dollar_yoy": [
+  "US dollar change",
+  "Money & dollar",
+  "%",
+  "Trade-weighted dollar vs a year ago (from 1974).",
+  null
+ ]
+}

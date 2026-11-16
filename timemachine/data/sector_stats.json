@@ -1,0 +1,59 @@
+{
+ "etf_1999_plus": {
+  "label": "Sector ETFs, 1999+",
+  "n": 12,
+  "n_tightened": 8,
+  "gap_when_tightened": -3.8575,
+  "gap_when_not": -0.26000000000000006,
+  "difference": -3.5974999999999997,
+  "perm_p_value": 0.2322,
+  "corr_gap_vs_spread_change": -0.4643630012897466,
+  "corr_p_value": 0.0663,
+  "share_heavy_worse": 0.6666666666666666
+ },
+ "french_1928_plus": {
+  "label": "Ken French 49 industries, 1928+",
+  "n": 41,
+  "n_tightened": 21,
+  "gap_when_tightened": -4.8357142857142845,
+  "gap_when_not": -1.7495,
+  "difference": -3.0862142857142842,
+  "perm_p_value": 0.1684,
+  "corr_gap_vs_spread_change": -0.14744542812049624,
+  "corr_p_value": 0.1534,
+  "share_heavy_worse": 0.6585365853658537
+ },
+ "french_1950_plus": {
+  "label": "Ken French 49 industries, 1950+",
+  "n": 34,
+  "n_tightened": 16,
+  "gap_when_tightened": -6.3125,
+  "gap_when_not": -1.1827777777777777,
+  "difference": -5.129722222222222,
+  "perm_p_value": 0.0876,
+  "corr_gap_vs_spread_change": -0.27266348026789883,
+  "corr_p_value": 0.06195,
+  "share_heavy_worse": 0.6470588235294118
+ },
+ "rate_shock_only": {
+  "n_rate_shock": 14,
+  "gap_after_rate_rise": -2.596428571428571,
+  "gap_otherwise": -3.7107407407407407,
+  "perm_p_value": 0.62725
+ },
+ "investment_1963_plus": {
+  "label": "Aggressive vs conservative investors (top vs bottom 20% asset growth), 1963+",
+  "n": 28,
+  "n_tightened": 14,
+  "gap_when_tightened": -9.227857142857141,
+  "gap_when_not": -2.735714285714285,
+  "difference": -6.4921428571428565,
+  "perm_p_value": 0.1002,
+  "corr_gap_vs_spread_change": -0.12784758974547952,
+  "corr_p_value": 0.2073,
+  "share_heavy_worse": 0.7142857142857143,
+  "median_when_tightened": -4.45,
+  "median_when_not": -1.26,
+  "gap_when_tightened_ex2000": -5.946153846153847
+ }
+}
