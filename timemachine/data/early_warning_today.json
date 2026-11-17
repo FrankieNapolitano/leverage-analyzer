@@ -33,8 +33,8 @@
    },
    {
     "lights_on": "1",
-    "months": 193,
-    "hit_rate_pct": 16.6
+    "months": 194,
+    "hit_rate_pct": 16.5
    },
    {
     "lights_on": "2+",
@@ -43,13 +43,12 @@
    }
   ]
  },
- "asof": "2026-10-31",
+ "asof": "2026-11-30",
  "base_rate_pct": 16.7,
  "lights_on": [
   "10-year at or above 5%",
   "Valuation in top 10% of history so far",
-  "Oil up 50%+ in a year",
-  "Margin debt up 30%+ in a year"
+  "Oil up 50%+ in a year"
  ],
  "core_lights": [
   "Oil up 50%+ in a year",
@@ -66,8 +65,8 @@
   },
   {
    "lights_on": "1",
-   "months": 338,
-   "hit_rate_pct": 23.1
+   "months": 339,
+   "hit_rate_pct": 23.0
   },
   {
    "lights_on": "2+",
@@ -75,6 +74,6 @@
    "hit_rate_pct": 34.3
   }
  ],
- "n_months": 850,
+ "n_months": 851,
  "n_big_declines": 11
 }

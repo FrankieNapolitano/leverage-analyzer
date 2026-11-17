@@ -867,6 +867,7 @@ asof,obs_date,available,method,indicator
 2026-08-31,2026-08-01,2026-08-31,market,fed_funds
 2026-09-30,2026-09-01,2026-09-30,market,fed_funds
 2026-10-31,2026-09-01,2026-09-30,market,fed_funds
+2026-11-30,2026-09-01,2026-09-30,market,fed_funds
 1928-01-31,1928-01-01,1928-01-31,market,short_rate
 1928-02-29,1928-02-01,1928-02-29,market,short_rate
 1928-03-31,1928-03-01,1928-03-31,market,short_rate
@@ -2053,6 +2054,7 @@ asof,obs_date,available,method,indicator
 2026-08-31,2026-08-01,2026-08-31,market,short_rate
 2026-09-30,2026-09-01,2026-09-30,market,short_rate
 2026-10-31,2026-09-01,2026-09-30,market,short_rate
+2026-11-30,2026-09-01,2026-09-30,market,short_rate
 1928-01-31,1928-01-01,1928-01-31,market,tbill_3m
 1928-02-29,1928-02-01,1928-02-29,market,tbill_3m
 1928-03-31,1928-03-01,1928-03-31,market,tbill_3m
@@ -3239,6 +3241,7 @@ asof,obs_date,available,method,indicator
 2026-08-31,2026-08-01,2026-08-31,market,tbill_3m
 2026-09-30,2026-09-01,2026-09-30,market,tbill_3m
 2026-10-31,2026-09-01,2026-09-30,market,tbill_3m
+2026-11-30,2026-09-01,2026-09-30,market,tbill_3m
 1928-01-31,1928-01-01,1928-01-31,market,t10y
 1928-02-29,1928-02-01,1928-02-29,market,t10y
 1928-03-31,1928-03-01,1928-03-31,market,t10y
@@ -4425,6 +4428,7 @@ asof,obs_date,available,method,indicator
 2026-08-31,2026-08-01,2026-08-31,market,t10y
 2026-09-30,2026-09-01,2026-09-30,market,t10y
 2026-10-31,2026-09-01,2026-09-30,market,t10y
+2026-11-30,2026-09-01,2026-09-30,market,t10y
 1976-06-30,1976-06-01,1976-06-30,market,t2y
 1976-07-31,1976-07-01,1976-07-31,market,t2y
 1976-08-31,1976-08-01,1976-08-31,market,t2y
@@ -5030,6 +5034,7 @@ asof,obs_date,available,method,indicator
 2026-08-31,2026-08-01,2026-08-31,market,t2y
 2026-09-30,2026-09-01,2026-09-30,market,t2y
 2026-10-31,2026-09-01,2026-09-30,market,t2y
+2026-11-30,2026-09-01,2026-09-30,market,t2y
 1971-04-30,1971-04-01,1971-04-30,market,mortgage_30y
 1971-05-31,1971-05-01,1971-05-31,market,mortgage_30y
 1971-06-30,1971-06-01,1971-06-30,market,mortgage_30y
@@ -5697,6 +5702,7 @@ asof,obs_date,available,method,indicator
 2026-08-31,2026-08-01,2026-08-31,market,mortgage_30y
 2026-09-30,2026-09-01,2026-09-30,market,mortgage_30y
 2026-10-31,2026-10-01,2026-10-31,market,mortgage_30y
+2026-11-30,2026-10-01,2026-10-31,market,mortgage_30y
 1928-01-31,1928-01-01,1928-01-31,market,baa
 1928-02-29,1928-02-01,1928-02-29,market,baa
 1928-03-31,1928-03-01,1928-03-31,market,baa
@@ -6883,6 +6889,7 @@ asof,obs_date,available,method,indicator
 2026-08-31,2026-08-01,2026-08-31,market,baa
 2026-09-30,2026-09-01,2026-09-30,market,baa
 2026-10-31,2026-09-01,2026-09-30,market,baa
+2026-11-30,2026-09-01,2026-09-30,market,baa
 1928-01-31,1928-01-01,1928-01-31,market,aaa
 1928-02-29,1928-02-01,1928-02-29,market,aaa
 1928-03-31,1928-03-01,1928-03-31,market,aaa
@@ -8069,6 +8076,7 @@ asof,obs_date,available,method,indicator
 2026-08-31,2026-08-01,2026-08-31,market,aaa
 2026-09-30,2026-09-01,2026-09-30,market,aaa
 2026-10-31,2026-09-01,2026-09-30,market,aaa
+2026-11-30,2026-09-01,2026-09-30,market,aaa
 2023-11-30,2023-11-01,2023-11-30,market,hy_spread
 2023-12-31,2023-12-01,2023-12-31,market,hy_spread
 2024-01-31,2024-01-01,2024-01-31,market,hy_spread
@@ -8105,6 +8113,7 @@ asof,obs_date,available,method,indicator
 2026-08-31,2026-08-01,2026-08-31,market,hy_spread
 2026-09-30,2026-09-01,2026-09-30,market,hy_spread
 2026-10-31,2026-10-01,2026-10-31,market,hy_spread
+2026-11-30,2026-10-01,2026-10-31,market,hy_spread
 1986-01-31,1986-01-01,1986-01-31,market,ted_spread
 1986-02-28,1986-02-01,1986-02-28,market,ted_spread
 1986-03-31,1986-03-01,1986-03-31,market,ted_spread
@@ -8989,6 +8998,7 @@ asof,obs_date,available,method,indicator
 2026-08-31,2026-07-01,2026-08-05,market,lending_standards
 2026-09-30,2026-07-01,2026-08-05,market,lending_standards
 2026-10-31,2026-07-01,2026-08-05,market,lending_standards
+2026-11-30,2026-07-01,2026-08-05,market,lending_standards
 1928-01-31,1927-12-01,1928-01-17,revised_lagged,cpi_yoy
 1928-02-29,1928-01-01,1928-02-17,revised_lagged,cpi_yoy
 1928-03-31,1928-02-01,1928-03-19,revised_lagged,cpi_yoy
@@ -10175,6 +10185,7 @@ asof,obs_date,available,method,indicator
 2026-08-31,2026-07-01,2026-08-12,first_release,cpi_yoy
 2026-09-30,2026-08-01,2026-09-11,first_release,cpi_yoy
 2026-10-31,2026-09-01,2026-10-14,first_release,cpi_yoy
+2026-11-30,2026-09-01,2026-10-14,first_release,cpi_yoy
 1958-02-28,1958-01-01,1958-02-17,revised_lagged,core_cpi_yoy
 1958-03-31,1958-02-01,1958-03-20,revised_lagged,core_cpi_yoy
 1958-04-30,1958-03-01,1958-04-17,revised_lagged,core_cpi_yoy
@@ -11000,6 +11011,7 @@ asof,obs_date,available,method,indicator
 2026-08-31,2026-07-01,2026-08-12,first_release,core_cpi_yoy
 2026-09-30,2026-08-01,2026-09-11,first_release,core_cpi_yoy
 2026-10-31,2026-09-01,2026-10-14,first_release,core_cpi_yoy
+2026-11-30,2026-09-01,2026-10-14,first_release,core_cpi_yoy
 1948-02-29,1948-01-01,1948-02-17,revised_lagged,food_home_yoy
 1948-03-31,1948-02-01,1948-03-19,revised_lagged,food_home_yoy
 1948-04-30,1948-03-01,1948-04-17,revised_lagged,food_home_yoy
@@ -11945,6 +11957,7 @@ asof,obs_date,available,method,indicator
 2026-08-31,2026-07-01,2026-08-12,first_release,food_home_yoy
 2026-09-30,2026-08-01,2026-09-11,first_release,food_home_yoy
 2026-10-31,2026-09-01,2026-10-14,first_release,food_home_yoy
+2026-11-30,2026-09-01,2026-10-14,first_release,food_home_yoy
 1936-08-31,1936-07-01,1936-08-17,revised_lagged,gasoline_yoy
 1936-09-30,1936-07-01,1936-08-17,revised_lagged,gasoline_yoy
 1936-10-31,1936-07-01,1936-08-17,revised_lagged,gasoline_yoy
@@ -13028,6 +13041,7 @@ asof,obs_date,available,method,indicator
 2026-08-31,2026-07-01,2026-08-12,first_release,gasoline_yoy
 2026-09-30,2026-08-01,2026-09-11,first_release,gasoline_yoy
 2026-10-31,2026-09-01,2026-10-14,first_release,gasoline_yoy
+2026-11-30,2026-09-01,2026-10-14,first_release,gasoline_yoy
 1946-01-31,1946-01-01,1946-01-31,market,oil_price
 1946-02-28,1946-02-01,1946-02-28,market,oil_price
 1946-03-31,1946-03-01,1946-03-31,market,oil_price
@@ -13998,6 +14012,7 @@ asof,obs_date,available,method,indicator
 2026-08-31,2026-08-01,2026-08-31,market,oil_price
 2026-09-30,2026-09-01,2026-09-30,market,oil_price
 2026-10-31,2026-09-01,2026-09-30,market,oil_price
+2026-11-30,2026-09-01,2026-09-30,market,oil_price
 1947-01-31,1947-01-01,1947-01-31,market,oil_yoy
 1947-02-28,1947-02-01,1947-02-28,market,oil_yoy
 1947-03-31,1947-03-01,1947-03-31,market,oil_yoy
@@ -14956,6 +14971,7 @@ asof,obs_date,available,method,indicator
 2026-08-31,2026-08-01,2026-08-31,market,oil_yoy
 2026-09-30,2026-09-01,2026-09-30,market,oil_yoy
 2026-10-31,2026-09-01,2026-09-30,market,oil_yoy
+2026-11-30,2026-09-01,2026-09-30,market,oil_yoy
 1988-03-31,1988-01-01,1988-03-29,revised_lagged,home_price_yoy
 1988-04-30,1988-02-01,1988-04-29,revised_lagged,home_price_yoy
 1988-05-31,1988-03-01,1988-05-28,revised_lagged,home_price_yoy
@@ -15420,6 +15436,7 @@ asof,obs_date,available,method,indicator
 2026-08-31,2026-06-01,2026-08-28,revised_lagged,home_price_yoy
 2026-09-30,2026-07-01,2026-09-27,revised_lagged,home_price_yoy
 2026-10-31,2026-07-01,2026-09-27,revised_lagged,home_price_yoy
+2026-11-30,2026-07-01,2026-09-27,revised_lagged,home_price_yoy
 1959-02-28,1959-01-01,1959-02-18,revised_lagged,housing_starts
 1959-03-31,1959-02-01,1959-03-21,revised_lagged,housing_starts
 1959-04-30,1959-03-01,1959-04-18,revised_lagged,housing_starts
@@ -16233,6 +16250,7 @@ asof,obs_date,available,method,indicator
 2026-08-31,2026-07-01,2026-08-18,first_release,housing_starts
 2026-09-30,2026-08-01,2026-09-17,first_release,housing_starts
 2026-10-31,2026-09-01,2026-10-20,first_release,housing_starts
+2026-11-30,2026-09-01,2026-10-20,first_release,housing_starts
 1948-02-29,1948-01-01,1948-02-05,revised_lagged,unemployment
 1948-03-31,1948-02-01,1948-03-07,revised_lagged,unemployment
 1948-04-30,1948-03-01,1948-04-05,revised_lagged,unemployment
@@ -17178,6 +17196,7 @@ asof,obs_date,available,method,indicator
 2026-08-31,2026-07-01,2026-08-07,first_release,unemployment
 2026-09-30,2026-08-01,2026-09-04,first_release,unemployment
 2026-10-31,2026-09-01,2026-10-02,first_release,unemployment
+2026-11-30,2026-09-01,2026-10-02,first_release,unemployment
 1949-02-28,1949-01-01,1949-02-05,revised_lagged,unemployment_chg_12m
 1949-03-31,1949-02-01,1949-03-08,revised_lagged,unemployment_chg_12m
 1949-04-30,1949-03-01,1949-04-05,revised_lagged,unemployment_chg_12m
@@ -18111,6 +18130,7 @@ asof,obs_date,available,method,indicator
 2026-08-31,2026-07-01,2026-08-07,first_release,unemployment_chg_12m
 2026-09-30,2026-08-01,2026-09-04,first_release,unemployment_chg_12m
 2026-10-31,2026-09-01,2026-10-02,first_release,unemployment_chg_12m
+2026-11-30,2026-09-01,2026-10-02,first_release,unemployment_chg_12m
 1940-02-29,1940-01-01,1940-02-05,revised_lagged,payrolls_yoy
 1940-03-31,1940-02-01,1940-03-07,revised_lagged,payrolls_yoy
 1940-04-30,1940-03-01,1940-04-05,revised_lagged,payrolls_yoy
@@ -19152,6 +19172,7 @@ asof,obs_date,available,method,indicator
 2026-08-31,2026-07-01,2026-08-07,first_release,payrolls_yoy
 2026-09-30,2026-08-01,2026-09-04,first_release,payrolls_yoy
 2026-10-31,2026-09-01,2026-10-02,first_release,payrolls_yoy
+2026-11-30,2026-09-01,2026-10-02,first_release,payrolls_yoy
 1947-07-31,1947-04-01,1947-07-30,revised_lagged,gdp_growth
 1947-08-31,1947-04-01,1947-07-30,revised_lagged,gdp_growth
 1947-09-30,1947-04-01,1947-07-30,revised_lagged,gdp_growth
@@ -20104,6 +20125,7 @@ asof,obs_date,available,method,indicator
 2026-08-31,2026-04-01,2026-07-30,first_release,gdp_growth
 2026-09-30,2026-04-01,2026-07-30,first_release,gdp_growth
 2026-10-31,2026-04-01,2026-07-30,first_release,gdp_growth
+2026-11-30,2026-04-01,2026-07-30,first_release,gdp_growth
 1928-01-31,1927-12-01,1928-01-27,first_release,indpro_yoy
 1928-02-29,1928-01-01,1928-02-27,first_release,indpro_yoy
 1928-03-31,1928-02-01,1928-03-28,first_release,indpro_yoy
@@ -21290,6 +21312,7 @@ asof,obs_date,available,method,indicator
 2026-08-31,2026-07-01,2026-08-18,first_release,indpro_yoy
 2026-09-30,2026-08-01,2026-09-18,first_release,indpro_yoy
 2026-10-31,2026-09-01,2026-10-16,first_release,indpro_yoy
+2026-11-30,2026-09-01,2026-10-16,first_release,indpro_yoy
 1952-11-30,1952-11-01,1952-11-30,market,consumer_sentiment
 1952-12-31,1952-11-01,1952-11-30,market,consumer_sentiment
 1953-01-31,1952-11-01,1952-11-30,market,consumer_sentiment
@@ -22178,6 +22201,7 @@ asof,obs_date,available,method,indicator
 2026-08-31,2026-08-01,2026-08-31,market,consumer_sentiment
 2026-09-30,2026-09-01,2026-09-30,market,consumer_sentiment
 2026-10-31,2026-09-01,2026-09-30,market,consumer_sentiment
+2026-11-30,2026-09-01,2026-09-30,market,consumer_sentiment
 1928-01-31,1928-01-31,1928-01-31,market_monthly_avg,sp500
 1928-02-29,1928-02-29,1928-02-29,market_monthly_avg,sp500
 1928-03-31,1928-03-31,1928-03-31,market_monthly_avg,sp500
@@ -23363,7 +23387,8 @@ asof,obs_date,available,method,indicator
 2026-07-31,2026-07-31,2026-07-31,market,sp500
 2026-08-31,2026-08-31,2026-08-31,market,sp500
 2026-09-30,2026-09-30,2026-09-30,market,sp500
-2026-10-31,2026-10-26,2026-10-26,market,sp500
+2026-10-31,2026-10-30,2026-10-30,market,sp500
+2026-11-30,2026-11-16,2026-11-16,market,sp500
 1928-01-31,1928-01-31,1928-01-31,market_monthly_avg,sp500_ret_12m
 1928-02-29,1928-02-29,1928-02-29,market_monthly_avg,sp500_ret_12m
 1928-03-31,1928-03-31,1928-03-31,market_monthly_avg,sp500_ret_12m
@@ -24549,7 +24574,8 @@ asof,obs_date,available,method,indicator
 2026-07-31,2026-07-31,2026-07-31,market,sp500_ret_12m
 2026-08-31,2026-08-31,2026-08-31,market,sp500_ret_12m
 2026-09-30,2026-09-30,2026-09-30,market,sp500_ret_12m
-2026-10-31,2026-10-26,2026-10-26,market,sp500_ret_12m
+2026-10-31,2026-10-30,2026-10-30,market,sp500_ret_12m
+2026-11-30,2026-11-16,2026-11-16,market,sp500_ret_12m
 1928-01-31,1928-01-31,1928-01-31,market_monthly_avg,sp500_ret_6m
 1928-02-29,1928-02-29,1928-02-29,market_monthly_avg,sp500_ret_6m
 1928-03-31,1928-03-31,1928-03-31,market_monthly_avg,sp500_ret_6m
@@ -25735,7 +25761,8 @@ asof,obs_date,available,method,indicator
 2026-07-31,2026-07-31,2026-07-31,market,sp500_ret_6m
 2026-08-31,2026-08-31,2026-08-31,market,sp500_ret_6m
 2026-09-30,2026-09-30,2026-09-30,market,sp500_ret_6m
-2026-10-31,2026-10-26,2026-10-26,market,sp500_ret_6m
+2026-10-31,2026-10-30,2026-10-30,market,sp500_ret_6m
+2026-11-30,2026-11-16,2026-11-16,market,sp500_ret_6m
 1928-01-31,1928-01-31,1928-01-31,market_monthly_avg,realized_vol
 1928-02-29,1928-02-29,1928-02-29,market_monthly_avg,realized_vol
 1928-03-31,1928-03-31,1928-03-31,market_monthly_avg,realized_vol
@@ -26921,7 +26948,8 @@ asof,obs_date,available,method,indicator
 2026-07-31,2026-07-31,2026-07-31,market,realized_vol
 2026-08-31,2026-08-31,2026-08-31,market,realized_vol
 2026-09-30,2026-09-30,2026-09-30,market,realized_vol
-2026-10-31,2026-10-26,2026-10-26,market,realized_vol
+2026-10-31,2026-10-30,2026-10-30,market,realized_vol
+2026-11-30,2026-11-16,2026-11-16,market,realized_vol
 1928-01-31,1928-01-31,1928-01-31,market_monthly_avg,drawdown_from_ath
 1928-02-29,1928-02-29,1928-02-29,market_monthly_avg,drawdown_from_ath
 1928-03-31,1928-03-31,1928-03-31,market_monthly_avg,drawdown_from_ath
@@ -28107,7 +28135,8 @@ asof,obs_date,available,method,indicator
 2026-07-31,2026-07-31,2026-07-31,market,drawdown_from_ath
 2026-08-31,2026-08-31,2026-08-31,market,drawdown_from_ath
 2026-09-30,2026-09-30,2026-09-30,market,drawdown_from_ath
-2026-10-31,2026-10-26,2026-10-26,market,drawdown_from_ath
+2026-10-31,2026-10-30,2026-10-30,market,drawdown_from_ath
+2026-11-30,2026-11-16,2026-11-16,market,drawdown_from_ath
 1986-01-31,1986-01-01,1986-01-31,market,vix
 1986-02-28,1986-02-01,1986-02-28,market,vix
 1986-03-31,1986-03-01,1986-03-31,market,vix
@@ -28598,6 +28627,7 @@ asof,obs_date,available,method,indicator
 2026-08-31,2026-08-01,2026-08-31,market,vix
 2026-09-30,2026-09-01,2026-09-30,market,vix
 2026-10-31,2026-10-01,2026-10-31,market,vix
+2026-11-30,2026-10-01,2026-10-31,market,vix
 1928-01-31,1928-01-01,1928-01-31,market,cape
 1928-02-29,1928-02-01,1928-02-29,market,cape
 1928-03-31,1928-03-01,1928-03-31,market,cape
@@ -29784,6 +29814,7 @@ asof,obs_date,available,method,indicator
 2026-08-31,2026-08-01,2026-08-31,market,cape
 2026-09-30,2026-09-01,2026-09-30,market,cape
 2026-10-31,2026-10-01,2026-10-31,market,cape
+2026-11-30,2026-11-01,2026-11-30,market,cape
 1997-02-28,1997-01-01,1997-02-25,market,margin_debt
 1997-03-31,1997-02-01,1997-03-25,market,margin_debt
 1997-04-30,1997-03-01,1997-04-25,market,margin_debt
@@ -30141,6 +30172,7 @@ asof,obs_date,available,method,indicator
 2026-08-31,2026-07-01,2026-08-25,market,margin_debt
 2026-09-30,2026-08-01,2026-09-25,market,margin_debt
 2026-10-31,2026-09-01,2026-10-25,market,margin_debt
+2026-11-30,2026-10-01,2026-11-25,market,margin_debt
 1998-02-28,1998-01-01,1998-02-25,market,margin_debt_yoy
 1998-03-31,1998-02-01,1998-03-25,market,margin_debt_yoy
 1998-04-30,1998-03-01,1998-04-25,market,margin_debt_yoy
@@ -30486,6 +30518,7 @@ asof,obs_date,available,method,indicator
 2026-08-31,2026-07-01,2026-08-25,market,margin_debt_yoy
 2026-09-30,2026-08-01,2026-09-25,market,margin_debt_yoy
 2026-10-31,2026-09-01,2026-10-25,market,margin_debt_yoy
+2026-11-30,2026-10-01,2026-11-25,market,margin_debt_yoy
 1934-01-31,1934-01-01,1934-01-31,market,bank_failures_12m
 1934-02-28,1934-02-01,1934-02-28,market,bank_failures_12m
 1934-03-31,1934-03-01,1934-03-31,market,bank_failures_12m
@@ -31600,6 +31633,7 @@ asof,obs_date,available,method,indicator
 2026-08-31,2026-08-01,2026-08-31,market,bank_failures_12m
 2026-09-30,2026-09-01,2026-09-30,market,bank_failures_12m
 2026-10-31,2026-10-01,2026-10-31,market,bank_failures_12m
+2026-11-30,2026-11-01,2026-11-30,market,bank_failures_12m
 1934-01-31,1934-01-01,1934-01-31,market,bank_failed_assets_12m
 1934-02-28,1934-02-01,1934-02-28,market,bank_failed_assets_12m
 1934-03-31,1934-03-01,1934-03-31,market,bank_failed_assets_12m
@@ -32714,6 +32748,7 @@ asof,obs_date,available,method,indicator
 2026-08-31,2026-08-01,2026-08-31,market,bank_failed_assets_12m
 2026-09-30,2026-09-01,2026-09-30,market,bank_failed_assets_12m
 2026-10-31,2026-10-01,2026-10-31,market,bank_failed_assets_12m
+2026-11-30,2026-11-01,2026-11-30,market,bank_failed_assets_12m
 1960-02-29,1960-01-01,1960-02-13,revised_lagged,m2_yoy
 1960-03-31,1960-02-01,1960-03-15,revised_lagged,m2_yoy
 1960-04-30,1960-03-01,1960-04-13,revised_lagged,m2_yoy
@@ -33515,6 +33550,7 @@ asof,obs_date,available,method,indicator
 2026-08-31,2026-07-01,2026-08-25,first_release,m2_yoy
 2026-09-30,2026-08-01,2026-09-22,first_release,m2_yoy
 2026-10-31,2026-08-01,2026-09-22,first_release,m2_yoy
+2026-11-30,2026-08-01,2026-09-22,first_release,m2_yoy
 1974-01-31,1974-01-01,1974-01-31,market,dollar_yoy
 1974-02-28,1974-02-01,1974-02-28,market,dollar_yoy
 1974-03-31,1974-03-01,1974-03-31,market,dollar_yoy
@@ -34149,12 +34185,13 @@ asof,obs_date,available,method,indicator
 2026-08-31,2026-08-01,2026-08-31,market,dollar_yoy
 2026-09-30,2026-09-01,2026-09-30,market,dollar_yoy
 2026-10-31,2026-09-01,2026-09-30,market,dollar_yoy
-2026-10-31,2026-10-23,2026-10-23,market_daily_latest,t10y
-2026-10-31,2026-10-23,2026-10-23,market_daily_latest,t2y
-2026-10-31,2026-10-23,2026-10-23,market_daily_latest,tbill_3m
-2026-10-31,2026-10-23,2026-10-23,market_daily_latest,short_rate
-2026-10-31,2026-10-23,2026-10-23,market_daily_latest,fed_funds
-2026-10-31,2026-10-26,2026-10-26,market_daily_latest,baa
-2026-10-31,2026-10-26,2026-10-26,market_daily_latest,aaa
-2026-10-31,2026-10-22,2026-10-22,market_daily_latest,mortgage_30y
-2026-10-31,2026-10-20,2026-10-20,market_daily_latest,oil_price
+2026-11-30,2026-09-01,2026-09-30,market,dollar_yoy
+2026-11-30,2026-10-23,2026-10-23,market_daily_latest,t10y
+2026-11-30,2026-10-23,2026-10-23,market_daily_latest,t2y
+2026-11-30,2026-10-23,2026-10-23,market_daily_latest,tbill_3m
+2026-11-30,2026-10-23,2026-10-23,market_daily_latest,short_rate
+2026-11-30,2026-10-23,2026-10-23,market_daily_latest,fed_funds
+2026-11-30,2026-10-26,2026-10-26,market_daily_latest,baa
+2026-11-30,2026-10-26,2026-10-26,market_daily_latest,aaa
+2026-11-30,2026-10-22,2026-10-22,market_daily_latest,mortgage_30y
+2026-11-30,2026-10-20,2026-10-20,market_daily_latest,oil_price

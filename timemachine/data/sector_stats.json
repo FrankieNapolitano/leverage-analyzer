@@ -15,31 +15,31 @@
   "label": "Ken French 49 industries, 1928+",
   "n": 41,
   "n_tightened": 21,
-  "gap_when_tightened": -4.8357142857142845,
-  "gap_when_not": -1.7495,
-  "difference": -3.0862142857142842,
-  "perm_p_value": 0.1684,
-  "corr_gap_vs_spread_change": -0.14744542812049624,
-  "corr_p_value": 0.1534,
-  "share_heavy_worse": 0.6585365853658537
+  "gap_when_tightened": -6.25,
+  "gap_when_not": -2.2800000000000002,
+  "difference": -3.9699999999999998,
+  "perm_p_value": 0.106,
+  "corr_gap_vs_spread_change": -0.3172634457478117,
+  "corr_p_value": 0.03015,
+  "share_heavy_worse": 0.7073170731707317
  },
  "french_1950_plus": {
   "label": "Ken French 49 industries, 1950+",
   "n": 34,
   "n_tightened": 16,
-  "gap_when_tightened": -6.3125,
-  "gap_when_not": -1.1827777777777777,
-  "difference": -5.129722222222222,
-  "perm_p_value": 0.0876,
-  "corr_gap_vs_spread_change": -0.27266348026789883,
-  "corr_p_value": 0.06195,
-  "share_heavy_worse": 0.6470588235294118
+  "gap_when_tightened": -6.2375,
+  "gap_when_not": -1.4849999999999999,
+  "difference": -4.7524999999999995,
+  "perm_p_value": 0.0991,
+  "corr_gap_vs_spread_change": -0.2726475529276966,
+  "corr_p_value": 0.0609,
+  "share_heavy_worse": 0.6764705882352942
  },
  "rate_shock_only": {
   "n_rate_shock": 14,
-  "gap_after_rate_rise": -2.596428571428571,
-  "gap_otherwise": -3.7107407407407407,
-  "perm_p_value": 0.62725
+  "gap_after_rate_rise": -3.3349999999999995,
+  "gap_otherwise": -4.8207407407407405,
+  "perm_p_value": 0.6662
  },
  "investment_1963_plus": {
   "label": "Aggressive vs conservative investors (top vs bottom 20% asset growth), 1963+",

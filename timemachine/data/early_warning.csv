@@ -1,15 +1,15 @@
 light,lift_1955_1990,lift_1991_2025,months_on_pct,hit_rate_pct,base_rate_pct,lift,p_value,crashes_caught,since,on_today
-Banks tightening loans (20%+ net),,2.45,23.9,37.3,16.2,2.3,0.019,1/4,1990,False
-Oil up 50%+ in a year,1.69,2.67,9.2,38.5,16.7,2.3,0.017,4/11,1955,True
-Yield curve inverted,2.12,1.38,11.4,29.9,16.7,1.79,0.118,3/11,1955,False
-Inflation up 1.5+ pt in a year,1.52,2.42,22.0,29.9,16.7,1.79,0.0,6/11,1955,False
-Margin debt up 30%+ in a year,,1.73,15.9,35.8,20.7,1.73,0.093,3/4,1998,True
-Valuation in top 10% of history so far,2.39,1.41,32.4,26.2,16.7,1.57,0.036,6/11,1955,True
-Fed hiked 1+ pt in a year,1.29,0.81,25.5,18.9,16.7,1.13,0.356,5/11,1955,False
-Real short rate above 2%,1.13,0.9,38.9,17.8,16.7,1.07,0.389,8/11,1955,False
-Unemployment up 0.5+ pt,0.5,1.69,22.6,17.2,16.7,1.03,0.463,3/11,1955,False
-Market calm (vol in bottom 20%),1.4,0.21,19.3,16.5,16.7,0.99,0.548,6/11,1955,False
-10-year at or above 5%,0.9,1.02,49.3,15.8,16.7,0.94,0.662,6/11,1955,True
-Credit spread widened 0.2+ pt,0.52,1.39,23.9,15.8,16.7,0.94,0.556,3/11,1955,False
-Industrial production shrinking,0.17,1.23,34.6,12.2,16.7,0.73,0.817,8/11,1955,False
-10-year up 1+ pt in a year,1.05,0.14,13.6,12.1,16.7,0.72,0.78,4/11,1955,False
+Banks tightening loans (20%+ net),,2.45,23.9,37.3,16.2,2.31,0.019,1/4,1990,False
+Oil up 50%+ in a year,1.69,2.67,9.2,38.5,16.7,2.3,0.011,4/11,1955,True
+Yield curve inverted,2.12,1.38,11.4,29.9,16.7,1.79,0.112,3/11,1955,False
+Inflation up 1.5+ pt in a year,1.52,2.43,22.0,29.9,16.7,1.79,0.0,6/11,1955,False
+Margin debt up 30%+ in a year,,1.7,16.2,35.2,20.7,1.7,0.089,3/4,1998,False
+Valuation in top 10% of history so far,2.39,1.41,32.4,26.1,16.7,1.56,0.032,6/11,1955,True
+Fed hiked 1+ pt in a year,1.29,0.81,25.5,18.9,16.7,1.13,0.355,5/11,1955,False
+Real short rate above 2%,1.13,0.9,38.9,17.8,16.7,1.07,0.39,8/11,1955,False
+Unemployment up 0.5+ pt,0.5,1.69,22.6,17.2,16.7,1.03,0.451,3/11,1955,False
+Market calm (vol in bottom 20%),1.4,0.21,19.3,16.5,16.7,0.99,0.542,6/11,1955,False
+10-year at or above 5%,0.9,1.02,49.2,15.8,16.7,0.94,0.664,6/11,1955,True
+Credit spread widened 0.2+ pt,0.52,1.4,23.9,15.8,16.7,0.94,0.557,3/11,1955,False
+Industrial production shrinking,0.17,1.23,34.5,12.2,16.7,0.73,0.81,8/11,1955,False
+10-year up 1+ pt in a year,1.05,0.14,13.6,12.1,16.7,0.72,0.772,4/11,1955,False
