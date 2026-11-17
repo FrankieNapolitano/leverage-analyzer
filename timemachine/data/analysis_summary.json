@@ -2,25 +2,25 @@
  "asof": "2026-11-30",
  "clusters": {
   "k": 4,
-  "silhouette": 0.1615001417046818,
+  "silhouette": 0.16150286495696858,
   "today": {
    "nearest_type": "Expensive market meets a shock",
    "distances": {
-    "Expensive market meets a shock": 0.561,
+    "Expensive market meets a shock": 0.577,
     "Credit stress in a slowing economy": 1.18,
-    "Aftershock in a young recovery": 1.184,
-    "Fed-tightening / inflation squeeze": 0.931
+    "Aftershock in a young recovery": 1.192,
+    "Fed-tightening / inflation squeeze": 0.938
    },
    "today_percentiles": {
     "cape_vs_20y": 0.78,
-    "sp500_ret_12m": 0.46,
+    "sp500_ret_12m": 0.44,
     "short_rate_chg_12m": 0.46,
     "t10y_chg_12m": 0.88,
     "real_short_rate": 0.43,
     "curve_10y_3m": 0.3,
     "spread_vs_10y": 0.22,
     "baa_aaa_chg_12m": 0.35,
-    "vol_vs_10y": 0.65,
+    "vol_vs_10y": 0.66,
     "cpi_chg_12m": 0.63,
     "indpro_yoy": 0.51
    }
@@ -124,7 +124,7 @@
    "peak_date": "1999-07-16",
    "depth_pct": -12.1,
    "crash_type": "Expensive market meets a shock",
-   "similarity": 67.0,
+   "similarity": 66.0,
    "most_similar_on": "Unemployment, Inflation, Industrial production",
    "most_different_on": "Prior 12m return, Credit spread change, Oil price change"
   },
@@ -160,7 +160,7 @@
    "peak_date": "2022-01-03",
    "depth_pct": -25.4,
    "crash_type": "Expensive market meets a shock",
-   "similarity": 54.0,
+   "similarity": 53.0,
    "most_similar_on": "Unemployment, Fed tightening (12m), Oil price change",
    "most_different_on": "Unemployment change, 10-yr yield, Prior 12m return"
   },
@@ -179,7 +179,7 @@
    "depth_pct": -22.2,
    "crash_type": "Expensive market meets a shock",
    "similarity": 48.0,
-   "most_similar_on": "Inflation, Real short rate, Unemployment",
+   "most_similar_on": "Inflation, Real short rate, Prior 12m return",
    "most_different_on": "CAPE valuation, Oil price change, Volatility"
   },
   {
@@ -195,7 +195,7 @@
  "analog_months": [
   {
    "month": "1999-09",
-   "distance": 0.34,
+   "distance": 0.35,
    "next_12m_return": 11.99,
    "next_12m_max_drawdown": -11.19
   },
@@ -213,13 +213,13 @@
   },
   {
    "month": "2025-01",
-   "distance": 0.49,
+   "distance": 0.5,
    "next_12m_return": 14.87,
    "next_12m_max_drawdown": -18.9
   },
   {
    "month": "1997-01",
-   "distance": 0.53,
+   "distance": 0.54,
    "next_12m_return": 24.69,
    "next_12m_max_drawdown": -10.8
   },
@@ -243,7 +243,7 @@
   },
   {
    "month": "2024-04",
-   "distance": 0.57,
+   "distance": 0.58,
    "next_12m_return": 10.59,
    "next_12m_max_drawdown": -18.9
   },
@@ -255,7 +255,7 @@
   },
   {
    "month": "2005-03",
-   "distance": 0.58,
+   "distance": 0.59,
    "next_12m_return": 9.68,
    "next_12m_max_drawdown": -5.48
   },
@@ -267,7 +267,7 @@
   },
   {
    "month": "2017-04",
-   "distance": 0.6,
+   "distance": 0.61,
    "next_12m_return": 11.07,
    "next_12m_max_drawdown": -10.16
   },
@@ -279,7 +279,7 @@
   },
   {
    "month": "1996-07",
-   "distance": 0.63,
+   "distance": 0.64,
    "next_12m_return": 49.12,
    "next_12m_max_drawdown": -9.63
   }
