@@ -2,25 +2,25 @@
  "asof": "2026-11-30",
  "clusters": {
   "k": 4,
-  "silhouette": 0.16150286495696858,
+  "silhouette": 0.1615001417046818,
   "today": {
    "nearest_type": "Expensive market meets a shock",
    "distances": {
-    "Expensive market meets a shock": 0.577,
+    "Expensive market meets a shock": 0.576,
     "Credit stress in a slowing economy": 1.18,
-    "Aftershock in a young recovery": 1.192,
-    "Fed-tightening / inflation squeeze": 0.938
+    "Aftershock in a young recovery": 1.193,
+    "Fed-tightening / inflation squeeze": 0.937
    },
    "today_percentiles": {
     "cape_vs_20y": 0.78,
-    "sp500_ret_12m": 0.44,
+    "sp500_ret_12m": 0.43,
     "short_rate_chg_12m": 0.46,
     "t10y_chg_12m": 0.88,
     "real_short_rate": 0.43,
     "curve_10y_3m": 0.3,
     "spread_vs_10y": 0.22,
     "baa_aaa_chg_12m": 0.35,
-    "vol_vs_10y": 0.66,
+    "vol_vs_10y": 0.65,
     "cpi_chg_12m": 0.63,
     "indpro_yoy": 0.51
    }
@@ -195,7 +195,7 @@
  "analog_months": [
   {
    "month": "1999-09",
-   "distance": 0.35,
+   "distance": 0.36,
    "next_12m_return": 11.99,
    "next_12m_max_drawdown": -11.19
   },
@@ -225,7 +225,7 @@
   },
   {
    "month": "2007-10",
-   "distance": 0.54,
+   "distance": 0.55,
    "next_12m_return": -37.47,
    "next_12m_max_drawdown": -45.21
   },
@@ -255,7 +255,7 @@
   },
   {
    "month": "2005-03",
-   "distance": 0.59,
+   "distance": 0.58,
    "next_12m_return": 9.68,
    "next_12m_max_drawdown": -5.48
   },
@@ -267,7 +267,7 @@
   },
   {
    "month": "2017-04",
-   "distance": 0.61,
+   "distance": 0.6,
    "next_12m_return": 11.07,
    "next_12m_max_drawdown": -10.16
   },
@@ -279,7 +279,7 @@
   },
   {
    "month": "1996-07",
-   "distance": 0.64,
+   "distance": 0.63,
    "next_12m_return": 49.12,
    "next_12m_max_drawdown": -9.63
   }
