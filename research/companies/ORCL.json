@@ -1,0 +1,229 @@
+{
+  "ticker": "ORCL",
+  "company": "Oracle Corporation",
+  "as_of": "2026-11-21",
+  "reported_snapshot": {
+    "period": "Q1 FY2027 (quarter ended 2026-08-31), plus Nov 2026 capital raise",
+    "total_debt_usd_bn": 125.3,
+    "total_debt_note": "Notes payable and borrowings at 2026-08-31 ($7.6B current + $117.7B non-current). Add ~$10B of senior notes issued 2026-11-04 => ~$135B pro forma. Excludes $34.6B operating + $9.2B finance lease liabilities.",
+    "cash_usd_bn": 36.4,
+    "cash_note": "Cash and equivalents at 2026-08-31 (~$37.1B incl. marketable securities). Nov 2026 raise added ~$19.9B net proceeds.",
+    "latest_quarter_operating_cash_flow_usd_bn": 23.1,
+    "latest_quarter_fcf_usd_bn": -5.4,
+    "fcf_note": "OCF $23.1B included ~$11.4B of customer prepayments; FCF before prepayments ~ -$16.8B (analyst calc). FY2026 FCF was -$23.7B.",
+    "latest_quarter_capex_usd_bn": 28.5,
+    "capex_guidance": "FY2027 gross capex $90-95B, not more than $70B net cash capex (Q1 FY27 call); capex peaks FY27-FY28, steps down FY29 (Investor Day 2026-10-28).",
+    "rpo_usd_bn": 664,
+    "rpo_note": "RPO at 2026-08-31; ~13% expected to be recognized within 12 months, ~half within 36 months.",
+    "fcf_targets": "Positive FCF in 2H FY2028; >= $30B FCF in FY2029; net debt/adj. EBITDA < 3.5x in FY2029 (company targets).",
+    "sources": [
+      "https://www.zacks.com/stock/news/2988454/www.zacks.com/stock/quote/www.zacks.com/stock/quote/AEIS",
+      "https://www.clarifo.com/articles/oracle-fy2027-q1-rpo-cloud-backlog-ai-financing",
+      "https://abis-capital.com/research/orcl-equity-research-2026-11-14/",
+      "https://finance.yahoo.com/quote/ORCL-PD/earnings/ORCL-PD-Q1-2027-earnings_call-689425.html/",
+      "https://investor.oracle.com/investor-news/news-details/2026/Oracle-Investor-Day-2026-Accelerating-Value-Creation/default.aspx",
+      "https://investor.oracle.com/investor-news/news-details/2026/Oracle-Announces-Pricing-of-20-Billion-of-Common-Stock-and-Senior-Notes/default.aspx",
+      "https://www.lambdavp.com/blog/data-center-lease-commitments-off-balance-sheet"
+    ]
+  },
+  "off_balance_items": [
+    {
+      "category": "leases_not_commenced",
+      "description": "Data-center lease commitments signed but not yet commenced (not on balance sheet); generally commence Q2 FY2027-FY2029, terms 15-19 years. Up from $260B at 2026-05-31. ~6.6x the $43.8B of recorded lease liabilities.",
+      "amount_usd_bn": 288.0,
+      "counterparty": "Data-center developers/landlords (e.g., Crusoe/Blue Owl SPVs, Vantage, BorderPlex/Yucca for Project Jupiter); not itemized in filing",
+      "as_of_date": "2026-08-31",
+      "source_title": "Oracle 10-Q Q1 FY2027 lease note, as summarized by FourWeekMBA / 06.ai",
+      "source_url": "https://fourweekmba.com/ai-oracle-has-288b-of-data-center-leases-still-to-start/",
+      "confidence": "high"
+    },
+    {
+      "category": "purchase_commitments",
+      "description": "Unconditional purchase obligations, primarily cloud infrastructure components and data-center power arrangements.",
+      "amount_usd_bn": 34.15,
+      "counterparty": "Hardware suppliers and power providers (not named)",
+      "as_of_date": "2026-08-31",
+      "source_title": "06.ai W.007 (citing Oracle 10-Q Aug 31, 2026); TradeOnPurpose",
+      "source_url": "https://06.ai/wire/w007/",
+      "confidence": "medium"
+    },
+    {
+      "category": "customer_concentration",
+      "description": "OpenAI five-year, ~$300B compute contract (~4.5 GW, Stargate) estimated at ~45% of Oracle's $664B RPO. OpenAI is itself loss-making and vendor-financed (Nvidia $30B equity Feb 2026). S&P and Moody's both cite OpenAI counterparty risk.",
+      "amount_usd_bn": 300.0,
+      "counterparty": "OpenAI",
+      "as_of_date": "2026-11-20",
+      "source_title": "Reuters: Oracle says OpenAI infrastructure deal is fully funded; Luminix circular-deals report",
+      "source_url": "https://www.reuters.com/business/oracle-says-openai-infrastructure-deal-is-fully-funded-after-final-capital-raise-2026-11-20/",
+      "confidence": "medium"
+    },
+    {
+      "category": "vendor_financing",
+      "description": "Oracle is a RECIPIENT of vendor financing: Investor Day model assumes suppliers finance ~70% of hardware over 5 years (cuts Oracle's cash need for a 1 GW, ~$37B project to ~$18B). Oracle says this financing is 'in place' but has not disclosed size or vendors; it sits in supplier terms, outside the $20B capital-markets cap.",
+      "amount_usd_bn": null,
+      "counterparty": "Undisclosed hardware vendors (reportedly incl. chip suppliers such as Nvidia)",
+      "as_of_date": "2026-11-20",
+      "source_title": "Oracle Investor Day 2026 transcript; Oracle X post via The Next Web",
+      "source_url": "https://stockanalysis.com/stocks/orcl/transcripts/780561-investor-day-2026/",
+      "confidence": "medium"
+    },
+    {
+      "category": "other",
+      "description": "Customer prepayments with a financing component: cash received for capacity not yet delivered (~$11.4B in Q1 FY27, ~$4.6B in Q4 FY26; ~$16B liability). Boosts reported OCF now but must be repaid in service, not cash. Separately, prepaid and customer-supplied-hardware ('bring your own chips') deals were said to total ~$75B in June 2026.",
+      "amount_usd_bn": 16.0,
+      "counterparty": "AI customers (largely OpenAI-related, not itemized)",
+      "as_of_date": "2026-08-31",
+      "source_title": "ABIS Capital equity research (from 10-Q); StockTitan Investor Day summary",
+      "source_url": "https://abis-capital.com/research/orcl-equity-research-2026-11-14/",
+      "confidence": "medium"
+    },
+    {
+      "category": "guarantees_backstops",
+      "description": "Project Jupiter (Doña Ana County, NM; 2.45 GW Stargate campus for OpenAI): Oracle is anchor tenant of a developer SPV (Blue Owl unit) financed with construction loans and up to $165B of county industrial revenue bonds. Oracle issued a force majeure notice (Sept 2026) over power/permit delays; HSBC sold a ~$300M slice of the construction loan at a steep discount. Oracle's exposure is via lease commitments (included above) rather than a disclosed guarantee.",
+      "amount_usd_bn": null,
+      "counterparty": "Blue Owl-affiliated developer SPV; BorderPlex Digital Assets; Yucca Growth Infrastructure; Bloom Energy",
+      "as_of_date": "2026-11-16",
+      "source_title": "Investing.com/Bloomberg: HSBC offloads troubled AI data center loan",
+      "source_url": "https://sg.finance.yahoo.com/news/hsbc-offloads-300-million-troubled-230235524.html",
+      "confidence": "medium"
+    },
+    {
+      "category": "circular_deals",
+      "description": "Circular loop: Nvidia funds OpenAI (equity) -> OpenAI commits ~$300B to Oracle -> Oracle buys Nvidia GPUs, partly on vendor credit and partly with OpenAI-supplied hardware/prepayments. Oracle's revenue depends on a customer whose ability to pay depends on continued outside funding.",
+      "amount_usd_bn": null,
+      "counterparty": "OpenAI, Nvidia",
+      "as_of_date": "2026-11-20",
+      "source_title": "Luminix: Circular Financing in AI",
+      "source_url": "https://www.useluminix.com/reports/industry-analysis/ai-circular-deals",
+      "confidence": "medium"
+    }
+  ],
+  "total_off_balance_usd_bn": 322.15,
+  "total_note": "Sum of hard, contractually quantified off-balance items only: $288B leases not yet commenced + $34.15B unconditional purchase obligations. Excludes the ~$300B OpenAI contract and $664B RPO (these are revenue/concentration exposures, not obligations), the ~$16B prepayment liability (already on balance sheet), and undisclosed vendor financing. Lease figure is undiscounted and spread over 15-19 years, so it is not comparable to debt one-for-one. For scale: ~$322B vs TTM operating cash flow ~$47B (~7x) and FY2026 OCF $32B (~10x).",
+  "credit_signals": [
+    {
+      "type": "rating",
+      "detail": "S&P BBB- (stable), cut from BBB on 2026-07-09 (one notch above junk). S&P says it could cut again if adjusted leverage stays >4.5x (S&P sees peak ~4.4x incl. leases) or positive FOCF by FY2029 looks out of reach.",
+      "date": "2026-07-09",
+      "source_url": "https://zandigital.in/oracle-credit-rating-moodys-sp"
+    },
+    {
+      "type": "rating",
+      "detail": "Moody's Baa2, negative outlook, affirmed 2026-11-02; cites OpenAI counterparty risk, uncertain equity funding beyond 2026; adjusted debt/EBITDA >4x at Aug 31; trailing FCF about -$35B (Moody's basis). Fitch BBB, stable, affirmed same day.",
+      "date": "2026-11-02",
+      "source_url": "https://edgeconsultancykw.com/oracle-10bn-notes-rated-fitch-bbb-moodys-baa2-sp-bbb-minus/"
+    },
+    {
+      "type": "cds",
+      "detail": "5-year CDS ~292bp on Nov 2; record wides on Nov 17; up to 327.9bp on Nov 20 (highest since Oct 20). Was below ~80bp a year earlier.",
+      "date": "2026-11-20",
+      "source_url": "https://leprivatebanker.com/2026/11/20/ai-credit-gauges-worsen-as-coreweave-default-swaps-widen-toward-1233-basis-points-and-oracle-hits-a-one-month-high/"
+    },
+    {
+      "type": "bond_issuance",
+      "detail": "$10B senior notes priced Nov 2 (closed Nov 4): 7.000% 2029, 7.450% 2031, 7.850% 2033, 8.000% 2037, 8.650% 2046; spreads +240 to +335bp over Treasuries. Existing 4.95% 2031 bond yielded ~7.28% (CNBC), 'more in line with a high-end junk rating' per S&P Global Market Intelligence.",
+      "date": "2026-11-02",
+      "source_url": "https://investor.oracle.com/investor-news/news-details/2026/Oracle-Announces-Pricing-of-20-Billion-of-Common-Stock-and-Senior-Notes/default.aspx"
+    },
+    {
+      "type": "equity_raise",
+      "detail": "$10B common stock: 86.2M shares at $116 (~11% discount), closed Nov 4. Follows $20B ATM equity completed in Q1 FY27 (141M shares, $19.9B net). Stock closed $101.19 on Nov 20, 12.8% below the offering price.",
+      "date": "2026-11-04",
+      "source_url": "https://fourweekmba.com/ai-oracle-says-openai-deal-fully-funded-116-shares-now-101/"
+    },
+    {
+      "type": "funding_cap",
+      "detail": "Investor Day: additional capital-markets funding for FY27-FY30 capped at $20B ($10B equity/$10B gross debt, excl. refinancing) - fully used within a week. Remaining needs met by vendor financing, customer hardware, prepayments.",
+      "date": "2026-10-28",
+      "source_url": "https://investor.oracle.com/investor-news/news-details/2026/Oracle-Investor-Day-2026-Accelerating-Value-Creation/default.aspx"
+    }
+  ],
+  "news_context": [
+    {
+      "date": "2026-09-10",
+      "headline_summary": "Q1 FY27: revenue +30% to $19.3B, OCI +121%, RPO $664B, capex $28.5B, FCF -$5.4B; $20B ATM equity completed; FY27 capex guided $90-95B.",
+      "why_it_matters": "Shows the build is outrunning cash generation even with $11B of customer prepayments flattering operating cash flow.",
+      "source_url": "https://www.clarifo.com/articles/oracle-fy2027-q1-rpo-cloud-backlog-ai-financing"
+    },
+    {
+      "date": "2026-10-28",
+      "headline_summary": "Investor Day: FY30 revenue target $225B+, positive FCF in 2H FY28, $30B+ FCF FY29, $20B cap on new capital-markets funding; relies on vendor financing, BYO hardware, prepayments.",
+      "why_it_matters": "Moves part of the funding burden off Oracle's balance sheet onto suppliers and customers - exactly the hidden leverage a debt/EBITDA screen misses.",
+      "source_url": "https://investor.oracle.com/investor-news/news-details/2026/Oracle-Investor-Day-2026-Accelerating-Value-Creation/default.aspx"
+    },
+    {
+      "date": "2026-11-02",
+      "headline_summary": "Oracle raises $20B ($10B stock at $116, $10B bonds at 7.0-8.65%); shares fall ~9%.",
+      "why_it_matters": "Entire 4-year funding cap used in one week at near-junk coupons; signals capital-market dependence and high cost of funds.",
+      "source_url": "https://cnbc.com/2026/11/02/oracle-files-to-sell-20-billion-in-new-stock-bonds-to-finance-ai-buildout.html"
+    },
+    {
+      "date": "2026-11-06",
+      "headline_summary": "Project Jupiter (NM Stargate site for OpenAI) air-permit hearing vacated; Nov 23 decision deadline waived; no new date. Oracle had filed force majeure in Sept; HSBC dumped a construction-loan slice at a discount (Nov 16).",
+      "why_it_matters": "Power/permitting delays push revenue right while lease and financing costs keep accruing; lenders are already marking down exposure.",
+      "source_url": "https://www.abqjournal.com/news/project-jupiter-air-permit-faces-new-delay/3157572"
+    },
+    {
+      "date": "2026-11-06",
+      "headline_summary": "Bloomberg: Microsoft winding down 2023 deal to rent AI capacity from Oracle (older Nvidia GPUs). Oracle says older GPUs re-contracted at 20% premium.",
+      "why_it_matters": "Raises GPU obsolescence/re-leasing risk on hardware financed over 5+ years.",
+      "source_url": "https://www.bloomberg.com/news/articles/2026-11-06/microsoft-is-winding-down-oracle-deal-to-rent-ai-cloud-capacity"
+    },
+    {
+      "date": "2026-11-12",
+      "headline_summary": "Nvidia CEO Jensen Huang resigns; CFO Colette Kress interim CEO, says Nvidia will be more selective on future investments/guarantees.",
+      "why_it_matters": "Nvidia is a key funder of OpenAI and likely vendor financier in Oracle's plan; any pullback weakens the circular financing loop.",
+      "source_url": "https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Announces-CEO-Transition/"
+    },
+    {
+      "date": "2026-11-20",
+      "headline_summary": "Oracle CDS hits ~328bp; Oracle posts that its OpenAI contract is 'fully funded' including vendor financing and pre-emptively calls contrary reports 'wrong'.",
+      "why_it_matters": "Credit market prices Oracle near high-yield; 'fully funded' claim rests on undisclosed vendor financing.",
+      "source_url": "https://www.reuters.com/business/oracle-says-openai-infrastructure-deal-is-fully-funded-after-final-capital-raise-2026-11-20/"
+    }
+  ],
+  "hidden_leverage_assessment": {
+    "rating": "High",
+    "rationale": "On paper Oracle has ~$125-135B of debt, but it has also signed $288B of data-center leases that are not on the balance sheet yet and $34B of purchase commitments - together roughly 7x a year of operating cash flow. Much of that capacity is being built for one customer, OpenAI, whose ~$300B contract is roughly 45% of Oracle's backlog and who itself depends on outside funding (including from Nvidia). Oracle is also using supplier credit and customer prepayments to keep reported debt and capex down, and it has not said how big the vendor financing is. It is not 'Severe' because Oracle still has a large, profitable software business, investment-grade ratings, and positive operating cash flow - but credit markets (CDS ~300bp+, 7-8.65% new bond coupons) are already pricing it close to junk.",
+    "biggest_hidden_risk": "If OpenAI cannot pay or delays its ramp, Oracle is still locked into ~$288B of 15-19-year leases plus vendor-financed hardware for capacity built specifically for OpenAI.",
+    "what_would_change_my_mind": "Evidence that OpenAI's share of RPO is falling fast with diversified new customers, plus Oracle reaching positive FCF on schedule in 2H FY2028 without new debt or a rating cut."
+  },
+  "sources": [
+    "http://www.economictimes.indiatimes.com/tech/artificial-intelligence/ai-data-centre-race-builds-1-trillion-lease-burden-for-big-tech/articleshow/132868416.cms",
+    "https://06.ai/wire/w007/",
+    "https://abis-capital.com/research/orcl-equity-research-2026-11-14/",
+    "https://cnbc.com/2026/11/02/oracle-files-to-sell-20-billion-in-new-stock-bonds-to-finance-ai-buildout.html",
+    "https://edgeconsultancykw.com/oracle-10bn-notes-rated-fitch-bbb-moodys-baa2-sp-bbb-minus/",
+    "https://finance.yahoo.com/markets/stocks/articles/oracle-credit-default-swaps-hit-165226586.html",
+    "https://finance.yahoo.com/quote/ORCL-PD/earnings/ORCL-PD-Q1-2027-earnings_call-689425.html/",
+    "https://fourweekmba.com/ai-oracle-files-to-sell-10b-of-stock-and-10b-of-bonds-at-once/",
+    "https://fourweekmba.com/ai-oracle-has-288b-of-data-center-leases-still-to-start/",
+    "https://fourweekmba.com/ai-oracle-says-openai-deal-fully-funded-116-shares-now-101/",
+    "https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Announces-CEO-Transition/",
+    "https://investor.oracle.com/investor-news/news-details/2026/Oracle-Announces-Pricing-of-20-Billion-of-Common-Stock-and-Senior-Notes/default.aspx",
+    "https://investor.oracle.com/investor-news/news-details/2026/Oracle-Investor-Day-2026-Accelerating-Value-Creation/default.aspx",
+    "https://leprivatebanker.com/2026/11/20/ai-credit-gauges-worsen-as-coreweave-default-swaps-widen-toward-1233-basis-points-and-oracle-hits-a-one-month-high/",
+    "https://protos.com/nvidias-bad-news-is-even-worse-for-oracle/",
+    "https://sg.finance.yahoo.com/news/hsbc-offloads-300-million-troubled-230235524.html",
+    "https://stockanalysis.com/stocks/orcl/transcripts/780561-investor-day-2026/",
+    "https://thenextweb.com/news/oracle-openai-contract-fully-funded-20bn-raise",
+    "https://tkal.news/earnings/oracle-investor-day-2026",
+    "https://tradeonpurpose.com/insights/20261119_fed_october_minutes_ai_capex_inflation",
+    "https://www.abqjournal.com/news/project-jupiter-air-permit-faces-new-delay/3157572",
+    "https://www.bloomberg.com/news/articles/2026-11-06/microsoft-is-winding-down-oracle-deal-to-rent-ai-cloud-capacity",
+    "https://www.bloomberg.com/news/articles/2026-11-20/ai-credit-risk-gauges-worsen-as-tech-selloff-roils-markets",
+    "https://www.clarifo.com/articles/oracle-fy2027-q1-rpo-cloud-backlog-ai-financing",
+    "https://www.datacenterdynamics.com/en/news/microsoft-winds-down-2023-compute-deal-with-oracle/",
+    "https://www.ft.com/content/903b4224-9d47-49ee-8534-1161b6c731db",
+    "https://www.ii.co.uk/news/global-business-oracle-says-all-funding-secured-for-openai-contract-al1795256619610987800",
+    "https://www.koat.com/article/oracle-project-jupiter-new-mexico-data-center-delays/74466668",
+    "https://www.krwg.org/krwg-news/2026-11-18/report-critical-of-project-jupiter-back-online-after-attorneys-legal-threats",
+    "https://www.lambdavp.com/blog/data-center-lease-commitments-off-balance-sheet",
+    "https://www.reuters.com/business/oracle-says-openai-infrastructure-deal-is-fully-funded-after-final-capital-raise-2026-11-20/",
+    "https://www.stocktitan.net/articles/oracle-stock-investor-day-2026-20-billion-funding-cap",
+    "https://www.useluminix.com/reports/industry-analysis/ai-circular-deals",
+    "https://www.useluminix.com/reports/industry-analysis/ai-circular-deals/source/4",
+    "https://www.zacks.com/stock/news/2988454/www.zacks.com/stock/quote/www.zacks.com/stock/quote/AEIS",
+    "https://zandigital.in/oracle-credit-rating-moodys-sp"
+  ]
+}

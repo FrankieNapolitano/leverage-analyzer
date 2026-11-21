@@ -1,0 +1,227 @@
+{
+  "ticker": "AVGO",
+  "company": "Broadcom Inc.",
+  "as_of": "2026-11-21",
+  "reported_snapshot": {
+    "period": "Fiscal Q3 2026 (quarter ended 2026-08-02), reported 2026-09-02; FQ4 results due 2026-12-09",
+    "revenue_usd_bn": 29.59,
+    "ai_semiconductor_revenue_usd_bn": 16.7,
+    "ai_share_of_revenue_pct": 56,
+    "total_debt_principal_usd_bn": 61.08,
+    "total_debt_note": "$59.33B senior notes + $1.75B term loans; $2.25B short-term; no CP or revolver drawn. Repaid $5.6B in FQ3 and $1.5B more after quarter end. VMware-era debt.",
+    "cash_usd_bn": 23.98,
+    "operating_cash_flow_q3_usd_bn": 14.2,
+    "capex_q3_usd_bn": 0.532,
+    "free_cash_flow_q3_usd_bn": 13.665,
+    "free_cash_flow_9m_usd_bn": 31.94,
+    "capex_guidance": "~$1.4B for FQ4 2026 (per earnings call summary)",
+    "rpo_usd_bn": 179.2,
+    "rpo_note": "Remaining performance obligations on firmly committed multi-year semiconductor and software contracts, as of 2026-08-02",
+    "guidance": "FQ4 revenue ~$34.8B, AI semis $21.7B; FY26 AI revenue $58B; management targets ~$115B FY27 and ~$230B FY28 AI revenue",
+    "sources": [
+      "https://investors.broadcom.com/news-releases/news-release-details/broadcom-inc-announces-third-quarter-fiscal-year-2026-financial",
+      "https://investors.broadcom.com/static-files/96641754-401f-4090-a4ab-210728c83a28",
+      "https://www.theglobeandmail.com/investing/markets/stocks/AVGO/pressreleases/4646818/broadcom-inc-earnings-call-signals-ai-supercycle/",
+      "https://finance.yahoo.com/technology/ai/articles/broadcom-inc-avgo-q3-2026-110030403.html"
+    ]
+  },
+  "off_balance_items": [
+    {
+      "category": "purchase_commitments",
+      "description": "Unconditional purchase commitments, mostly inventory (TSMC wafers, HBM, packaging, rack components for XPU systems): $52.7B due FY2027 and $73.0B FY2028 - almost all within two years. Sized to the AI order book; if customers (or their SPV lenders) pull back, Broadcom still has to buy.",
+      "amount_usd_bn": 126.82,
+      "counterparty": "TSMC, memory and component suppliers",
+      "as_of_date": "2026-08-02",
+      "source_title": "Broadcom Form 10-Q for fiscal quarter ended Aug 2, 2026",
+      "source_url": "https://investors.broadcom.com/static-files/96641754-401f-4090-a4ab-210728c83a28",
+      "confidence": "high"
+    },
+    {
+      "category": "purchase_commitments",
+      "description": "Other contractual commitments (non-inventory), multi-year.",
+      "amount_usd_bn": 3.94,
+      "counterparty": "Various",
+      "as_of_date": "2026-08-02",
+      "source_title": "Broadcom Form 10-Q FQ3 2026",
+      "source_url": "https://investors.broadcom.com/static-files/96641754-401f-4090-a4ab-210728c83a28",
+      "confidence": "high"
+    },
+    {
+      "category": "guarantees_backstops",
+      "description": "AI XPV Platform 'Backstop' (June 2026, $35B Apollo/Blackstone financing): an SPV buys Broadcom-designed AI racks (incl. Google TPUs) and leases them to Anthropic for >1 GW at Fluidstack sites over 5 years. If the customer defaults, Broadcom owes the gap between 85% of the outstanding lease and the racks' resale value. Max undiscounted exposure ~$29B once all racks are deployed; fair value booked as 'not material'.",
+      "amount_usd_bn": 29.0,
+      "counterparty": "Anthropic (lessee) / Apollo-Blackstone SPV lenders",
+      "as_of_date": "2026-08-02",
+      "source_title": "Broadcom Form 10-Q FQ3 2026; Broadcom/Apollo/Blackstone AI XPV release",
+      "source_url": "https://investors.broadcom.com/static-files/96641754-401f-4090-a4ab-210728c83a28",
+      "confidence": "high"
+    },
+    {
+      "category": "guarantees_backstops",
+      "description": "'Project North Star' (Oct 26, 2026): $63B SPV financing (BofA, Citi, Morgan Stanley first lien ~$42-43.5B at SOFR+150/187.5bp due 2033; Blackstone-anchored ~$18B junior, unguaranteed, >10% yield) to buy Broadcom XPU racks leased to Anthropic, deliveries from 2027. Broadcom gives residual value support equal to the first lien: it pays the gap between 72.5% of the outstanding lease and the racks' sale value. Max undiscounted ~$43B, amortizing to zero over 5 years. Reported that CEO Hock Tan stepped in to get banks to finish the deal.",
+      "amount_usd_bn": 43.0,
+      "counterparty": "Anthropic (lessee) / North Star SPV senior lenders",
+      "as_of_date": "2026-10-27",
+      "source_title": "Broadcom Form 8-K Item 2.03 (Oct 27, 2026)",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1730168/000119312526434271/d148323d8k.htm",
+      "confidence": "high"
+    },
+    {
+      "category": "vendor_financing",
+      "description": "Commitment to buy up to $42B of Anthropic convertible promissory notes, proceeds usable only to pay rent on the Broadcom equipment leases; 9% PIK interest (13% if revenue conditions missed), convertible into Anthropic Class N stock at 90% (85%) of 30-day VWAP; assignable to a financial partner. None issued as of 8/2/26. Economically overlaps with the lease rent that services the SPV debt, so not added to the total.",
+      "amount_usd_bn": 42.0,
+      "counterparty": "Anthropic PBC",
+      "as_of_date": "2026-08-02",
+      "source_title": "Broadcom Form 10-Q FQ3 2026; Anthropic S-1 terms via AI Stock Wire",
+      "source_url": "https://investors.broadcom.com/static-files/96641754-401f-4090-a4ab-210728c83a28",
+      "confidence": "high"
+    },
+    {
+      "category": "vendor_financing",
+      "description": "$1B purchase of Anthropic Class N (non-voting) stock in the concurrent private placement at the $83 IPO price (Nov 2026), alongside Google, Nvidia, AMD, Microsoft, Micron and TSMC.",
+      "amount_usd_bn": 1.0,
+      "counterparty": "Anthropic PBC",
+      "as_of_date": "2026-11-19",
+      "source_title": "Observer: Anthropic record $81B IPO; seven firms buy $26B in placement",
+      "source_url": "https://observer.com/2026/11/dario-amodei-takes-anthropic-to-wall-street-in-record-81-billion-ipo/",
+      "confidence": "high"
+    },
+    {
+      "category": "vendor_financing",
+      "description": "Reported talks (WSJ/Bloomberg, Oct 7-9) for Broadcom to arrange $30B-$50B+ of financing (Apollo, Blackstone) for OpenAI's 10 GW custom-accelerator 'Nexus' program (deployments 2H 2026-2029). Preliminary and unconfirmed; would likely add another residual-value backstop. Not in total.",
+      "amount_usd_bn": null,
+      "counterparty": "OpenAI / Apollo / Blackstone",
+      "as_of_date": "2026-10-08",
+      "source_title": "Yahoo Finance/Proactive: Broadcom seeks more than $50 billion to finance OpenAI AI chips",
+      "source_url": "https://ca.finance.yahoo.com/news/broadcom-seeks-more-50-billion-140200618.html",
+      "confidence": "low"
+    },
+    {
+      "category": "customer_concentration",
+      "description": "One distributor = 50% of FQ3 net revenue (32% a year ago); top five end customers ~55% of FQ3 revenue (40% a year ago). Six XPU customers incl. Google, Anthropic, OpenAI. Anthropic has ~$161.2B of 5-year Broadcom equipment lease rent in its S-1 and is expected to become Broadcom's largest XPU customer; Anthropic's own credit is guided to 'high double-B' (sub-investment grade).",
+      "amount_usd_bn": null,
+      "counterparty": "Google, Anthropic, OpenAI, Meta and other hyperscalers",
+      "as_of_date": "2026-08-02",
+      "source_title": "Broadcom Form 10-Q FQ3 2026",
+      "source_url": "https://investors.broadcom.com/static-files/96641754-401f-4090-a4ab-210728c83a28",
+      "confidence": "high"
+    },
+    {
+      "category": "circular_deals",
+      "description": "Round-trip structure: Broadcom sells racks to SPVs, guarantees the SPVs' senior lenders via residual value support, may lend Anthropic the rent via convertible notes, and owns Anthropic equity. Broadcom's 'AI XPV' platform targets >20 GW for Anthropic and OpenAI through 2028, so these structures are meant to scale.",
+      "amount_usd_bn": null,
+      "counterparty": "Anthropic, OpenAI, Apollo, Blackstone, bank lenders",
+      "as_of_date": "2026-06-09",
+      "source_title": "Broadcom, Apollo, and Blackstone establish AI XPV Platform",
+      "source_url": "https://investors.broadcom.com/news-releases/news-release-details/broadcom-apollo-and-blackstone-establish-landmark-strategic",
+      "confidence": "high"
+    }
+  ],
+  "total_off_balance_usd_bn": 203.8,
+  "total_note": "Hard, filed items: purchase commitments $126.8B + other contractual $3.9B + AI XPV backstop $29B (10-Q) + North Star residual value support $43B (8-K) + Anthropic placement $1B = ~$203.8B. Excluded to avoid double counting: the $42B Anthropic convertible-note commitment (funds the same lease rent the backstops protect) and the unconfirmed $30-50B OpenAI financing. Purchase commitments are largely matched by $179.2B of RPO, so the truly 'hidden' layer is the ~$72B of residual value backstops (plus up to $42B convertible notes), concentrated on one sub-investment-grade customer, Anthropic. Backstops are maximums that only bite if Anthropic defaults AND the racks resell below 72.5-85% of the lease balance.",
+  "credit_signals": [
+    {
+      "signal": "S&P rating/outlook",
+      "detail": "A- affirmed; outlook cut to Stable from Positive on Oct 29, 2026, citing counterparty/customer concentration and 'growing off-balance-sheet financings' (residual value support) that could magnify downside; would downgrade if off-balance financings exceed base case.",
+      "date": "2026-10-29",
+      "source_url": "https://www.spglobal.com/ratings/en/regulatory/article/-/view/sourceId/101715699"
+    },
+    {
+      "signal": "Moody's",
+      "detail": "A3 senior unsecured (upgraded Sept 2025, positive outlook). Per Reuters (Oct 26), Moody's called Broadcom one of the strongest large tech credits but said risk would rise with several such deals in a short time; no rating action.",
+      "date": "2026-10-26",
+      "source_url": "https://za.investing.com/news/stock-market-news/moodys-upgrades-broadcoms-senior-unsecured-rating-to-a3-93CH-3889424"
+    },
+    {
+      "signal": "CDS",
+      "detail": "5-yr CDS closed at a record ~175.4bp on Oct 29, 2026 (Bloomberg data); Goldman put it at ~186bp in early Nov, ~70bp wider than two months earlier. Barclays: AVGO 5-yr CDS +258% in six months and recommended buying AVGO protection as a hedge for AI financing stress.",
+      "date": "2026-11-10",
+      "source_url": "https://longbridge.com/en/news/304960634"
+    },
+    {
+      "signal": "Debt paydown",
+      "detail": "Repaid $5.6B of long-term debt in FQ3 and $1.5B of senior notes after quarter end; ~$59.6B fixed-rate debt at ~4% average coupon.",
+      "date": "2026-09-02",
+      "source_url": "https://finance.yahoo.com/technology/ai/articles/broadcom-inc-avgo-q3-2026-110030403.html"
+    },
+    {
+      "signal": "Guaranteed bond supply",
+      "detail": "~$21-22B of North Star senior debt (Broadcom-backed) expected to be refinanced in the IG bond market in early 2027, adding to perceived Broadcom-linked supply.",
+      "date": "2026-10-30",
+      "source_url": "https://liveindex.org/technology/tech-companies-hit-record-credit-swaps-amid-supply-worries/"
+    }
+  ],
+  "news_context": [
+    {
+      "date": "2026-09-02",
+      "headline_summary": "FQ3: revenue $29.6B (+86%), AI semis $16.7B (+221%), FCF $13.7B; FY26 AI guide raised to $58B; targets ~$115B FY27 / ~$230B FY28; stock fell ~11% next day on margin pressure.",
+      "why_it_matters": "Huge cash generation is the cushion behind the guarantees, but growth now depends on a handful of AI labs.",
+      "source_url": "https://investors.broadcom.com/news-releases/news-release-details/broadcom-inc-announces-third-quarter-fiscal-year-2026-financial"
+    },
+    {
+      "date": "2026-10-05",
+      "headline_summary": "Banks begin syndicating $42B of Broadcom-backstopped senior loans for Anthropic's chip order (two $21B tranches due 2033).",
+      "why_it_matters": "First big test of market appetite for vendor-guaranteed AI chip debt.",
+      "source_url": "https://www.ifre.com/loans/2496132/chips-with-everything-broadcom-backstops-us42bn-funding-for-anthropic"
+    },
+    {
+      "date": "2026-10-07",
+      "headline_summary": "WSJ/Bloomberg: Broadcom seeking $30-50B+ financing from Apollo/Blackstone for OpenAI's 10 GW custom chip program.",
+      "why_it_matters": "Signals the backstop model will extend to OpenAI, another cash-burning lab.",
+      "source_url": "https://ca.finance.yahoo.com/news/broadcom-seeks-more-50-billion-140200618.html"
+    },
+    {
+      "date": "2026-10-27",
+      "headline_summary": "$63B 'North Star' SPV for Anthropic closes; Broadcom 8-K discloses up to ~$43B residual value support.",
+      "why_it_matters": "Adds to the $29B June backstop: ~$72B of contingent exposure tied to one customer.",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1730168/000119312526434271/d148323d8k.htm"
+    },
+    {
+      "date": "2026-10-29",
+      "headline_summary": "S&P revises Broadcom outlook to stable from positive over rising AI risk and off-balance-sheet financings; AVGO CDS hits record ~175bp.",
+      "why_it_matters": "Rating agencies and credit markets are now explicitly pricing Broadcom's hidden leverage.",
+      "source_url": "https://www.spglobal.com/ratings/en/regulatory/article/-/view/sourceId/101715699"
+    },
+    {
+      "date": "2026-11-02",
+      "headline_summary": "Blackstone tells investors Anthropic should expect 'high double-B' ratings post-IPO; North Star junior debt priced >10%.",
+      "why_it_matters": "The counterparty behind Broadcom's backstops is sub-investment grade on its own.",
+      "source_url": "https://www.techtimes.com/articles/329858/20261102/anthropic-debt-now-priced-junk-after-blackstone-reverses-investment-grade-guidance.htm"
+    },
+    {
+      "date": "2026-11-19",
+      "headline_summary": "Anthropic IPOs at $83; Broadcom buys $1B in concurrent $26B private placement.",
+      "why_it_matters": "Broadcom is now supplier, guarantor, potential lender and shareholder to the same customer.",
+      "source_url": "https://observer.com/2026/11/dario-amodei-takes-anthropic-to-wall-street-in-record-81-billion-ipo/"
+    }
+  ],
+  "hidden_leverage_assessment": {
+    "rating": "High",
+    "rationale": "Broadcom's own books are strong: ~$13.7B of free cash flow a quarter, $24B cash and falling debt from the VMware deal. But to win chip orders it has promised lenders it will cover losses on Anthropic's chip leases, up to ~$29B (June deal) plus ~$43B (October deal), and may lend Anthropic up to $42B more so it can pay its rent. That is roughly $72-114B of exposure to one customer that the bond market rates junk, about 2-3x Broadcom's yearly free cash flow, and it is negotiating a similar setup for OpenAI. S&P already cut its outlook and Broadcom's CDS hit records, so credit markets see it too.",
+    "biggest_hidden_risk": "If Anthropic stumbles and the leased AI racks have lost value, Broadcom could owe tens of billions under its backstops at the same time its biggest customer stops ordering chips.",
+    "what_would_change_my_mind": "Anthropic reaching sustained positive cash flow or an investment-grade rating, or Broadcom shrinking backstops as racks are paid down instead of adding an OpenAI-sized one."
+  },
+  "sources": [
+    "https://aistockwire.com/blog/broadcom-avgo-anthropic-63-billion-chip-financing-residual-value-october-2026",
+    "https://ca.finance.yahoo.com/news/broadcom-seeks-more-50-billion-140200618.html",
+    "https://finance.yahoo.com/technology/ai/articles/broadcom-inc-avgo-q3-2026-110030403.html",
+    "https://fourweekmba.com/ai-63b-spv-will-buy-broadcom-chips-and-lease-them-to-anthropic/",
+    "https://investors.broadcom.com/news-releases/news-release-details/broadcom-apollo-and-blackstone-establish-landmark-strategic",
+    "https://investors.broadcom.com/news-releases/news-release-details/broadcom-inc-announces-third-quarter-fiscal-year-2026-financial",
+    "https://investors.broadcom.com/node/63631/pdf",
+    "https://investors.broadcom.com/static-files/96641754-401f-4090-a4ab-210728c83a28",
+    "https://ir.apollo.com/_assets/_96154d71700d7cd17bf1075ac49d39bf/apollo/news/2026-06-09_Apollo_Leads_35_Billion_Capital_Solution_for_629.pdf",
+    "https://liveindex.org/technology/tech-companies-hit-record-credit-swaps-amid-supply-worries/",
+    "https://longbridge.com/en/news/304960634",
+    "https://observer.com/2026/11/dario-amodei-takes-anthropic-to-wall-street-in-record-81-billion-ipo/",
+    "https://www.coinlive.com/news/2008-revisited-a-comprehensive-guide-to-wall-street-s-hottest-trading",
+    "https://www.ifre.com/loans/2496132/chips-with-everything-broadcom-backstops-us42bn-funding-for-anthropic",
+    "https://www.sec.gov/Archives/edgar/data/1730168/000119312526434271/d148323d8k.htm",
+    "https://www.spglobal.com/ratings/en/regulatory/article/-/view/sourceId/101715699",
+    "https://www.stocktitan.net/sec-filings/AVGO/10-q-broadcom-inc-quarterly-earnings-report-6263dc50beb0.html",
+    "https://www.techtimes.com/articles/329858/20261102/anthropic-debt-now-priced-junk-after-blackstone-reverses-investment-grade-guidance.htm",
+    "https://www.theglobeandmail.com/investing/markets/stocks/AVGO/pressreleases/4646818/broadcom-inc-earnings-call-signals-ai-supercycle/",
+    "https://www.theglobeandmail.com/investing/markets/stocks/BX/pressreleases/6808821/broadcoms-anthropic-bet-gets-bigger-as-60-billion-financing-raises-the-stakes/",
+    "https://za.investing.com/news/stock-market-news/moodys-upgrades-broadcoms-senior-unsecured-rating-to-a3-93CH-3889424"
+  ]
+}

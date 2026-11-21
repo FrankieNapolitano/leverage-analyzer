@@ -1,0 +1,263 @@
+{
+  "ticker": "AMZN",
+  "company": "Amazon.com, Inc.",
+  "as_of": "2026-11-21",
+  "reported_snapshot": {
+    "period": "Q3 2026 (quarter ended 2026-09-30); earnings 2026-10-29, 10-Q filed 2026-10-30",
+    "long_term_debt_carrying_usd_bn": 173.13,
+    "long_term_debt_face_usd_bn": 180.89,
+    "long_term_debt_note": "Up from $65.6B at 2025-12-31 -- debt roughly 2.6x in nine months. Short-term borrowings $0.38B; commercial paper $0.",
+    "operating_lease_liabilities_usd_bn": 100.29,
+    "finance_lease_liabilities_usd_bn": 14.5,
+    "cash_and_marketable_securities_usd_bn": 114.23,
+    "operating_cash_flow_ttm_usd_bn": 168.3,
+    "free_cash_flow_ttm_usd_bn": -42.36,
+    "free_cash_flow_latest_quarter_usd_bn": -33.5,
+    "fcf_q_note": "Q3 FCF ~ -$33.5B is FinSee's calculation (low-medium confidence); TTM figure is company-reported.",
+    "capex_latest_quarter_usd_bn": 77.26,
+    "capex_ttm_usd_bn": 215.19,
+    "capex_guidance": "2026 cash capex ~ $220B (reiterated 2026-10-29); Jassy: 2027 capex 'meaningfully more' than 2026.",
+    "aws_rpo_backlog_usd_bn": 578,
+    "aws_rpo_note": "Weighted-average remaining life 6.1 years (10-Q); more than doubled y/y.",
+    "anthropic_stake_carrying_usd_bn": 238.7,
+    "anthropic_note": "Convertible notes fair value $146.2B + nonvoting preferred $92.5B carrying value (10-Q); cost ~$18B. Unrealized gain in AOCI $140.3B.",
+    "sources": [
+      "https://ir.aboutamazon.com/news-release/news-release-details/2026/Amazon-com-Announces-Third-Quarter-Results/",
+      "https://d18rn0p25nwr6d.cloudfront.net/CIK-0001018724/05688abd-6398-4181-8f31-ed98d9d01237.html",
+      "https://aiweekly.co/alerts/amazons-aws-growth-hits-39-in-q3-as-capex-guide-jolts-stock",
+      "https://finsee.ai/earnings/amzn/2026/q3/en/"
+    ]
+  },
+  "off_balance_items": [
+    {
+      "category": "leases_not_commenced",
+      "description": "Leases signed but not yet commenced (mostly datacenters/logistics): $2.6B in Q4-26, $12.4B 2027, ... $114.8B thereafter.",
+      "amount_usd_bn": 164.92,
+      "counterparty": "Various lessors",
+      "as_of_date": "2026-09-30",
+      "source_title": "Amazon Form 10-Q, commitments table",
+      "source_url": "https://d18rn0p25nwr6d.cloudfront.net/CIK-0001018724/05688abd-6398-4181-8f31-ed98d9d01237.html",
+      "confidence": "high"
+    },
+    {
+      "category": "purchase_commitments",
+      "description": "Unconditional purchase obligations for long-term agreements to acquire property and equipment (servers, chips, datacenter equipment); $63.9B due in 2027 alone. Not on balance sheet.",
+      "amount_usd_bn": 159.64,
+      "counterparty": "Equipment/chip suppliers",
+      "as_of_date": "2026-09-30",
+      "source_title": "Amazon Form 10-Q, commitments table",
+      "source_url": "https://d18rn0p25nwr6d.cloudfront.net/CIK-0001018724/05688abd-6398-4181-8f31-ed98d9d01237.html",
+      "confidence": "high"
+    },
+    {
+      "category": "purchase_commitments",
+      "description": "Other unconditional purchase obligations: energy procurement (take-or-pay style), digital media content, software licenses.",
+      "amount_usd_bn": 94.76,
+      "counterparty": "Energy, content, software vendors",
+      "as_of_date": "2026-09-30",
+      "source_title": "Amazon Form 10-Q, commitments table",
+      "source_url": "https://d18rn0p25nwr6d.cloudfront.net/CIK-0001018724/05688abd-6398-4181-8f31-ed98d9d01237.html",
+      "confidence": "high"
+    },
+    {
+      "category": "other",
+      "description": "Other commitments: asset retirement obligations, content liabilities, rent/tenant improvements on build-to-suit leases under construction. Excludes ~$7.3B of tax contingencies.",
+      "amount_usd_bn": 18.99,
+      "counterparty": "Various",
+      "as_of_date": "2026-09-30",
+      "source_title": "Amazon Form 10-Q, commitments table",
+      "source_url": "https://d18rn0p25nwr6d.cloudfront.net/CIK-0001018724/05688abd-6398-4181-8f31-ed98d9d01237.html",
+      "confidence": "high"
+    },
+    {
+      "category": "vendor_financing",
+      "description": "Anthropic investment: $8.0B convertible notes (2023-2025) + $5.0B Series G (Q2 2026) + $5.0B Series H (Q2 2026) = ~$18B cost; now carried at ~$238.7B ($146.2B notes FV + $92.5B preferred). Anthropic IPO priced $83/share on 2026-11-18 (~$1.5T valuation).",
+      "amount_usd_bn": 18.0,
+      "counterparty": "Anthropic",
+      "as_of_date": "2026-09-30",
+      "source_title": "Amazon Form 10-Q",
+      "source_url": "https://d18rn0p25nwr6d.cloudfront.net/CIK-0001018724/05688abd-6398-4181-8f31-ed98d9d01237.html",
+      "confidence": "high"
+    },
+    {
+      "category": "vendor_financing",
+      "description": "Committed financing facility to Anthropic, up to $15.0B remaining (originally $20B), unlocked as AWS delivers compute milestones; Anthropic draws at its discretion via convertible notes or stock; expires 30 months after liquidity event. Classic supplier-funds-customer structure.",
+      "amount_usd_bn": 15.0,
+      "counterparty": "Anthropic",
+      "as_of_date": "2026-09-30",
+      "source_title": "Amazon Form 10-Q",
+      "source_url": "https://d18rn0p25nwr6d.cloudfront.net/CIK-0001018724/05688abd-6398-4181-8f31-ed98d9d01237.html",
+      "confidence": "high"
+    },
+    {
+      "category": "vendor_financing",
+      "description": "OpenAI investment: $50.0B of Series C Preferred ($15.0B Q1 + $13.7B Q2 + $21.3B Q3 2026), fully funded; recorded as non-equity-method private investment (Level 3).",
+      "amount_usd_bn": 50.0,
+      "counterparty": "OpenAI",
+      "as_of_date": "2026-09-30",
+      "source_title": "Amazon Form 10-Q",
+      "source_url": "https://d18rn0p25nwr6d.cloudfront.net/CIK-0001018724/05688abd-6398-4181-8f31-ed98d9d01237.html",
+      "confidence": "high"
+    },
+    {
+      "category": "circular_deals",
+      "description": "OpenAI AWS commitment: original $38B (Nov 2025) expanded by $100B over 8 years in Q1 2026 (~$138B total), incl. ~2GW of Trainium capacity -- concurrent with Amazon's $50B investment in OpenAI.",
+      "amount_usd_bn": 138.0,
+      "counterparty": "OpenAI",
+      "as_of_date": "2026-09-30",
+      "source_title": "Amazon Form 10-Q; Chain Store Age",
+      "source_url": "https://d18rn0p25nwr6d.cloudfront.net/CIK-0001018724/05688abd-6398-4181-8f31-ed98d9d01237.html",
+      "confidence": "high"
+    },
+    {
+      "category": "circular_deals",
+      "description": "Anthropic committed >$100B to AWS over 10 years (Apr 2026, up to 5GW); Anthropic S-1 reportedly shows $110B committed to AWS through 2036 -- concurrent with Amazon's $5B + up to $20B investment.",
+      "amount_usd_bn": 110.0,
+      "counterparty": "Anthropic",
+      "as_of_date": "2026-11-01",
+      "source_title": "TIKR (citing CNBC reading of Anthropic S-1); Anthropic announcement",
+      "source_url": "https://www.tikr.com/blog/anthropic-is-reduplicating-aws-as-it-rents-its-own-data-centers-amazon-reports-thursday",
+      "confidence": "medium"
+    },
+    {
+      "category": "customer_concentration",
+      "description": "AWS backlog $578B (6.1-yr avg life). OpenAI (~$138B) + Anthropic (~$110B) commitments = ~$248B, i.e. roughly 43% of backlog if fully included (our arithmetic; Amazon does not disclose the split). Both labs received Amazon equity funding. Anthropic is also building its own datacenters ('Anthropic Direct' via Fluidstack), capping future AWS share.",
+      "amount_usd_bn": 248.0,
+      "counterparty": "OpenAI, Anthropic",
+      "as_of_date": "2026-09-30",
+      "source_title": "Amazon Form 10-Q; TIKR",
+      "source_url": "https://d18rn0p25nwr6d.cloudfront.net/CIK-0001018724/05688abd-6398-4181-8f31-ed98d9d01237.html",
+      "confidence": "low"
+    },
+    {
+      "category": "guarantees_backstops",
+      "description": "Standby letters of credit assigned to specific beneficiaries.",
+      "amount_usd_bn": 21.6,
+      "counterparty": "Various beneficiaries",
+      "as_of_date": "2026-09-30",
+      "source_title": "Amazon Form 10-Q",
+      "source_url": "https://d18rn0p25nwr6d.cloudfront.net/CIK-0001018724/05688abd-6398-4181-8f31-ed98d9d01237.html",
+      "confidence": "medium"
+    }
+  ],
+  "total_off_balance_usd_bn": 453.3,
+  "total_note": "Sum of hard, quantified non-debt items from the 10-Q commitments table: leases not yet commenced $164.9B + P&E purchase obligations $159.6B + other unconditional purchase obligations $94.8B + other commitments $19.0B = $438.3B, plus the $15.0B contingent Anthropic financing facility = ~$453.3B. Excluded: on-balance-sheet rows of the same table (debt principal+interest $294.3B, operating leases $121.5B, finance leases $18.0B, financing obligations $11.6B; total table $883.6B), already-funded investments (OpenAI $50B, Anthropic $18B), customer commitments to AWS (revenue, not obligations), standby LCs ($21.6B), tax contingencies ($7.3B). Equals ~2.7x TTM operating cash flow ($168.3B), on top of negative TTM FCF.",
+  "credit_signals": [
+    {
+      "item": "S&P rating",
+      "detail": "AA (S&P Global Ratings) cited at March 2026 bond sale.",
+      "date": "2026-03-13",
+      "source_url": "https://finance.yahoo.com/news/amazon-raises-54b-record-bond-144705950.html"
+    },
+    {
+      "item": "Moody's rating",
+      "detail": "A1 senior unsecured affirmed, outlook stable, despite $200B 2026 capex plan (reports conflict: one outlet says Baa1/Aa -- treat agency letter with medium confidence).",
+      "date": "2026-02-20",
+      "source_url": "https://letsdatascience.com/news/amazon-affirms-a1-rating-despite-200b-investment-95271bcb"
+    },
+    {
+      "item": "Bond issuance - March",
+      "detail": "~$37B US (11 tranches, ~$126B orders) + EUR14.5B (~$16.8B) debut euro deal; ~$54B total; new-issue concession ~10-12bp.",
+      "date": "2026-03-12",
+      "source_url": "https://finance.yahoo.com/news/amazon-raises-54b-record-bond-144705950.html"
+    },
+    {
+      "item": "Bond issuance - July",
+      "detail": "'Surprise' $25B, 8 tranches (3-40yr); 18-21bp new-issue concession on long bonds; book only 2.5x (vs 3.2x in March); hyperscaler spreads widened 6-15bp that day. 2026 borrowing ~ $92B.",
+      "date": "2026-07-07",
+      "source_url": "https://fortune.com/2026/07/08/amazons-25-billion-surprise-bond-sale-dangled-extra-yield-to-lure-in-buyers/"
+    },
+    {
+      "item": "Bond issuance - September",
+      "detail": "First sterling bonds (4 tranches, 3-19yr), guidance +70 to +110bp over gilts; also record CHF and CAD deals earlier in 2026; 2026 programme >$92B equivalent.",
+      "date": "2026-09-09",
+      "source_url": "https://thenextweb.com/news/amazon-first-sterling-bond-ai-capex"
+    },
+    {
+      "item": "Bank facilities",
+      "detail": "Oct 2026: new $5.0B 364-day revolver and new $15.0B unsecured revolving credit facility replaced prior agreements.",
+      "date": "2026-10-30",
+      "source_url": "https://d18rn0p25nwr6d.cloudfront.net/CIK-0001018724/05688abd-6398-4181-8f31-ed98d9d01237.html"
+    },
+    {
+      "item": "Moody's sector warning",
+      "detail": "AI spending 'threatens credit quality' of hyperscalers incl. Amazon; Moody's treats >$820B of unstarted leases across group as debt-equivalent; no imminent downgrade.",
+      "date": "2026-07-24",
+      "source_url": "https://longbridge.com/news/293784433"
+    },
+    {
+      "item": "CDS",
+      "detail": "No reported CDS level found.",
+      "date": null,
+      "source_url": null
+    }
+  ],
+  "news_context": [
+    {
+      "date": "2026-10-29",
+      "headline_summary": "Q3 2026: sales $201.9B, AWS +39% to $46.0B, backlog $578B; capex $77.3B (~$20B above expectations); TTM FCF -$42.4B; EPS $1.89 missed; stock fell >7% after hours; 2027 capex to be 'meaningfully more'.",
+      "why_it_matters": "Amazon is now spending more than it earns in cash and plans to spend even more next year -- the gap is being filled with debt.",
+      "source_url": "https://aiweekly.co/alerts/amazons-aws-growth-hits-39-in-q3-as-capex-guide-jolts-stock"
+    },
+    {
+      "date": "2026-10-30",
+      "headline_summary": "10-Q: long-term debt $173.1B vs $65.6B at year-start; total commitments $883.6B incl. $164.9B unstarted leases; completed $50B OpenAI investment with final $21.3B in Q3.",
+      "why_it_matters": "Shows both the on-balance debt surge and the larger off-balance commitments a ratio-based scorer would miss.",
+      "source_url": "https://d18rn0p25nwr6d.cloudfront.net/CIK-0001018724/05688abd-6398-4181-8f31-ed98d9d01237.html"
+    },
+    {
+      "date": "2026-11-01",
+      "headline_summary": "Anthropic S-1 shows $110B committed to AWS through 2036 and $114.5B to Google; Anthropic is also renting its own datacenters ('Anthropic Direct' via Fluidstack).",
+      "why_it_matters": "Amazon's biggest AI customer is both funded by Amazon and starting to compete with AWS, limiting future AWS growth from it.",
+      "source_url": "https://www.tikr.com/blog/anthropic-is-reduplicating-aws-as-it-rents-its-own-data-centers-amazon-reports-thursday"
+    },
+    {
+      "date": "2026-11-19",
+      "headline_summary": "Anthropic priced a record $81.3B IPO at $83/share, ~ $1.5T valuation.",
+      "why_it_matters": "Validates Amazon's ~$238.7B paper stake (and gives a liquid asset it could monetize), but also means Amazon's equity cushion is partly tied to AI-lab valuations.",
+      "source_url": "https://aljazeera.com/economy/2026/11/19/anthropic-raises-81-3bn-in-biggest-ipo-of-all-time"
+    },
+    {
+      "date": "2026-09-09",
+      "headline_summary": "Amazon sold its first sterling bonds, pushing 2026 borrowing past $92B across USD, EUR, CHF, CAD, GBP.",
+      "why_it_matters": "Tapping every currency market signals how much external financing the capex plan needs.",
+      "source_url": "https://thenextweb.com/news/amazon-first-sterling-bond-ai-capex"
+    },
+    {
+      "date": "2026-07-07",
+      "headline_summary": "$25B 'surprise' bond required 18-21bp extra yield; demand fell to 2.5x cover.",
+      "why_it_matters": "Early sign investors are demanding more to fund AI debt -- the credit-tightening channel in the thesis.",
+      "source_url": "https://fortune.com/2026/07/08/amazons-25-billion-surprise-bond-sale-dangled-extra-yield-to-lure-in-buyers/"
+    },
+    {
+      "date": "2026-11-11",
+      "headline_summary": "Big Tech raised $253.4B of new long-term debt in nine months (~45% of capex); local opposition grows (Sunbury, Ohio voters barred >25MW datacenters, hitting a $2B AWS campus).",
+      "why_it_matters": "Debt-funded capex plus power/permit pushback raises the risk of stranded or delayed capacity.",
+      "source_url": "https://fourweekmba.com/ai-daily-roundup-11-nov-2026-anthropic-book-big-tech-debt/"
+    }
+  ],
+  "hidden_leverage_assessment": {
+    "rating": "Elevated",
+    "rationale": "Amazon's reported debt has jumped from $66B to $173B this year and its trailing free cash flow is negative $42B, so even the visible books show strain. Off the balance sheet it has another ~$453B of commitments -- unstarted leases, equipment and energy purchase obligations, and a $15B credit line for Anthropic -- about 2.7x a year of operating cash flow. It has also invested $68B into OpenAI and Anthropic, which together promised ~$248B of AWS spending, a textbook vendor-financing loop. Amazon is still highly rated (AA/A1), has $114B of cash and a now-public Anthropic stake worth far more than it paid, so it is not in danger -- but it is relying on bond markets and on two cash-burning AI labs to make the math work.",
+    "biggest_hidden_risk": "If OpenAI or Anthropic slow their spending, a big chunk of the $578B AWS backlog could shrink while Amazon is still locked into ~$325B of equipment purchases and unstarted leases funded with new debt.",
+    "what_would_change_my_mind": "A return to positive free cash flow in 2027 with debt flat, or disclosure that OpenAI+Anthropic are a small share of AWS backlog, would lower this to Moderate; a drop in the Anthropic share price or failed/expensive bond deals would push it to High."
+  },
+  "sources": [
+    "https://aiweekly.co/alerts/amazons-aws-growth-hits-39-in-q3-as-capex-guide-jolts-stock",
+    "https://aljazeera.com/economy/2026/11/19/anthropic-raises-81-3bn-in-biggest-ipo-of-all-time",
+    "https://chainstoreage.com/amazon-openai-expanding-partnership-almost-140b",
+    "https://d18rn0p25nwr6d.cloudfront.net/CIK-0001018724/05688abd-6398-4181-8f31-ed98d9d01237.html",
+    "https://finance.yahoo.com/news/amazon-raises-54b-record-bond-144705950.html",
+    "https://finsee.ai/earnings/amzn/2026/q3/en/",
+    "https://fortune.com/2026/07/08/amazons-25-billion-surprise-bond-sale-dangled-extra-yield-to-lure-in-buyers/",
+    "https://fourweekmba.com/ai-daily-roundup-11-nov-2026-anthropic-book-big-tech-debt/",
+    "https://ir.aboutamazon.com/news-release/news-release-details/2026/Amazon-com-Announces-Third-Quarter-Results/",
+    "https://ir.aboutamazon.com/sec-filings/sec-filings-details/default.aspx?FilingId=19886123",
+    "https://letsdatascience.com/news/amazon-affirms-a1-rating-despite-200b-investment-95271bcb",
+    "https://longbridge.com/news/293784433",
+    "https://thenextweb.com/news/amazon-first-sterling-bond-ai-capex",
+    "https://www.anthropic.com/news/anthropic-amazon-compute",
+    "https://www.neoteo.com/en/amazon-q3-2026-earnings-aws-grew-39-12-month-free-cash-flow-turned-negative",
+    "https://www.tikr.com/blog/anthropic-is-reduplicating-aws-as-it-rents-its-own-data-centers-amazon-reports-thursday"
+  ]
+}

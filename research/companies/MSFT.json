@@ -1,0 +1,293 @@
+{
+  "ticker": "MSFT",
+  "company": "Microsoft Corporation",
+  "as_of": "2026-11-21",
+  "reported_snapshot": {
+    "period": "Fiscal Q1 FY2027 (quarter ended 2026-09-30), 10-Q filed 2026-10-28",
+    "total_debt_usd_bn": 35.48,
+    "total_debt_note": "Current portion $4.391B + long-term $31.090B at 2026-09-30 (10-Q). Excludes $70.97B of finance lease liabilities on the balance sheet. Does NOT yet include the $25B of notes priced 2026-10-29 (after quarter end); pro forma ~$60.5B (our arithmetic).",
+    "finance_lease_liabilities_usd_bn": 70.97,
+    "operating_lease_liabilities_noncurrent_usd_bn": 21.72,
+    "cash_and_short_term_investments_usd_bn": 64.51,
+    "operating_cash_flow_latest_quarter_usd_bn": 58.0,
+    "capex_latest_quarter_cash_usd_bn": 39.37,
+    "capex_latest_quarter_incl_finance_leases_usd_bn": 45.2,
+    "free_cash_flow_latest_quarter_usd_bn": 18.6,
+    "fcf_note": "OCF $58.0B minus cash PP&E additions $39.4B = $18.6B (our arithmetic; matches FinSee/FourWeekMBA rebuild). Prior-year quarter ~$25.7B.",
+    "fy2026_free_cash_flow_usd_bn": 66.99,
+    "capex_guidance": "CFO Hood: Q2 FY27 capex 'over $50 billion'; calendar-2026 spend ~ $170B (cut from ~$175B, citing third-party capacity delays). Expects to stay FCF-positive in FY27.",
+    "commercial_rpo_usd_bn": 677,
+    "total_rpo_usd_bn": 683,
+    "rpo_note": "~30% recognized in next 12 months; weighted avg duration ~2.3 years. Commercial RPO slipped $1B q/q from $678B.",
+    "openai_revenue_latest_quarter_usd_bn": 10.0,
+    "sources": [
+      "https://www.sec.gov/Archives/edgar/data/0000789019/000119312526436133/msft-20260930.htm",
+      "https://thenextweb.com/news/microsoft-openai-revenue-10bn-quarter",
+      "https://www.webull.com/news/15828153888932864",
+      "https://247wallst.com/cards/microsoft-q1-2027-earnings-msft-01m6223bcjxyqzvby9cw8yzzqb",
+      "https://sec-api.io/insights/financial-analysis-of-microsoft-fy2026-capital-intensity-against-a-record-margin",
+      "https://finsee.ai/earnings/msft/2027/q1/en/"
+    ]
+  },
+  "off_balance_items": [
+    {
+      "category": "leases_not_commenced",
+      "description": "Leases, primarily datacenters, signed but not yet commenced; commence FY2027-FY2034 with 1-20 year terms; some subject to contractual conditions. Up from $329.1B at 2026-06-30. This alone is ~10x Microsoft's reported debt.",
+      "amount_usd_bn": 364.6,
+      "counterparty": "Various datacenter lessors / developers",
+      "as_of_date": "2026-09-30",
+      "source_title": "Microsoft Form 10-Q (quarter ended 2026-09-30)",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/0000789019/000119312526436133/msft-20260930.htm",
+      "confidence": "high"
+    },
+    {
+      "category": "purchase_commitments",
+      "description": "Purchase commitments from FY2026 10-K contractual obligations table (largely datacenter/cloud capacity and hardware; likely includes third-party GPU-as-a-service/neocloud contracts).",
+      "amount_usd_bn": 194.06,
+      "counterparty": "Suppliers incl. neoclouds, hardware vendors",
+      "as_of_date": "2026-06-30",
+      "source_title": "Financial analysis of Microsoft FY2026 (sec-api.io, summarizing 10-K)",
+      "source_url": "https://sec-api.io/insights/financial-analysis-of-microsoft-fy2026-capital-intensity-against-a-record-margin",
+      "confidence": "medium"
+    },
+    {
+      "category": "purchase_commitments",
+      "description": "Construction commitments (FY2026 10-K contractual obligations).",
+      "amount_usd_bn": 34.57,
+      "counterparty": "Datacenter construction contractors",
+      "as_of_date": "2026-06-30",
+      "source_title": "Financial analysis of Microsoft FY2026 (sec-api.io, summarizing 10-K)",
+      "source_url": "https://sec-api.io/insights/financial-analysis-of-microsoft-fy2026-capital-intensity-against-a-record-margin",
+      "confidence": "medium"
+    },
+    {
+      "category": "purchase_commitments",
+      "description": "Nscale GPU capacity contract for Microsoft, up to ~$43.8B through Dec 2033 (per Nscale S-1). Bloomberg (Nov 2026) reports Microsoft walked away from a ~$3B Loughton UK site and declined an option to double Texas capacity. Likely overlaps with purchase commitments above.",
+      "amount_usd_bn": 43.8,
+      "counterparty": "Nscale",
+      "as_of_date": "2026-09-18",
+      "source_title": "AI Weekly (citing Bloomberg & Nscale S-1)",
+      "source_url": "https://aiweekly.co/alerts/microsoft-pulls-back-from-neocloud-bets-with-nscale-nebius-iren",
+      "confidence": "medium"
+    },
+    {
+      "category": "purchase_commitments",
+      "description": "Nebius GPU capacity contract, up to ~$17.4B over 5 years through 2031 (Nebius 20-F; originally reported as up to $19.4B). Likely overlaps with purchase commitments above.",
+      "amount_usd_bn": 17.4,
+      "counterparty": "Nebius",
+      "as_of_date": "2026-04-30",
+      "source_title": "How Microsoft Rents AI Capacity: 3 Neocloud Deals, $70.9B",
+      "source_url": "https://fourweekmba.com/ai-how-microsoft-rents-ai-capacity-3-neocloud-deals-70-9b/",
+      "confidence": "medium"
+    },
+    {
+      "category": "purchase_commitments",
+      "description": "IREN GPU cloud contract ~$9.7B through 2031 at Horizon (Texas); construction delays, timeline being renegotiated (Bloomberg, Nov 2026). Likely overlaps with purchase commitments above.",
+      "amount_usd_bn": 9.7,
+      "counterparty": "IREN",
+      "as_of_date": "2026-08-27",
+      "source_title": "AI Weekly (citing Bloomberg & IREN 10-K)",
+      "source_url": "https://aiweekly.co/alerts/microsoft-pulls-back-from-neocloud-bets-with-nscale-nebius-iren",
+      "confidence": "medium"
+    },
+    {
+      "category": "purchase_commitments",
+      "description": "CoreWeave and Lambda capacity contracts: not individually disclosed. As of Oct 2025 Microsoft had signed >$33B with neoclouds in total (incl. Nebius ~$19.4B; remainder CoreWeave, Nscale, Lambda). Microsoft was 62% (FY24) and 67% (FY25) of CoreWeave revenue.",
+      "amount_usd_bn": null,
+      "counterparty": "CoreWeave, Lambda",
+      "as_of_date": "2025-12-31",
+      "source_title": "Tom's Hardware; sec-api.io CoreWeave Q3 2026 analysis",
+      "source_url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/microsoft-inks-usd33-billion-in-deals-with-neoclouds-like-nebius-coreweave-nebius-deal-alone-secures-100-000-nvidia-gb300-chips-for-internal-use",
+      "confidence": "medium"
+    },
+    {
+      "category": "customer_concentration",
+      "description": "OpenAI share of commercial RPO: Microsoft disclosed 45% of $625B (~$281B) tied to OpenAI at 2025-12-31, after OpenAI's incremental $250B Azure commitment. NOTE: this ~45% figure is stale.",
+      "amount_usd_bn": 281.0,
+      "counterparty": "OpenAI",
+      "as_of_date": "2025-12-31",
+      "source_title": "Microsoft investors sweat cloud giant's OpenAI exposure (The Register)",
+      "source_url": "https://www.theregister.com/2026/01/29/microsoft_earnings_q2_2026/",
+      "confidence": "high"
+    },
+    {
+      "category": "customer_concentration",
+      "description": "Updated estimate: ~32% (~$218B) of $678B commercial RPO tied to OpenAI, derived from CFO comment that RPO grew 25% ex-OpenAI. Microsoft does not disclose the exact share; for 2026-09-30 ($677B) FinSee says 'nearly half', unverified.",
+      "amount_usd_bn": 218.0,
+      "counterparty": "OpenAI",
+      "as_of_date": "2026-06-30",
+      "source_title": "Benzinga via Webull: Microsoft's backlog hit $678B",
+      "source_url": "https://www.webull.com/news/15317720163771392",
+      "confidence": "low"
+    },
+    {
+      "category": "customer_concentration",
+      "description": "Revenue from OpenAI commercial arrangements (incl. revenue-share) was $10.0B in the Sept-2026 quarter (~11% of revenue); OpenAI owed Microsoft $7.2B in receivables (up from $6.0B). OpenAI is itself heavily vendor-financed.",
+      "amount_usd_bn": 7.2,
+      "counterparty": "OpenAI",
+      "as_of_date": "2026-09-30",
+      "source_title": "Microsoft Form 10-Q; The Next Web",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/0000789019/000119312526436133/msft-20260930.htm",
+      "confidence": "high"
+    },
+    {
+      "category": "vendor_financing",
+      "description": "OpenAI equity investment: ~24% as-converted stake (equity method); total funding commitments $13.0B, of which $12.0B funded -> $1.0B remaining commitment. Equity-method carrying value is small vs. exposure.",
+      "amount_usd_bn": 1.0,
+      "counterparty": "OpenAI",
+      "as_of_date": "2026-09-30",
+      "source_title": "Microsoft Form 10-Q (quarter ended 2026-09-30)",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/0000789019/000119312526436133/msft-20260930.htm",
+      "confidence": "high"
+    },
+    {
+      "category": "circular_deals",
+      "description": "Invest -> customer buys from you: Microsoft funded ~$12-13B into OpenAI, which in turn committed an incremental $250B to Azure (late-2025 restructuring) and pays Microsoft revenue share through 2030. Partnership loosened 2026-04-27 (non-exclusive license through 2032; Microsoft no longer pays OpenAI revenue share).",
+      "amount_usd_bn": 250.0,
+      "counterparty": "OpenAI",
+      "as_of_date": "2026-04-27",
+      "source_title": "Microsoft and OpenAI's open relationship is now official (The Register)",
+      "source_url": "https://www.theregister.com/2026/04/27/microsofts_and_openai_change_relationship/",
+      "confidence": "medium"
+    },
+    {
+      "category": "vendor_financing",
+      "description": "Restricted investments held under a supplier agreement (Microsoft-funded collateral/prepayment to a supplier; nature not detailed). Up from $11.3B.",
+      "amount_usd_bn": 12.6,
+      "counterparty": "Undisclosed supplier",
+      "as_of_date": "2026-09-30",
+      "source_title": "Microsoft Form 10-Q (quarter ended 2026-09-30)",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/0000789019/000119312526436133/msft-20260930.htm",
+      "confidence": "medium"
+    },
+    {
+      "category": "guarantees_backstops",
+      "description": "Reported discussion of a ~$250B financial backstop involving Nvidia for a Microsoft-backed OpenAI datacenter project in Ohio; terms and who backstops whom unclear; not confirmed as agreed.",
+      "amount_usd_bn": null,
+      "counterparty": "Nvidia / OpenAI",
+      "as_of_date": "2026-07-27",
+      "source_title": "Simply Wall St via Webull",
+      "source_url": "https://www.webull.com/news/15301610140558336",
+      "confidence": "low"
+    },
+    {
+      "category": "other",
+      "description": "IRS Notices of Proposed Adjustment seek an additional $28.9B tax payment plus penalties and interest (tax years 2004-2013); Microsoft is contesting.",
+      "amount_usd_bn": 28.9,
+      "counterparty": "IRS",
+      "as_of_date": "2026-09-30",
+      "source_title": "Microsoft Form 10-Q (quarter ended 2026-09-30)",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/0000789019/000119312526436133/msft-20260930.htm",
+      "confidence": "high"
+    }
+  ],
+  "total_off_balance_usd_bn": 594.2,
+  "total_note": "Sum of hard, quantified non-debt commitments: leases not yet commenced $364.6B (9/30/26) + purchase commitments $194.1B (6/30/26) + construction commitments $34.6B (6/30/26) + remaining OpenAI funding commitment $1.0B = ~$594.2B. Neocloud contracts (~$70.9B Nscale/Nebius/IREN) are excluded as they are very likely inside purchase commitments. OpenAI RPO share, the $250B Azure commitment, receivables, the IRS claim, and the unconfirmed backstop are exposures/contingencies, not added. Dates are mixed (10-Q does not refresh purchase commitments). For scale: ~3.2x FY2026 operating cash flow (~$183B = FCF $67.0B + capex $115.9B) and ~17x reported debt of $35.5B.",
+  "credit_signals": [
+    {
+      "item": "Credit ratings",
+      "detail": "AAA (S&P) / Aaa (Moody's); one of only two US public companies with top ratings from both.",
+      "date": "2026-10-30",
+      "source_url": "https://www.business-standard.com/world-news/microsoft-s-25-billion-blowout-bond-puts-it-in-ai-winners-circle-126103000215_1.html"
+    },
+    {
+      "item": "Bond issuance",
+      "detail": "Priced $25B, 10-tranche senior unsecured notes (2- to 40-year) on 2026-10-29 -- first US IG bond since 2017 ($17B). Peak orders ~$115B (4.6x). Note: priced late Oct 2026 (settled around early Nov).",
+      "date": "2026-10-29",
+      "source_url": "https://www.business-standard.com/world-news/microsoft-s-25-billion-blowout-bond-puts-it-in-ai-winners-circle-126103000215_1.html"
+    },
+    {
+      "item": "Spreads/yields",
+      "detail": "2066 notes at +105bp over Treasuries; 30-year at +95bp; long AAA paper yielding above 6%. One tranche carried a 6.150% coupon (per FourWeekMBA).",
+      "date": "2026-10-30",
+      "source_url": "https://www.business-standard.com/world-news/microsoft-s-25-billion-blowout-bond-puts-it-in-ai-winners-circle-126103000215_1.html"
+    },
+    {
+      "item": "Lease-adjusted leverage",
+      "detail": "CreditSights estimated deal lifts gross lease-adjusted leverage to ~0.7x. CFO: will 'access additional sources of funding when we believe it is attractive'.",
+      "date": "2026-10-30",
+      "source_url": "https://www.business-standard.com/world-news/microsoft-s-25-billion-blowout-bond-puts-it-in-ai-winners-circle-126103000215_1.html"
+    },
+    {
+      "item": "Moody's sector warning",
+      "detail": "Moody's: 'unprecedented' AI spending threatens credit quality of six hyperscalers incl. Microsoft; group lease commitments ~$1.2T, >$820B not yet commenced, treated as debt-equivalent. No imminent downgrade expected.",
+      "date": "2026-07-24",
+      "source_url": "https://longbridge.com/news/293784433"
+    },
+    {
+      "item": "CDS",
+      "detail": "No reported CDS level found.",
+      "date": null,
+      "source_url": null
+    }
+  ],
+  "news_context": [
+    {
+      "date": "2026-10-28",
+      "headline_summary": "Fiscal Q1 FY27: revenue $92.3B, Azure +48%, commercial RPO $677B (+73%), capex $45.2B incl. finance leases; calendar-2026 capex trimmed to ~$170B; third-party GPU contracts delayed to H2.",
+      "why_it_matters": "Demand is strong but spending is now far above free cash flow growth, and delays at neocloud suppliers show the build-out is supply-chain fragile.",
+      "source_url": "https://thenextweb.com/news/microsoft-openai-revenue-10bn-quarter"
+    },
+    {
+      "date": "2026-10-28",
+      "headline_summary": "10-Q shows datacenter leases signed but not commenced jumped to $364.6B from $329.1B one quarter earlier.",
+      "why_it_matters": "This is the largest hidden obligation -- ~10x reported debt -- and it is invisible to debt/EBITDA scoring until each lease starts.",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/0000789019/000119312526436133/msft-20260930.htm"
+    },
+    {
+      "date": "2026-10-29",
+      "headline_summary": "Microsoft sold $25B of bonds in 10 tranches, its first US bond since 2017, with ~$115B of orders.",
+      "why_it_matters": "Even an AAA cash machine is now borrowing to fund AI capex; demand was strong, so credit markets are still open for top names.",
+      "source_url": "https://www.business-standard.com/world-news/microsoft-s-25-billion-blowout-bond-puts-it-in-ai-winners-circle-126103000215_1.html"
+    },
+    {
+      "date": "2026-10-29",
+      "headline_summary": "Microsoft earned $10.0B from OpenAI arrangements in the quarter (~11% of revenue); OpenAI owes it $7.2B.",
+      "why_it_matters": "A large, growing slice of revenue and receivables depends on one customer that is itself loss-making and financed by its suppliers.",
+      "source_url": "https://thenextweb.com/news/microsoft-openai-revenue-10bn-quarter"
+    },
+    {
+      "date": "2026-11-05",
+      "headline_summary": "Bloomberg: Microsoft stepping back from ~$70.9B of neocloud deals (Nscale, Nebius, IREN) facing delays; walked from a ~$3B UK site; IREN -18%, Nebius -16%, CoreWeave -12%.",
+      "why_it_matters": "Shows Microsoft can push risk back onto leveraged suppliers -- good for Microsoft, bad for the neoclouds whose debt relies on Microsoft contracts.",
+      "source_url": "https://aiweekly.co/alerts/microsoft-pulls-back-from-neocloud-bets-with-nscale-nebius-iren"
+    },
+    {
+      "date": "2026-11-11",
+      "headline_summary": "Big Tech (Amazon, Alphabet, Meta, Microsoft, Oracle) raised $253.4B of new long-term debt in nine months, ~45% of capex vs ~17% a year earlier.",
+      "why_it_matters": "Confirms the thesis that the build-out is increasingly debt-financed, even at the strongest balance sheets.",
+      "source_url": "https://fourweekmba.com/ai-daily-roundup-11-nov-2026-anthropic-book-big-tech-debt/"
+    },
+    {
+      "date": "2026-07-24",
+      "headline_summary": "Moody's warns hyperscaler AI spending threatens credit quality; counts unstarted leases as debt-like.",
+      "why_it_matters": "Rating agencies already adjust for the leases a balance-sheet-only app misses.",
+      "source_url": "https://longbridge.com/news/293784433"
+    }
+  ],
+  "hidden_leverage_assessment": {
+    "rating": "Elevated",
+    "rationale": "On its own books Microsoft looks nearly debt-free ($35.5B of debt vs $64.5B of cash), which is why a balance-sheet scorer rates it a fortress. But it has signed roughly $365B of datacenter leases that haven't started yet plus ~$230B of purchase and construction commitments -- about 3x a year of operating cash flow. A big chunk of its $677B backlog (45% at end-2025, maybe ~a third now) comes from OpenAI, a money-losing customer that Microsoft helped fund. Microsoft still generates strong positive free cash flow and has AAA ratings, so it can absorb a lot, but the cushion is shrinking as it now borrows to build.",
+    "biggest_hidden_risk": "If OpenAI cannot raise the money to honor its ~$250B Azure commitment, Microsoft is left with hundreds of billions in non-cancelable leases and GPUs built for a customer that isn't paying.",
+    "what_would_change_my_mind": "A disclosed, sharply lower OpenAI share of RPO (diversified backlog) together with capex coming back under operating cash flow would push this to Moderate; OpenAI funding trouble or lease commitments rising past ~$450B would push it to High."
+  },
+  "sources": [
+    "https://247wallst.com/cards/microsoft-q1-2027-earnings-msft-01m6223bcjxyqzvby9cw8yzzqb",
+    "https://aiweekly.co/alerts/microsoft-pulls-back-from-neocloud-bets-with-nscale-nebius-iren",
+    "https://finsee.ai/earnings/msft/2027/q1/en/",
+    "https://fourweekmba.com/ai-daily-roundup-11-nov-2026-anthropic-book-big-tech-debt/",
+    "https://fourweekmba.com/ai-how-microsoft-rents-ai-capacity-3-neocloud-deals-70-9b/",
+    "https://longbridge.com/news/293784433",
+    "https://sec-api.io/insights/coreweave-crwv-q3-2026-earnings-132-5bn-backlog-4-6-gw-contracted-power-and-46-9bn-of-debt-sec-filing-analysis",
+    "https://sec-api.io/insights/financial-analysis-of-microsoft-fy2026-capital-intensity-against-a-record-margin",
+    "https://thenextweb.com/news/microsoft-openai-revenue-10bn-quarter",
+    "https://www.business-standard.com/world-news/microsoft-s-25-billion-blowout-bond-puts-it-in-ai-winners-circle-126103000215_1.html",
+    "https://www.sec.gov/Archives/edgar/data/0000789019/000119312526436133/msft-20260930.htm",
+    "https://www.theregister.com/2026/01/29/microsoft_earnings_q2_2026/",
+    "https://www.theregister.com/2026/04/27/microsofts_and_openai_change_relationship/",
+    "https://www.tomshardware.com/tech-industry/artificial-intelligence/microsoft-inks-usd33-billion-in-deals-with-neoclouds-like-nebius-coreweave-nebius-deal-alone-secures-100-000-nvidia-gb300-chips-for-internal-use",
+    "https://www.webull.com/news/15301610140558336",
+    "https://www.webull.com/news/15317720163771392",
+    "https://www.webull.com/news/15828153888932864"
+  ]
+}

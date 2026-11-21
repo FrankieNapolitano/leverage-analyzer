@@ -1,0 +1,356 @@
+{
+  "ticker": "NVDA",
+  "company": "NVIDIA Corporation",
+  "as_of": "2026-11-21",
+  "reported_snapshot": {
+    "period": "Q3 FY2027 (quarter ended 2026-10-25), reported 2026-11-17",
+    "revenue_usd_bn": 115.8,
+    "data_center_revenue_usd_bn": 107.6,
+    "net_income_usd_bn": 65.3,
+    "total_debt_usd_bn": 32.4,
+    "total_debt_note": "Long-term debt $32,371M, short-term debt $0 at 2026-10-25 (vs $8.47B at 2026-01-25). Increase is the $25B senior notes sold June 2026, less $1.0B repaid in Q3. Long-term operating lease liabilities another $5.8B.",
+    "cash_and_marketable_debt_securities_usd_bn": 53.5,
+    "marketable_equity_securities_usd_bn": 44.2,
+    "non_marketable_securities_usd_bn": 65.5,
+    "investments_note": "Marketable equity ($44.2B) + non-marketable ($65.5B) = ~$109.7B of equity stakes, up from ~$35.1B in January 2026; much of it is in customers/partners (OpenAI, Anthropic, xAI/SpaceX, CoreWeave, Nebius, Intel, Nscale etc.). $21.0B of investments are under lock-up. Q3 included $1.8B impairment on non-marketable equity.",
+    "operating_cash_flow_q3_usd_bn": 48.3,
+    "free_cash_flow_q3_usd_bn": 43.8,
+    "capex_q3_usd_bn": 4.4,
+    "operating_cash_flow_9m_usd_bn": 122.7,
+    "accounts_receivable_usd_bn": 81.0,
+    "dso_days": 64,
+    "receivables_note": "AR more than doubled from $38.5B in January; CFO cites Rubin shipment linearity and 'extended payment terms on large, multi-quarter agreements with certain investment-grade customers' (i.e., trade credit to buyers).",
+    "inventory_usd_bn": 39.7,
+    "shareholders_equity_usd_bn": 266.7,
+    "capital_returned_q3_usd_bn": 28.1,
+    "q4_fy27_revenue_guidance_usd_bn": 130.0,
+    "sources": [
+      "https://www.marketscreener.com/news/nvidia-third-quarter-2027-cfo-commentary-ce785edcdc81f420",
+      "https://6ix.com/news/nvidia-third-quarter-2027-supplemental-financial-information",
+      "https://uparow.com/t/earnings/hhrp6hxd/nvidia-reports-115-8-billion-in-quarterly-revenue-and-forecasts-130-0-billion",
+      "https://sec.gov/Archives/edgar/data/0001045810/000104581026000088/q3fy27pr.htm"
+    ]
+  },
+  "off_balance_items": [
+    {
+      "category": "purchase_commitments",
+      "description": "Supply and capacity purchase obligations (mainly multi-year memory procurement plus wafer/manufacturing capacity). Up from $279B a quarter earlier and $119B two quarters earlier. $69B due rest of FY27, $203B in FY28, $92B in FY29.",
+      "amount_usd_bn": 390,
+      "counterparty": "Suppliers (memory makers e.g. Micron/SK Hynix/Samsung, TSMC, others)",
+      "as_of_date": "2026-10-25",
+      "source_title": "NVIDIA Q3 FY2027 CFO Commentary (8-K Ex. 99.2)",
+      "source_url": "https://www.marketscreener.com/news/nvidia-third-quarter-2027-cfo-commentary-ce785edcdc81f420",
+      "confidence": "high"
+    },
+    {
+      "category": "purchase_commitments",
+      "description": "Multi-year cloud service agreements (Nvidia renting compute, often from neoclouds that are also its customers and investees). Includes the CoreWeave residual-capacity order. Company says used for R&D.",
+      "amount_usd_bn": 28,
+      "counterparty": "Cloud/neocloud providers (incl. CoreWeave, Lambda, Nscale)",
+      "as_of_date": "2026-10-25",
+      "source_title": "NVIDIA Q3 FY2027 CFO Commentary (8-K Ex. 99.2)",
+      "source_url": "https://www.marketscreener.com/news/nvidia-third-quarter-2027-cfo-commentary-ce785edcdc81f420",
+      "confidence": "high"
+    },
+    {
+      "category": "leases_not_commenced",
+      "description": "Data center leases signed but not yet commenced, up to 20-year terms, commencing FY2027-FY2033; $63B falls in FY2032+. Some may be assigned to third parties (e.g., reported Beacon Point lease tied to Lambda's Anthropic contract).",
+      "amount_usd_bn": 74,
+      "counterparty": "Data center landlords/developers",
+      "as_of_date": "2026-10-25",
+      "source_title": "NVIDIA Q3 FY2027 CFO Commentary (8-K Ex. 99.2)",
+      "source_url": "https://www.marketscreener.com/news/nvidia-third-quarter-2027-cfo-commentary-ce785edcdc81f420",
+      "confidence": "high"
+    },
+    {
+      "category": "vendor_financing",
+      "description": "Committed but unfunded equity investments in private companies (AI labs, neoclouds, financiers); $5B rest of FY27, $11B FY28. Likely includes Anthropic IPO placement and Nscale tranche.",
+      "amount_usd_bn": 20,
+      "counterparty": "AI model makers, neoclouds, other private companies",
+      "as_of_date": "2026-10-25",
+      "source_title": "NVIDIA Q3 FY2027 CFO Commentary (8-K Ex. 99.2)",
+      "source_url": "https://www.marketscreener.com/news/nvidia-third-quarter-2027-cfo-commentary-ce785edcdc81f420",
+      "confidence": "high"
+    },
+    {
+      "category": "purchase_commitments",
+      "description": "Capital expenditure commitments (data center equipment), due rest of FY27.",
+      "amount_usd_bn": 6,
+      "counterparty": "Equipment vendors",
+      "as_of_date": "2026-10-25",
+      "source_title": "NVIDIA Q3 FY2027 CFO Commentary (8-K Ex. 99.2)",
+      "source_url": "https://www.marketscreener.com/news/nvidia-third-quarter-2027-cfo-commentary-ce785edcdc81f420",
+      "confidence": "high"
+    },
+    {
+      "category": "circular_deals",
+      "description": "Neocloud agreements (formerly 'AI cloud agreements'): neoclouds buy Nvidia infrastructure and Nvidia commits to buy back cloud services (~6-year terms) and shares revenue above thresholds. Conditional on neocloud obtaining financing and Nvidia accepting capacity. Down from $36B in Q2. Separate from the $518B table.",
+      "amount_usd_bn": 32,
+      "counterparty": "Neoclouds (unnamed)",
+      "as_of_date": "2026-10-25",
+      "source_title": "NVIDIA Q3 FY2027 CFO Commentary (8-K Ex. 99.2)",
+      "source_url": "https://www.marketscreener.com/news/nvidia-third-quarter-2027-cfo-commentary-ce785edcdc81f420",
+      "confidence": "high"
+    },
+    {
+      "category": "guarantees_backstops",
+      "description": "Credit support guarantees on land, power and shell for ~4.25 GW across nine buildings at SB Energy's PORTS-Pike campus (Ohio), leased for 20 years to OpenAI and exclusively hosting Nvidia infrastructure. Triggered on tenant default; phases in from FY2029 as buildings complete; option for ~3.8 GW more. No payments made to date.",
+      "amount_usd_bn": 105,
+      "counterparty": "SB Energy / OpenAI (tenant)",
+      "as_of_date": "2026-10-25",
+      "source_title": "NVIDIA Q3 FY2027 CFO Commentary (8-K Ex. 99.2)",
+      "source_url": "https://www.marketscreener.com/news/nvidia-third-quarter-2027-cfo-commentary-ce785edcdc81f420",
+      "confidence": "high"
+    },
+    {
+      "category": "guarantees_backstops",
+      "description": "Power and systems credit support guarantees (hardware/power financing for partners).",
+      "amount_usd_bn": 9.5,
+      "counterparty": "Unnamed partners (neoclouds/frontier labs)",
+      "as_of_date": "2026-10-25",
+      "source_title": "NVIDIA Q3 FY2027 CFO Commentary (8-K Ex. 99.2)",
+      "source_url": "https://www.marketscreener.com/news/nvidia-third-quarter-2027-cfo-commentary-ce785edcdc81f420",
+      "confidence": "high"
+    },
+    {
+      "category": "guarantees_backstops",
+      "description": "Land, power and shell (lease) guarantees for neoclouds, 5-7 year terms. Includes up to $860.3M guarantee of Nscale's Ward County, Texas lease (in exchange for warrants; $470M of Nscale cash in escrow).",
+      "amount_usd_bn": 3.5,
+      "counterparty": "Neoclouds incl. Nscale",
+      "as_of_date": "2026-10-25",
+      "source_title": "NVIDIA Q3 FY2027 CFO Commentary; Nscale S-1/A via 06.ai",
+      "source_url": "https://06.ai/packs/neocloud-nvidia-exposure/",
+      "confidence": "high"
+    },
+    {
+      "category": "guarantees_backstops",
+      "description": "CoreWeave capacity backstop: Nvidia obligated to purchase CoreWeave's residual unsold cloud capacity through April 13, 2032 (initial order value). Believed to sit inside the $28B cloud service commitments, so not added separately.",
+      "amount_usd_bn": 6.3,
+      "counterparty": "CoreWeave",
+      "as_of_date": "2025-09-15",
+      "source_title": "Nvidia Is CoreWeave's 'Key Sole Supplier' and $6.3 Billion Backstop (TIKR, citing CoreWeave 8-K)",
+      "source_url": "https://www.tikr.com/blog/nvidia-is-coreweaves-key-sole-supplier-and-6-3-billion-backstop-congress-is-now-looking",
+      "confidence": "high"
+    },
+    {
+      "category": "vendor_financing",
+      "description": "OpenAI equity: $30B in OpenAI's Feb/Mar 2026 round (replaced the Sept 2025 LOI for up to $100B). OpenAI secured 3 GW inference + 2 GW training capacity on Vera Rubin. Already funded (on balance sheet as investment), but OpenAI is a major indirect buyer.",
+      "amount_usd_bn": 30,
+      "counterparty": "OpenAI",
+      "as_of_date": "2026-03-31",
+      "source_title": "Nvidia embraces role of AI investor (CNBC)",
+      "source_url": "https://www.cnbc.com/2026/05/09/nvidia-embraces-ai-investor-topping-40-billion-in-equity-bets-2026.html/",
+      "confidence": "high"
+    },
+    {
+      "category": "vendor_financing",
+      "description": "Anthropic: ~$10B purchase of non-voting Class N shares in the $26B private placement concurrent with Anthropic's Nov 2026 IPO at $83/share (follows Nov 2025 pledge of up to $10B; Anthropic committed to up to 1 GW of Nvidia compute).",
+      "amount_usd_bn": 10,
+      "counterparty": "Anthropic",
+      "as_of_date": "2026-11-20",
+      "source_title": "Anthropic IPO, Private Placement Close With $119.5B In Gross Proceeds (Forbes Middle East); Reuters factbox",
+      "source_url": "https://forbesmiddleeast.com/money/markets/anthropic-ipo-private-placement-close-with-1195b-in-gross-proceeds",
+      "confidence": "high"
+    },
+    {
+      "category": "vendor_financing",
+      "description": "xAI: Nvidia participated in xAI's $20B Series E (Jan 2026), reported up to $2B; xAI later merged into SpaceX and Nvidia now holds SpaceX shares.",
+      "amount_usd_bn": 2,
+      "counterparty": "xAI / SpaceX",
+      "as_of_date": "2026-01-31",
+      "source_title": "Nvidia, SoftBank make final investment in OpenAI (Dealroom, citing Nvidia disclosures)",
+      "source_url": "https://dealroom.co/news/info-1jwhbme-exclusive-nvidia-softbank-make-final-20-billion-investment-in-openais-la/",
+      "confidence": "medium"
+    },
+    {
+      "category": "vendor_financing",
+      "description": "CoreWeave equity: additional $2B at $87.20/share (Jan 2026); stake ~11.5%. CoreWeave buys Nvidia GPUs and pledges them as collateral; its unsecured bonds yield ~15%.",
+      "amount_usd_bn": 2,
+      "counterparty": "CoreWeave",
+      "as_of_date": "2026-01-26",
+      "source_title": "Nvidia's customer financing is disclosed. Its effect on revenue is not. (The Research Note)",
+      "source_url": "https://www.theresearchnote.com/articles/nvidia-customer-financing-ledger",
+      "confidence": "high"
+    },
+    {
+      "category": "vendor_financing",
+      "description": "Nebius: $2B for pre-funded warrants/shares (Mar 2026), 9.3% stake (22.26M shares) per July 2026 13G.",
+      "amount_usd_bn": 2,
+      "counterparty": "Nebius Group",
+      "as_of_date": "2026-07-20",
+      "source_title": "Nvidia Reveals 9.3% Stake in AI Cloud Firm Nebius (Moscow Times / Reuters)",
+      "source_url": "https://www.themoscowtimes.com/2026/07/21/nvidia-reveals-93-stake-in-ai-cloud-firm-nebius-sending-shares-higher-a93303/pdf",
+      "confidence": "high"
+    },
+    {
+      "category": "vendor_financing",
+      "description": "Nscale: $2.0B of a $3.36B pre-IPO convertible round ($1.0B notes in Sept + $1.0B closing ~Nov 16, 2026), plus earlier $400M Series B and $777M Series C. Nvidia also rents $1.2B of Nscale capacity (circular).",
+      "amount_usd_bn": 2,
+      "counterparty": "Nscale",
+      "as_of_date": "2026-11-12",
+      "source_title": "Nscale loses $1.02bn in six months on the road to a NYSE listing (S-1/A summary)",
+      "source_url": "https://ppc.land/nscale-loses-1-02bn-in-six-months-on-the-road-to-a-nyse-listing/",
+      "confidence": "high"
+    },
+    {
+      "category": "circular_deals",
+      "description": "Lambda: Nvidia leases back ~$1.3-1.5B of GPU servers from Lambda (its customer/investee) and is reported to hold the Beacon Point (Texas) leases that underpin Lambda's $34.9B Anthropic contract.",
+      "amount_usd_bn": 1.5,
+      "counterparty": "Lambda",
+      "as_of_date": "2026-11-13",
+      "source_title": "Which neoclouds depend most on Nvidia? (06.ai)",
+      "source_url": "https://06.ai/packs/neocloud-nvidia-exposure/",
+      "confidence": "medium"
+    },
+    {
+      "category": "customer_concentration",
+      "description": "Three direct customers = 14%, 11%, 11% of Q3 revenue (36%); four direct customers = 13/12/12/11% of 9M revenue (48%). Two direct customers = 18% and 17% of accounts receivable. Hyperscale revenue $60.1B; 'AI Clouds, Industrial & Enterprise' (neoclouds/labs) $47.5B, up 195% y/y - the segment most tied to vendor-financed buyers.",
+      "amount_usd_bn": null,
+      "counterparty": "Unnamed direct customers (ODMs/CSPs/frontier labs)",
+      "as_of_date": "2026-10-25",
+      "source_title": "NVIDIA Third Quarter 2027 Supplemental Financial Information",
+      "source_url": "https://www.marketscreener.com/news/nvidia-third-quarter-2027-supplemental-financial-information-ce785edcdc81f52d",
+      "confidence": "high"
+    },
+    {
+      "category": "other",
+      "description": "Extended payment terms to investment-grade customers on multi-quarter deals: AR jumped to $81.0B (DSO 64 vs 45 in Q1), absorbing $18.1B of cash in Q3 - effectively trade credit to buyers.",
+      "amount_usd_bn": 81.0,
+      "counterparty": "Large customers (unnamed)",
+      "as_of_date": "2026-10-25",
+      "source_title": "NVIDIA Q3 FY2027 CFO Commentary; Inside the Latest Quarter (MoatExplorer)",
+      "source_url": "https://moatexplorer.com/nvidia/inside-the-latest-quarter-q3-fy2027/",
+      "confidence": "high"
+    }
+  ],
+  "total_off_balance_usd_bn": 668,
+  "total_note": "Sum of Nvidia's own three disclosed tables at 2026-10-25: $518B commitments (supply $390B + cloud services $28B + leases not commenced $74B + equity investment commitments $20B + capex $6B) + $32B conditional neocloud agreements + $118B maximum guarantees = $668B (~12.5x the $53.5B cash/debt securities). Not added: CoreWeave $6.3B (inside cloud services), Nscale lease guarantee (inside $3.5B), Anthropic/Nscale tranches (likely inside $20B equity commitments), funded investments like OpenAI $30B (already on balance sheet), and receivables. Most of the $390B supply line is normal-course inventory buying; the customer-support portion (neocloud $32B + guarantees $118B + cloud services $28B) is ~$178B, about 1x annualized operating cash flow and ~67% of equity.",
+  "credit_signals": [
+    {
+      "item": "Moody's rating",
+      "detail": "Aa1 senior unsecured affirmed; outlook cut to stable from positive on 2026-11-18 citing governance uncertainty after Huang's exit and no formal succession plan; upgrade unlikely for 12-18 months. Moody's says cash should exceed $240B by end FY2028, ample to absorb $118B of guarantees.",
+      "date": "2026-11-18",
+      "source_url": "https://sg.finance.yahoo.com/news/moody-cuts-nvidia-credit-outlook-231405579.html"
+    },
+    {
+      "item": "S&P rating",
+      "detail": "Upgraded to AA from AA-, outlook stable; S&P flagged 'AI infrastructure customers' growing dependence on capital markets' as a risk.",
+      "date": "2026-06-11",
+      "source_url": "https://www.spglobal.com/ratings/%5Blang%5D/regulatory/article/-/view/type/HTML/id/3579354"
+    },
+    {
+      "item": "Bond issuance",
+      "detail": "$25B senior unsecured notes in seven tranches (2028-2056), coupons 4.25%-5.625%, ~20-65bp over Treasuries, ~$85B orders; first issuance since 2021.",
+      "date": "2026-06-15",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1045810/000119312526271326/d49394dfwp.htm"
+    },
+    {
+      "item": "CDS",
+      "detail": "Five-year CDS reported at ~121bp on 2026-11-18, ~20bp tighter than a week earlier (secondary source citing Bloomberg; unverified).",
+      "date": "2026-11-18",
+      "source_url": "https://tbreak.com/nvidia-credit-outlook-moodys-stable-huang-exit/",
+      "confidence": "low"
+    },
+    {
+      "item": "Debt repayment / buybacks",
+      "detail": "Repaid $1.0B notes in Q3; returned record $28.1B ($22.1B buybacks + $6.0B dividends); $227.3B buyback authorization remaining.",
+      "date": "2026-11-17",
+      "source_url": "https://www.marketscreener.com/news/nvidia-third-quarter-2027-cfo-commentary-ce785edcdc81f420"
+    }
+  ],
+  "news_context": [
+    {
+      "date": "2026-08-17",
+      "headline_summary": "Nvidia agrees to guarantee up to $105B of credit support for SB Energy's Ohio PORTS-Pike campus leased 20 years to OpenAI.",
+      "why_it_matters": "Largest single off-balance exposure; Nvidia pays only if OpenAI (a heavily vendor-financed customer) defaults on rent.",
+      "source_url": "https://applescoop.org/story/ai-circular-money-nvidia-openai-deals-explained"
+    },
+    {
+      "date": "2026-11-09",
+      "headline_summary": "Reuters: banks and investors grow wary of AI debt after selloff; neocloud bonds sold off, Nebius shelved a high-yield bond.",
+      "why_it_matters": "Nvidia's neocloud commitments only activate if neoclouds get financing; tighter credit hits Nvidia's fastest-growing customer segment.",
+      "source_url": "https://www.reuters.com/legal/transactional/banks-investors-grow-wary-ai-debt-spooked-by-market-selloff-2026-11-09/"
+    },
+    {
+      "date": "2026-11-12",
+      "headline_summary": "Jensen Huang resigns as CEO after affair scandal tied to an alleged Chinese spy; CFO Colette Kress named interim CEO; Harvey Jones named first board chair; FBI investigating; stock fell ~14%.",
+      "why_it_matters": "Huang personally architected the customer-investment web; governance uncertainty triggered Moody's outlook cut and raises questions about future vendor financing policy.",
+      "source_url": "https://www.reuters.com/business/retail-consumer/nvidia-ceo-jensen-huang-step-down-big-blow-ai-boom-2026-11-12/"
+    },
+    {
+      "date": "2026-11-17",
+      "headline_summary": "Q3 FY27: revenue $115.8B (+103% y/y), Q4 guide $130B; supply commitments jump to $390B; guarantees $118B; Kress says Nvidia will be 'disciplined and selective' supporting neoclouds and is 'rigorously evaluating future investments, commitments, and guarantees'.",
+      "why_it_matters": "Strong cash flow but off-balance commitments grew faster than revenue; signal that vendor support for neoclouds may tighten.",
+      "source_url": "https://morethanmoore.substack.com/p/nvidia-q3-fy27-a-record-quarter"
+    },
+    {
+      "date": "2026-11-17",
+      "headline_summary": "Nvidia stops shipping licensed H200/Hopper chips to China after $2.4B in Q3; Q4 guidance assumes no China data center compute; Commerce issues rule curbing China's remote access to advanced chips (Nov 16); House committee releases H200 license records (Nov 19).",
+      "why_it_matters": "Removes a revenue stream and adds political/regulatory scrutiny at the same time as the CEO's China-linked scandal.",
+      "source_url": "https://cnbc.com/2026/11/19/nvidia-amd-china-chip-sales-congress.html"
+    },
+    {
+      "date": "2026-11-18",
+      "headline_summary": "Moody's cuts Nvidia outlook to stable (Aa1 affirmed).",
+      "why_it_matters": "First credit-agency reaction to leadership turmoil; rating still very strong.",
+      "source_url": "https://finance.yahoo.com/markets/stocks/articles/nvda-stock-alert-know-moodys-212227895.html"
+    },
+    {
+      "date": "2026-11-19",
+      "headline_summary": "Anthropic IPOs at $83/share; Nvidia buys ~$10B of Class N shares in the concurrent $26B supplier placement alongside Google, AMD, Broadcom, Microsoft, Micron, TSMC.",
+      "why_it_matters": "Classic supplier-funds-customer pattern; public listing gives Nvidia a mark-to-market stake but also ties its portfolio to AI-lab valuations.",
+      "source_url": "https://www.cnbc.com/amp/2026/11/19/anthropic-ipo-ant-live-updates.html"
+    },
+    {
+      "date": "2026-11-17",
+      "headline_summary": "Reuters analysis: Nvidia turmoil marks end of easy money for AI trade; Nebius converts drop to 70 cents (>12% yield).",
+      "why_it_matters": "Funding stress at neoclouds that Nvidia owns stakes in and backstops.",
+      "source_url": "https://www.star-telegram.com/news/business/article318114814.html"
+    }
+  ],
+  "hidden_leverage_assessment": {
+    "rating": "Elevated",
+    "rationale": "On its own books Nvidia is a fortress: about $32B of debt against $53.5B of cash and debt securities and roughly $48B of operating cash flow per quarter. But off the balance sheet it has signed up for about $668B of commitments and guarantees, including a $105B guarantee that pays only if OpenAI stops paying rent on an Ohio campus. It also owns roughly $110B of stock in AI companies and neoclouds, many of which use outside money (and Nvidia's money) to buy Nvidia chips, and it is giving big buyers longer to pay (receivables doubled to $81B). If AI credit tightens, these customers buy less, the stakes lose value, and the guarantees and buy-back deals start costing real cash all at once.",
+    "biggest_hidden_risk": "A funding squeeze at OpenAI or the neoclouds would hit Nvidia three ways at once: lost revenue, writedowns on its ~$110B equity portfolio, and guarantee/capacity buy-back payments.",
+    "what_would_change_my_mind": "If the guarantees and neocloud commitments shrank (as new management hinted) while customer concentration fell and receivables/DSO normalized, I would drop the rating to Moderate."
+  },
+  "sources": [
+    "https://sec.gov/Archives/edgar/data/0001045810/000104581026000088/q3fy27pr.htm",
+    "https://www.marketscreener.com/news/nvidia-third-quarter-2027-cfo-commentary-ce785edcdc81f420",
+    "https://www.marketscreener.com/news/nvidia-third-quarter-2027-supplemental-financial-information-ce785edcdc81f52d",
+    "https://6ix.com/news/nvidia-third-quarter-2027-supplemental-financial-information",
+    "https://uparow.com/t/earnings/hhrp6hxd/nvidia-reports-115-8-billion-in-quarterly-revenue-and-forecasts-130-0-billion",
+    "https://moatexplorer.com/nvidia/inside-the-latest-quarter-q3-fy2027/",
+    "https://morethanmoore.substack.com/p/nvidia-q3-fy27-a-record-quarter",
+    "https://www.investopedia.com/nvidia-stock-rises-after-fy27-q3-revenue-net-profit-beat-expectations-nvda-earnings-12258779",
+    "https://www.sec.gov/Archives/edgar/data/0001045810/000104581026000082/nvidiaannouncesceotransiti.htm",
+    "https://www.reuters.com/business/retail-consumer/nvidia-ceo-jensen-huang-step-down-big-blow-ai-boom-2026-11-12/",
+    "https://apnews.com/article/314714d463cf578cbb0dbd49de903107",
+    "https://sg.finance.yahoo.com/news/moody-cuts-nvidia-credit-outlook-231405579.html",
+    "https://finance.yahoo.com/markets/stocks/articles/nvda-stock-alert-know-moodys-212227895.html",
+    "https://tbreak.com/nvidia-credit-outlook-moodys-stable-huang-exit/",
+    "https://www.spglobal.com/ratings/%5Blang%5D/regulatory/article/-/view/type/HTML/id/3579354",
+    "https://www.sec.gov/Archives/edgar/data/1045810/000119312526271326/d49394dfwp.htm",
+    "https://www.sec.gov/Archives/edgar/data/1045810/000119312526273139/d118718d424b5.htm",
+    "https://www.latimes.com/business/story/2026-06-15/nvidia-joins-ai-borrowing-frenzy-with-25-million-bond-sale",
+    "https://cnbc.com/2026/11/19/nvidia-amd-china-chip-sales-congress.html",
+    "https://www.timeslive.co.za/news/sci-tech/2026-11-18-nvidia-stops-shipping-us-approved-ai-chips-to-china/",
+    "https://abcnews.com/Technology/wireStory/treasury-secretary-restrictions-needed-nvidia-chip-exports-china-138332241",
+    "https://www.cnbc.com/2026/05/09/nvidia-embraces-ai-investor-topping-40-billion-in-equity-bets-2026.html/",
+    "https://www.tradingkey.com/analysis/stocks/us-stocks/261648397-jensen-huang-nvidia-30-billion-openai-tradingkey",
+    "https://dealroom.co/news/info-1jwhbme-exclusive-nvidia-softbank-make-final-20-billion-investment-in-openais-la/",
+    "https://forbesmiddleeast.com/money/markets/anthropic-ipo-private-placement-close-with-1195b-in-gross-proceeds",
+    "https://www.miamiherald.com/news/business/article318013284.html",
+    "https://www.cnbc.com/amp/2026/11/19/anthropic-ipo-ant-live-updates.html",
+    "https://applescoop.org/story/ai-circular-money-nvidia-openai-deals-explained",
+    "https://www.tikr.com/blog/nvidia-is-coreweaves-key-sole-supplier-and-6-3-billion-backstop-congress-is-now-looking",
+    "https://www.theresearchnote.com/articles/nvidia-customer-financing-ledger",
+    "https://www.themoscowtimes.com/2026/07/21/nvidia-reveals-93-stake-in-ai-cloud-firm-nebius-sending-shares-higher-a93303/pdf",
+    "https://ppc.land/nscale-loses-1-02bn-in-six-months-on-the-road-to-a-nyse-listing/",
+    "https://06.ai/packs/neocloud-nvidia-exposure/",
+    "https://www.reuters.com/legal/transactional/nscale-seeks-about-35-billion-pre-ipo-funding-source-says-2026-09-04/",
+    "https://www.reuters.com/legal/transactional/banks-investors-grow-wary-ai-debt-spooked-by-market-selloff-2026-11-09/",
+    "https://www.star-telegram.com/news/business/article318114814.html",
+    "https://fourweekmba.com/ai-nvidias-668b-in-commitments-is-12-5x-its-cash-ubs-worry/"
+  ]
+}

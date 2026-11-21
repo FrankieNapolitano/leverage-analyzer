@@ -1,0 +1,297 @@
+{
+  "ticker": "GOOGL",
+  "company": "Alphabet Inc.",
+  "as_of": "2026-11-21",
+  "reported_snapshot": {
+    "total_debt": {
+      "value_usd_bn": 127.5,
+      "note": "Face value of long-term debt $127.485B at 2026-09-30 (vs $49.1B at 2025-12-31); carrying value net of current portion $125.1B. No commercial paper outstanding. Excludes ~C$6B notes priced 2026-11-19 and operating lease liabilities ($20.5B) / finance lease liabilities ($3.7B).",
+      "as_of": "2026-09-30",
+      "source_url": "https://s206.q4cdn.com/479360582/files/doc_financials/2026/q3/GOOG-10-Q-Q3-2026.pdf"
+    },
+    "cash_and_marketable_securities": {
+      "value_usd_bn": 265.1,
+      "note": "Cash & equivalents $56.3B + marketable securities $208.8B; boosted by 2026 debt and equity raises. Separately holds $135.2B of non-marketable securities (mostly private stakes incl. Anthropic, SpaceX).",
+      "as_of": "2026-09-30",
+      "source_url": "https://s206.q4cdn.com/479360582/files/doc_financials/2026/q3/GOOG-10-Q-Q3-2026.pdf"
+    },
+    "operating_cash_flow": {
+      "q3_2026_usd_bn": 42.3,
+      "ttm_usd_bn": 179.6,
+      "ytd_2026_usd_bn": 127.1,
+      "source_url": "https://fortune.com/company/alphabet/earnings/q3-2026/"
+    },
+    "capex": {
+      "q3_2026_usd_bn": 51.4,
+      "ytd_2026_usd_bn": 132.0,
+      "guidance_2026_usd_bn": "195-205",
+      "guidance_2027": "'increase significantly' (CNBC reports expected to exceed $300B)",
+      "source_url": "https://www.cnbc.com/2026/10/28/alphabet-googl-earnings-q3-2026.html"
+    },
+    "free_cash_flow": {
+      "q3_2026_usd_bn": -9.1,
+      "ttm_usd_bn": 19.7,
+      "note": "First negative quarterly FCF; TTM FCF down ~73% (nextgcomm summary of slides). OCF also hit by TPU inventory build (inventory $13.3B vs $2.4B at YE2025).",
+      "source_url": "https://fortune.com/company/alphabet/earnings/q3-2026/"
+    },
+    "shareholder_returns": {
+      "buybacks_q3_2026_usd_bn": 0.0,
+      "buybacks_ytd_2026_usd_bn": 0.0,
+      "note": "No Class A/C repurchases in Q3 or 9M 2026 (vs $11.5B repurchased in Q3 2025). Instead sold $12.4B of stock via $40B ATM program in Q3; $27.6B ATM capacity left. Dividends still paid ($2.9B in Q3).",
+      "source_url": "https://s206.q4cdn.com/479360582/files/doc_financials/2026/q3/GOOG-10-Q-Q3-2026.pdf"
+    },
+    "rpo_backlog": {
+      "total_usd_bn": 567.7,
+      "google_cloud_usd_bn": 560.8,
+      "note": "~55% expected to be recognized within 24 months; includes $16.8B from related-party JV Crux AI.",
+      "as_of": "2026-09-30",
+      "source_url": "https://s206.q4cdn.com/479360582/files/doc_financials/2026/q3/GOOG-10-Q-Q3-2026.pdf"
+    },
+    "q3_2026_income": {
+      "revenue_usd_bn": 127.6,
+      "operating_income_usd_bn": 40.6,
+      "net_income_usd_bn": 26.5,
+      "note": "Net income fell 24% YoY mainly on $8.7B loss on equity securities (SpaceX mark-down).",
+      "source_url": "https://s206.q4cdn.com/479360582/files/doc_financials/2026/q3/2026q3-alphabet-earnings-release.pdf"
+    }
+  },
+  "off_balance_items": [
+    {
+      "category": "purchase_commitments",
+      "description": "Multi-year non-cancelable commitments for technical infrastructure & inventory, energy take-or-pay contracts and content licenses (remaining term >1 yr). Total material purchase commitments are $924.4B incl. open POs; $213.4B due within 12 months; significant majority fulfilled through 2031. Includes third-party compute capacity Google began renting late Q3.",
+      "amount_usd_bn": 802.1,
+      "counterparty": "Suppliers (chips/TPU/Broadcom, servers, energy, content)",
+      "as_of_date": "2026-09-30",
+      "source_title": "Alphabet Form 10-Q Q3 2026, Purchase Commitments / Note 10",
+      "source_url": "https://s206.q4cdn.com/479360582/files/doc_financials/2026/q3/GOOG-10-Q-Q3-2026.pdf",
+      "confidence": "high"
+    },
+    {
+      "category": "leases_not_commenced",
+      "description": "Future lease payments for leases signed but not yet commenced, primarily data centers and energy infrastructure; terms 1-26 years, commencing 2026-2031. Includes leases with data center leasing VIEs (finance leases).",
+      "amount_usd_bn": 130.5,
+      "counterparty": "Data center developers / energy infrastructure lessors",
+      "as_of_date": "2026-09-30",
+      "source_title": "Alphabet Form 10-Q Q3 2026, Note 4",
+      "source_url": "https://s206.q4cdn.com/479360582/files/doc_financials/2026/q3/GOOG-10-Q-Q3-2026.pdf",
+      "confidence": "high"
+    },
+    {
+      "category": "guarantees_backstops",
+      "description": "Credit derivatives: Alphabet backstops third parties' data center lease payments and associated energy costs (e.g., Fluidstack leases at former crypto miners). Notional = maximum potential exposure on default; terms up to 15 years; fair value liability $606M. Google may assume the leases on default.",
+      "amount_usd_bn": 48.0,
+      "counterparty": "Data center lessees/landlords (incl. Fluidstack sites at TeraWulf, Cipher, Hut 8)",
+      "as_of_date": "2026-09-30",
+      "source_title": "Alphabet Form 10-Q Q3 2026, Note 3 (credit derivatives)",
+      "source_url": "https://s206.q4cdn.com/479360582/files/doc_financials/2026/q3/GOOG-10-Q-Q3-2026.pdf",
+      "confidence": "high"
+    },
+    {
+      "category": "guarantees_backstops",
+      "description": "Illustrative components of the data-center backstop book: Google backstops Fluidstack lease obligations at TeraWulf Lake Mariner (~$1.8B original + ~$1.3-1.4B for 168MW JV, ~$3.1-3.2B total; Google holds warrants for ~14% of TeraWulf) and at Cipher Mining Barber Lake (total $1.73B). Presumed included in the $48.0B notional above; not summed.",
+      "amount_usd_bn": 4.9,
+      "counterparty": "Fluidstack / TeraWulf / Cipher Mining",
+      "as_of_date": "2026-09-30",
+      "source_title": "TeraWulf & Cipher press releases; Startup Fortune",
+      "source_url": "https://startupfortune.com/googles-32-billion-terawulf-backstop-shows-how-ai-data-centers-get-built/",
+      "confidence": "medium"
+    },
+    {
+      "category": "guarantees_backstops",
+      "description": "Financial guarantees supporting counterparties' procurement of long-lead equipment for future power purchase / energy agreements; terms through Jan 2049.",
+      "amount_usd_bn": 16.2,
+      "counterparty": "Energy infrastructure entities (unconsolidated VIEs)",
+      "as_of_date": "2026-09-30",
+      "source_title": "Alphabet Form 10-Q Q3 2026, Note 10",
+      "source_url": "https://s206.q4cdn.com/479360582/files/doc_financials/2026/q3/GOOG-10-Q-Q3-2026.pdf",
+      "confidence": "high"
+    },
+    {
+      "category": "guarantees_backstops",
+      "description": "TPU hardware repurchase guarantees: certain TPU system sale contracts require Google to buy back previously sold TPU hardware under specified conditions. Company says counterparties lack economic incentive to exercise.",
+      "amount_usd_bn": 6.6,
+      "counterparty": "TPU system buyers (undisclosed; likely AI labs/neoclouds)",
+      "as_of_date": "2026-09-30",
+      "source_title": "Alphabet Form 10-Q Q3 2026, Note 10",
+      "source_url": "https://s206.q4cdn.com/479360582/files/doc_financials/2026/q3/GOOG-10-Q-Q3-2026.pdf",
+      "confidence": "high"
+    },
+    {
+      "category": "guarantees_backstops",
+      "description": "Crux AI JV with Blackstone (formed May 2026, announced Q3): Google committed to provide future data center and energy infrastructure backstops of up to $10.0B for agreements the venture enters into; Blackstone commits up to $5.0B of capital. Google holds minority equity-method stake (unconsolidated VIE). May partly overlap with credit-derivative notional once used; not summed.",
+      "amount_usd_bn": 10.0,
+      "counterparty": "Crux AI (Blackstone JV)",
+      "as_of_date": "2026-09-30",
+      "source_title": "Alphabet Form 10-Q Q3 2026, Note 3",
+      "source_url": "https://s206.q4cdn.com/479360582/files/doc_financials/2026/q3/GOOG-10-Q-Q3-2026.pdf",
+      "confidence": "high"
+    },
+    {
+      "category": "circular_deals",
+      "description": "Crux AI round trip: Google backstops the JV's data center agreements (up to $10B) AND the JV signed a multi-year commercial agreement to buy from Google, contributing $16.8B to Google's revenue backlog (related-party).",
+      "amount_usd_bn": 16.8,
+      "counterparty": "Crux AI",
+      "as_of_date": "2026-09-30",
+      "source_title": "Alphabet Form 10-Q Q3 2026, Note 2",
+      "source_url": "https://s206.q4cdn.com/479360582/files/doc_financials/2026/q3/GOOG-10-Q-Q3-2026.pdf",
+      "confidence": "high"
+    },
+    {
+      "category": "vendor_financing",
+      "description": "Equity investor in its own major cloud/TPU customer Anthropic: ~$33.3B invested to date (per Reuters calculation), ~13.4-14% stake (cap 14.99%) post-IPO; additionally committed $10B to Anthropic's concurrent private placement at the $83 IPO price (Nov 18, 2026). Stake worth roughly $139-147B at IPO price; large unrealized gains flow through Alphabet's income ($116B of 9M-2026 non-marketable gains).",
+      "amount_usd_bn": 10.0,
+      "counterparty": "Anthropic",
+      "as_of_date": "2026-11-18",
+      "source_title": "Bloomberg / Yahoo Finance on Anthropic S-1/A; SmartAsset IPO summary",
+      "source_url": "https://finance.yahoo.com/technology/ai/articles/nvidia-alphabet-micron-just-agreed-152318003.html",
+      "confidence": "medium"
+    },
+    {
+      "category": "customer_concentration",
+      "description": "Anthropic's S-1 discloses at least $121.3B of non-cancelable compute commitments to Google (Apr 2026-Jul 2033, ~$16.7B/yr), ~21.6% of Google Cloud's $560.8B backlog (computed). Anthropic is itself vendor-financed (Google, Amazon, Nvidia, Microsoft investors; ~$900B total compute commitments). Earlier reporting (The Information, May 2026) put Anthropic's 5-yr Google spend at $200B, >40% of backlog then.",
+      "amount_usd_bn": 121.3,
+      "counterparty": "Anthropic",
+      "as_of_date": "2026-11-17",
+      "source_title": "GuruFocus via TradingView: Anthropic IPO filing shows $121.3B Google commitment",
+      "source_url": "https://www.tradingview.com/news/gurufocus:f16646497094b:0-alphabet-stocks-move-lower-as-anthropic-ipo-filing-shows-121-3-billion-google-commitment/",
+      "confidence": "medium"
+    },
+    {
+      "category": "customer_concentration",
+      "description": "Meta multi-year, multi-billion TPU rental deal with Google Cloud (Feb 2026); amount undisclosed. Adds another hyperscaler-scale AI customer to backlog.",
+      "amount_usd_bn": null,
+      "counterparty": "Meta Platforms",
+      "as_of_date": "2026-02-26",
+      "source_title": "Reuters: Meta signs multi-billion-dollar deal to rent Google AI chips",
+      "source_url": "https://www.reuters.com/business/google-signs-multibillion-dollar-ai-chip-deal-with-meta-information-reports-2026-02-26/",
+      "confidence": "medium"
+    },
+    {
+      "category": "other",
+      "description": "At-the-market equity program ($40B, June 2026) plus a separate ~$49.5B June stock sale: Alphabet is funding capex partly with new shares while buybacks are halted. $27.6B of ATM capacity remains.",
+      "amount_usd_bn": 27.6,
+      "counterparty": "Public equity market",
+      "as_of_date": "2026-09-30",
+      "source_title": "Alphabet Form 10-Q Q3 2026, Note 11; TECHi",
+      "source_url": "https://s206.q4cdn.com/479360582/files/doc_financials/2026/q3/GOOG-10-Q-Q3-2026.pdf",
+      "confidence": "high"
+    }
+  ],
+  "total_off_balance_usd_bn": 1003.4,
+  "total_note": "Sum of hard, 10-Q-quantified items: purchase commitments >1yr $802.1B + leases not commenced $130.5B + data-center credit-derivative backstops $48.0B + energy financial guarantees $16.2B + TPU repurchase guarantees $6.6B = $1,003.4B. Excluded to avoid double counting or because not liabilities: Fluidstack/TeraWulf/Cipher backstops (inside the $48.0B), Crux AI $10B backstop commitment (may later appear in credit derivatives), $10B Anthropic private placement (cash outflow post-quarter, not an ongoing obligation), Anthropic $121.3B and Crux $16.8B (these are backlog/receivable-side concentration, not obligations), open POs ($122.3B within the $924.4B). Note most of the $802.1B is ordinary-course supply/energy purchases; the truly contingent 'hidden debt' (backstops + guarantees) is ~$71B, rising to ~$81B with Crux. Off-balance total ~5.6x TTM operating cash flow ($179.6B).",
+  "credit_signals": [
+    {
+      "item": "Moody's rating",
+      "detail": "Aa2, stable; assigned Aa2 to new senior unsecured notes on 2026-11-02 and 2026-11-12. In June 2026 Moody's called the $84.75B equity raise credit positive.",
+      "date": "2026-11-12",
+      "source_url": "https://www.moodys.com/researchandratings/region/004001/00500000D00B"
+    },
+    {
+      "item": "S&P rating",
+      "detail": "AA+, stable (affirmed on proposed notes; reiterated in Nov 2026 Canadian bond filing).",
+      "date": "2026-11-20",
+      "source_url": "https://www.theglobeandmail.com/business/article-alphabet-aims-to-raise-6-billion-in-canadian-debt-offering/"
+    },
+    {
+      "item": "Q3 2026 notes",
+      "detail": "Q3 issuance net proceeds $28.7B: $23.8B USD fixed + $1.3B USD floating (WAC 5.55%, WAM 15 yrs) and A$5.6B AUD notes (WAC 5.82%). 2026 YTD: $45.0B USD + $35.8B foreign-currency senior notes; face debt rose from $49.1B to $127.5B.",
+      "date": "2026-09-30",
+      "source_url": "https://s206.q4cdn.com/479360582/files/doc_financials/2026/q3/GOOG-10-Q-Q3-2026.pdf"
+    },
+    {
+      "item": "Canadian bond Nov 2026",
+      "detail": "C$6.0B in 3/8/12/40-yr tranches; 40-yr at 6.000% coupon. Spreads materially wider than May deal (12-yr +145bp vs 10-yr +75bp in May; 40-yr +185bp vs 30-yr +110bp).",
+      "date": "2026-11-19",
+      "source_url": "https://www.techi.com/alphabet-c6-billion-bond-sale-40-year-note-wider-spreads-than-may/"
+    },
+    {
+      "item": "Equity raises",
+      "detail": "$40B ATM program (June 2026): $12.4B sold in Q3 (12M Class A + 24M Class C shares). Plus ~$49.5B stock sale in June; Moody's referenced an $84.75B combined equity raise announcement on June 2.",
+      "date": "2026-09-30",
+      "source_url": "https://ratings.moodys.com/ratings-news/466727"
+    },
+    {
+      "item": "Long-dated bond yield",
+      "detail": "Alphabet 2.25% 2060 bond quoted at ~6.14% yield (retail quote, date unverified).",
+      "date": "2026-11",
+      "source_url": "https://public.com/bonds/corporate/alphabet-inc/googl-2.25-08-15-2060-02079kag2"
+    }
+  ],
+  "news_context": [
+    {
+      "date": "2026-10-28",
+      "headline_summary": "Q3 2026: revenue $127.6B (+25%), first top-and-bottom-line miss in ~4 yrs; Cloud +103% to $30.7B; capex $51.4B, FCF -$9.1B; stock fell ~10%.",
+      "why_it_matters": "First negative FCF quarter shows the buildout now outruns internal cash generation, so debt and equity issuance fill the gap.",
+      "source_url": "https://www.cnbc.com/2026/10/28/alphabet-googl-earnings-q3-2026.html"
+    },
+    {
+      "date": "2026-10-28",
+      "headline_summary": "CFO keeps 2026 capex at $195-205B and says 2027 capex will 'increase significantly'; Google began renting third-party compute late Q3 with margin headwinds.",
+      "why_it_matters": "Spending is set to climb further, and renting third-party capacity adds more off-balance purchase commitments.",
+      "source_url": "https://fortune.com/company/alphabet/earnings/q3-2026/"
+    },
+    {
+      "date": "2026-11-17",
+      "headline_summary": "Anthropic IPO filing discloses $121.3B of compute commitments to Google through 2033; Google and Nvidia each to buy $10B of Anthropic stock in private placement.",
+      "why_it_matters": "Google's single biggest backlog customer is one it funds; customer pays Google partly with Google's own investment dollars.",
+      "source_url": "https://www.tradingview.com/news/gurufocus:f16646497094b:0-alphabet-stocks-move-lower-as-anthropic-ipo-filing-shows-121-3-billion-google-commitment/"
+    },
+    {
+      "date": "2026-11-18",
+      "headline_summary": "Anthropic prices IPO at $83/share (~$1.5T valuation); Google to own ~13.4-14% (cap 14.99%).",
+      "why_it_matters": "Stake worth ~$140B+ inflates Alphabet's earnings via mark-to-market and makes Alphabet's results sensitive to Anthropic's stock price.",
+      "source_url": "https://smartasset.com/investing/anthropic-ipo"
+    },
+    {
+      "date": "2026-11-19",
+      "headline_summary": "Alphabet prices C$6B bonds incl. 40-yr 6% note at noticeably wider spreads than its May deal.",
+      "why_it_matters": "Even an AA+ borrower is paying more as AI-capex supply floods credit markets — an early credit-tightening signal.",
+      "source_url": "https://www.techi.com/alphabet-c6-billion-bond-sale-40-year-note-wider-spreads-than-may/"
+    },
+    {
+      "date": "2026-09-30",
+      "headline_summary": "10-Q reveals $48.0B data-center credit-derivative backstops, $16.2B energy guarantees, $6.6B TPU repurchase guarantees and $130.5B of uncommenced leases.",
+      "why_it_matters": "These contingent obligations are not debt on the balance sheet, so a ratio-based scorecard misses them.",
+      "source_url": "https://s206.q4cdn.com/479360582/files/doc_financials/2026/q3/GOOG-10-Q-Q3-2026.pdf"
+    },
+    {
+      "date": "2026-09-30",
+      "headline_summary": "Crux AI JV with Blackstone announced: Google backstops up to $10B and books $16.8B of related-party backlog from it.",
+      "why_it_matters": "Classic circular structure: the supplier guarantees the customer's financing and counts the customer's purchases as backlog.",
+      "source_url": "https://s206.q4cdn.com/479360582/files/doc_financials/2026/q3/GOOG-10-Q-Q3-2026.pdf"
+    }
+  ],
+  "hidden_leverage_assessment": {
+    "rating": "Elevated",
+    "rationale": "Alphabet still looks rock-solid on its own books (AA+/Aa2, $265B of cash and securities, ~$180B of yearly operating cash flow), but it is now acting as a lender and guarantor to the AI ecosystem. It backstops about $48B of other companies' data-center leases (including former bitcoin miners renting to Fluidstack), guarantees $16B of energy deals and $6.6B of TPU buybacks, and has $130B of data-center leases about to start plus ~$800B of multi-year purchase commitments. Its biggest cloud customer, Anthropic (~$121B of backlog), is partly financed by Alphabet's own equity checks, and the Crux AI JV is a round trip where Google guarantees a venture that buys from Google. Cash flow just turned negative, buybacks stopped and it is selling stock and long bonds at wider spreads, so it is no longer self-funding. Rating is Elevated rather than High because the core ads business throws off huge cash and the contingent pieces (~$71-81B) are under half a year of operating cash flow.",
+    "biggest_hidden_risk": "If Anthropic or the neocloud tenants Google backstops (Fluidstack and crypto-miner landlords) hit a funding wall, Google simultaneously loses a fifth of its cloud backlog, takes write-downs on a ~$140B equity stake, and has to pay out on tens of billions of lease guarantees.",
+    "what_would_change_my_mind": "A return to positive quarterly free cash flow while backstop notional shrinks and Anthropic's share of cloud backlog falls below ~10% would move this to Moderate."
+  },
+  "sources": [
+    "https://beancount.io/blog/2026/11/07/alphabet-fy2026-q3-earnings-analysis",
+    "https://finance.yahoo.com/markets/stocks/articles/anthropic-ipo-filing-shows-amazon-141838999.html",
+    "https://finance.yahoo.com/technology/ai/articles/nvidia-alphabet-micron-just-agreed-152318003.html",
+    "https://fortune.com/company/alphabet/earnings/q3-2026/",
+    "https://investors.cipherdigital.com/news-releases/news-release-details/cipher-mining-signs-additional-56-mw-10-year-ai-hosting",
+    "https://investors.terawulf.com/news-events/press-releases/detail/121/terawulf-expands-strategic-partnership-with-fluidstack-through-new-168-mw-ai-compute-joint-venture",
+    "https://measuredai.substack.com/p/neoclouds-ai-middle-layer",
+    "https://public.com/bonds/corporate/alphabet-inc/googl-2.25-08-15-2060-02079kag2",
+    "https://ratings.moodys.com/ratings-news/466727",
+    "https://s206.q4cdn.com/479360582/files/doc_financials/2026/q3/2026q3-alphabet-earnings-release.pdf",
+    "https://s206.q4cdn.com/479360582/files/doc_financials/2026/q3/GOOG-10-Q-Q3-2026.pdf",
+    "https://smartasset.com/investing/anthropic-ipo",
+    "https://startupfortune.com/googles-32-billion-terawulf-backstop-shows-how-ai-data-centers-get-built/",
+    "https://www.bloomberg.com/news/articles/2026-11-17/amazon-google-to-have-about-28-of-anthropic-stock-after-ipo",
+    "https://www.cnbc.com/2026/10/28/alphabet-googl-earnings-q3-2026.html",
+    "https://www.moodys.com/researchandratings/region/004001/00500000D00B",
+    "https://www.nacionale.com/en/articles/why-did-alphabet-stock-fall-anthropic-ipo-google-stake-worth-november-19",
+    "https://www.reuters.com/business/anthropic-commits-spending-200-billion-googles-cloud-chips-information-reports-2026-05-05/",
+    "https://www.reuters.com/business/google-signs-multibillion-dollar-ai-chip-deal-with-meta-information-reports-2026-02-26/",
+    "https://www.sec.gov/Archives/edgar/data/1083301/000110465925078084/tm2523008d2_ex99-1.htm",
+    "https://www.spglobal.com/ratings/en/regulatory/article/-/view/type/HTML/id/3653037",
+    "https://www.techi.com/alphabet-c6-billion-bond-sale-40-year-note-wider-spreads-than-may/",
+    "https://www.theglobeandmail.com/business/article-alphabet-aims-to-raise-6-billion-in-canadian-debt-offering/",
+    "https://www.tikr.com/blog/google-nvidia-and-microsoft-literally-feeding-themselves-money-with-26-billion-anthropic-ipo-buy",
+    "https://www.tradingview.com/news/gurufocus:f16646497094b:0-alphabet-stocks-move-lower-as-anthropic-ipo-filing-shows-121-3-billion-google-commitment/"
+  ]
+}

@@ -1,0 +1,249 @@
+{
+  "ticker": "AMD",
+  "company": "Advanced Micro Devices, Inc.",
+  "as_of": "2026-11-21",
+  "reported_snapshot": {
+    "period": "Q3 FY2026 (quarter ended 2026-09-26), reported 2026-11-03",
+    "revenue_usd_bn": 13.38,
+    "data_center_revenue_usd_bn": 8.55,
+    "data_center_share_of_revenue_pct": 64,
+    "total_debt_usd_bn": 7.08,
+    "total_debt_note": "Up from $3.23B in Q2 after the $4.75B August 2026 senior notes offering",
+    "cash_and_short_term_investments_usd_bn": 15.78,
+    "operating_cash_flow_q3_usd_bn": 1.2,
+    "capex_q3_usd_bn": 0.648,
+    "free_cash_flow_q3_usd_bn": 0.554,
+    "free_cash_flow_note": "FCF fell from $1.53B a year earlier (4% margin) as inventory rose ~$3B q/q to $11.46B and receivables rose 26% to $9.21B; 9-month FCF $4.68B; trailing-12-month FCF ~ $7.06B (Trefis)",
+    "inventory_usd_bn": 11.46,
+    "accounts_receivable_usd_bn": 9.21,
+    "q4_2026_revenue_guidance_usd_bn": 17.0,
+    "rpo_backlog": "Not disclosed as a headline figure; multi-GW customer agreements (OpenAI 6 GW, Meta 6 GW, Anthropic up to 2 GW) are framework/purchase agreements, not reported backlog",
+    "sources": [
+      "https://ir.amd.com/financial-information/sec-filings/content/0000002488-26-000188/q32026991.htm",
+      "https://ir.amd.com/financial-information/sec-filings/content/0000002488-26-000188/amdq32026earningsslidesf.htm",
+      "https://www.trefis.com/stock/amd/articles/626808/should-one-overlooked-number-scare-you-about-amd-stock/2026-11-19",
+      "https://convergedigest.com/amd-q3-2026-data-center-revenue-helios-ai/"
+    ]
+  },
+  "off_balance_items": [
+    {
+      "category": "purchase_commitments",
+      "description": "Unconditional, non-cancellable (or penalty-bearing) purchase commitments for wafers (TSMC is sole source for all <=7nm CPUs/GPUs), substrates, HBM memory, other components and ATMP services. $11.2B due rest of 2026, $22.2B in 2027, $15.4B 2028+. $33.4B is due by end of FY2027. Sized for the MI450/Helios ramp; if AI orders slip, AMD still owes these.",
+      "amount_usd_bn": 48.76,
+      "counterparty": "TSMC, memory suppliers, ATMP JVs and other suppliers",
+      "as_of_date": "2026-09-26",
+      "source_title": "AMD Form 10-Q for quarter ended Sept 26, 2026 (commitments note)",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/2488/000000248826000191/amd-20260926.htm",
+      "confidence": "high"
+    },
+    {
+      "category": "guarantees_backstops",
+      "description": "Cloud compute capacity commitments: AMD has committed to buy GPU compute capacity from cloud service providers to the extent the capacity is not placed with third-party customers (or capacity AMD reserved to resell). Classic demand backstop for neoclouds; amounts fall as third parties pay. $1.4B due 2027, $1.6B 2028, $1.5B 2029.",
+      "amount_usd_bn": 6.18,
+      "counterparty": "Unnamed cloud service providers (neoclouds); reported example: Crusoe",
+      "as_of_date": "2026-09-26",
+      "source_title": "AMD Form 10-Q Q3 2026",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/2488/000000248826000191/amd-20260926.htm",
+      "confidence": "high"
+    },
+    {
+      "category": "guarantees_backstops",
+      "description": "Data center lease guarantees: AMD guarantees commercial partners' data-center lease payments, max gross exposure $7.7B with terms up to 15 years; on default AMD may assume the leases. Plus commercial partner debt guarantees (borrowings used to finance data-center infrastructure) of $750M with terms up to 6 months. Total max $8.5B; fair value 'not material', nothing paid to date.",
+      "amount_usd_bn": 8.5,
+      "counterparty": "Unnamed commercial partners (AI data-center operators)",
+      "as_of_date": "2026-09-26",
+      "source_title": "AMD Form 10-Q Q3 2026 (guarantees)",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/2488/000000248826000191/amd-20260926.htm",
+      "confidence": "high"
+    },
+    {
+      "category": "leases_not_commenced",
+      "description": "Data center leases signed by AMD but not yet commenced, which AMD expects to assign or sublease to commercial partners: aggregate future payments $13.3B, 10-15 year terms, starting Q2 FY2027. AMD is the head lessee; if partners can't take them, AMD carries the rent. Separately $0.2B of ordinary operating leases not yet commenced.",
+      "amount_usd_bn": 13.3,
+      "counterparty": "Data-center landlords; intended sub-lessees are unnamed commercial partners",
+      "as_of_date": "2026-09-26",
+      "source_title": "AMD Form 10-Q Q3 2026 (leases)",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/2488/000000248826000191/amd-20260926.htm",
+      "confidence": "high"
+    },
+    {
+      "category": "guarantees_backstops",
+      "description": "Reported backstop of a $300M Goldman Sachs loan to Crusoe to buy AMD chips for an Ohio data center (built by Brookfield-backed 5C); AMD agreed to rent the chips back if Crusoe can't find customers, cutting Crusoe's rate to ~6%. Likely already captured inside the 10-Q cloud-capacity or partner-debt guarantee figures, so not added to the total.",
+      "amount_usd_bn": 0.3,
+      "counterparty": "Crusoe / Goldman Sachs",
+      "as_of_date": "2026-02-19",
+      "source_title": "Reuters: AMD to backstop $300 million Crusoe loan, The Information reports",
+      "source_url": "https://www.reuters.com/technology/amd-backstop-300-million-crusoe-loan-information-reports-2026-02-19/",
+      "confidence": "medium"
+    },
+    {
+      "category": "vendor_financing",
+      "description": "Anthropic: July 2026 hardware supply agreement for up to 2 GW of Helios/MI450 racks (Anthropic expects >$20B spend if it takes the full initial capacity, from 1H 2027). AMD committed to buy up to $5.0B of Anthropic Class N stock, drawn by Anthropic in increments as GPU delivery milestones are hit. $2.5B (33.8M shares) bought in the IPO concurrent private placement at $83 (closed after Nov 19 IPO); up to $2.5B more tied to future deliveries. AMD is funding a customer that buys its chips.",
+      "amount_usd_bn": 5.0,
+      "counterparty": "Anthropic PBC",
+      "as_of_date": "2026-11-19",
+      "source_title": "AMD/Anthropic partnership release; Anthropic S-1/A via TIKR & Observer",
+      "source_url": "https://newsroom.amd.com/news/amd-anthropic-strategic-partnership/",
+      "confidence": "high"
+    },
+    {
+      "category": "vendor_financing",
+      "description": "Broader equity investment commitments of up to $5.1B (primarily private AI companies, through FY2028) per 10-Q; likely includes the Anthropic $5B commitment (so not double counted). In addition AMD invested $1.0B in an unnamed public company's equity offering in October 2026.",
+      "amount_usd_bn": 5.1,
+      "counterparty": "Privately held AI/tech companies (incl. likely Anthropic); one unnamed public company",
+      "as_of_date": "2026-09-26",
+      "source_title": "AMD Form 10-Q Q3 2026 (commitments)",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/2488/000000248826000191/amd-20260926.htm",
+      "confidence": "high"
+    },
+    {
+      "category": "circular_deals",
+      "description": "OpenAI: 6 GW multi-generation Instinct GPU agreement (first 1 GW MI450 from 2H 2026; est. >$100B revenue over ~4 years). AMD issued OpenAI a warrant for up to 160M AMD shares at $0.01, vesting per GW purchased and AMD price targets up to $600. Effectively paying the customer in AMD equity to buy AMD chips (vendor financing via equity). TensorWave separately signed a 6-yr, 457 MW AMD-based capacity deal serving OpenAI (Nov 2026).",
+      "amount_usd_bn": null,
+      "counterparty": "OpenAI OpCo, LLC",
+      "as_of_date": "2025-10-05",
+      "source_title": "AMD 8-K: OpenAI warrant",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/2488/000119312525230895/d28189d8k.htm",
+      "confidence": "high"
+    },
+    {
+      "category": "circular_deals",
+      "description": "Meta: 6 GW agreement (custom MI450-based GPU, first GW shipping 2H 2026; Reuters: up to $60B over 5 years) with an identical 160M-share $0.01 warrant. Combined OpenAI+Meta warrants = up to 320M shares (~17% of ~1.63B diluted shares). As of 9/26/26 no tranche vested; warrant liability $1.2B on balance sheet, $4.5B unrecognized grant-date fair value to be booked as contra-revenue as sales occur; Q3 took a $1.2B non-cash remeasurement charge.",
+      "amount_usd_bn": 4.5,
+      "counterparty": "Meta Platforms, Inc. (and OpenAI)",
+      "as_of_date": "2026-09-26",
+      "source_title": "AMD 8-K (Meta warrant) and AMD 10-Q Q3 2026 (warrant accounting)",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/2488/000000248826000045/amd-20260223.htm",
+      "confidence": "high"
+    },
+    {
+      "category": "customer_concentration",
+      "description": "Data Center is 64% of revenue (vs 47% a year ago). AMD's 2027 plan (>80% revenue growth guided per reports) leans on three anchor AI customers: OpenAI (6 GW, cash-burning, vendor-financed by AMD/Nvidia/Broadcom), Meta (6 GW) and Anthropic (2 GW, AMD-funded). 10-Q: 'a small number of customers will continue to account for a significant part of our revenue and receivables'. No customer % disclosed.",
+      "amount_usd_bn": null,
+      "counterparty": "OpenAI, Meta, Anthropic, Microsoft, Oracle, neoclouds",
+      "as_of_date": "2026-11-03",
+      "source_title": "AMD Q3 2026 earnings release & 10-Q",
+      "source_url": "https://ir.amd.com/financial-information/sec-filings/content/0000002488-26-000188/q32026991.htm",
+      "confidence": "medium"
+    },
+    {
+      "category": "other",
+      "description": "Export-control exposure: Hunterbrook short report (Nov 19) alleges AMD firmware reached blacklisted Chinese server maker IEIT; new US license rule (Nov 19) for advanced chips to Singapore, Malaysia, Indonesia, Thailand, Brazil (Singapore was ~12.4% of 2025 revenue by billing). AMD previously took ~$800M MI308 charge (Q2 2025). AMD denies wrongdoing.",
+      "amount_usd_bn": null,
+      "counterparty": "US Commerce Dept / BIS",
+      "as_of_date": "2026-11-20",
+      "source_title": "The Globe and Mail / Reuters: AMD shares dip as report says China ties could invite U.S. scrutiny",
+      "source_url": "https://www.theglobeandmail.com/business/article-amd-shares-china-ai-chips/",
+      "confidence": "medium"
+    }
+  ],
+  "total_off_balance_usd_bn": 81.9,
+  "total_note": "Sum of hard, 10-Q-quantified items as of 2026-09-26: purchase commitments $48.8B + cloud capacity backstops $6.2B + data-center leases not commenced (to be subleased to partners) $13.3B + partner lease/debt guarantees $8.5B + equity investment commitments $5.1B (assumed to include the Anthropic $5B; Anthropic not added separately) = $81.9B. Excluded: Crusoe $0.3B (likely inside the 10-Q figures), the $1.0B Oct public-company investment (already paid), warrant values (stock-settled, contingent), and multi-GW customer deals (revenue, not obligations). Excluding ordinary supply purchase commitments, the customer-support exposures (capacity backstops + leases + guarantees + equity) are ~$33.1B, about 4.7x trailing-12-month FCF of ~$7.1B. These are maximums; none has been paid out yet.",
+  "credit_signals": [
+    {
+      "signal": "Ratings",
+      "detail": "Anticipated ratings A1 (Moody's) / A (S&P) on the August 2026 senior notes; investment grade with wide headroom.",
+      "date": "2026-08-13",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/2488/000119312526349669/d323988dfwp.htm"
+    },
+    {
+      "signal": "Bond issuance",
+      "detail": "Record $4.75B senior unsecured offering closed Aug 17, 2026: $1.25B 4.60% 2029 (YTM 4.64%, T+43bp), $1.5B 5.00% 2031, $1.0B 5.25% 2033, $1.0B 5.50% 2036 (YTM 5.53%); 'general corporate purposes'. Total debt more than doubled to $7.1B.",
+      "date": "2026-08-17",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/0000002488/000119312526354029/d142696d8k.htm"
+    },
+    {
+      "signal": "CDS",
+      "detail": "Goldman Sachs: AMD 5-yr CDS widened 26.5bp in one week to ~147bp, ~55bp off its low two months earlier; chipmaker CDS basket (AVGO, AMD, NVDA, INTC) now above hyperscalers for first time, attributed to customer financing/guarantees.",
+      "date": "2026-11-10",
+      "source_url": "https://longbridge.com/en/news/304960634"
+    },
+    {
+      "signal": "CDS",
+      "detail": "Barclays: AMD 5-yr CDS up ~177% in six months from ~40bp area; recommends viewing chip suppliers as 'lenders with concentrated loan books'.",
+      "date": "2026-10-29",
+      "source_url": "https://www.coinlive.com/news/2008-revisited-a-comprehensive-guide-to-wall-street-s-hottest-trading"
+    },
+    {
+      "signal": "Equity dilution",
+      "detail": "Up to 320M shares owed to OpenAI and Meta under performance warrants; Anthropic placement and acquisitions (World Labs ~$8.2B all-stock; Taalas ~$2.9B cash+stock) use stock.",
+      "date": "2026-09-26",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/2488/000000248826000191/amd-20260926.htm"
+    }
+  ],
+  "news_context": [
+    {
+      "date": "2026-07-22",
+      "headline_summary": "AMD-Anthropic deal: up to 2 GW of MI450 Helios racks from 1H 2027; AMD commits up to $5B equity investment in Anthropic.",
+      "why_it_matters": "Textbook vendor financing: AMD funds a customer that buys its chips; investment is paid out as deliveries happen.",
+      "source_url": "https://newsroom.amd.com/news/amd-anthropic-strategic-partnership/"
+    },
+    {
+      "date": "2026-08-17",
+      "headline_summary": "AMD closes record $4.75B bond sale at A1/A ratings.",
+      "why_it_matters": "AMD shifts from net-cash simplicity toward borrowing to fund inventory, capacity and customer support ahead of the AI ramp.",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/0000002488/000119312526354029/d142696d8k.htm"
+    },
+    {
+      "date": "2026-11-03",
+      "headline_summary": "Q3: record $13.4B revenue (+45%), Data Center $8.5B (+97%), Q4 guide ~$17B; but FCF only $554M as inventory jumped $3B; $1.2B warrant remeasurement charge.",
+      "why_it_matters": "Profits rising but cash is being tied up in inventory/receivables; the 10-Q revealed $8.5B of partner guarantees, $13.3B of leases to sublease and $6.2B of capacity backstops.",
+      "source_url": "https://ir.amd.com/financial-information/sec-filings/content/0000002488-26-000188/q32026991.htm"
+    },
+    {
+      "date": "2026-11-10",
+      "headline_summary": "Goldman: chipmaker CDS (incl. AMD ~147bp) rise above hyperscalers for first time.",
+      "why_it_matters": "Credit markets are starting to price chip suppliers as lenders to the AI buildout.",
+      "source_url": "https://longbridge.com/en/news/304960634"
+    },
+    {
+      "date": "2026-11-16",
+      "headline_summary": "TensorWave signs 6-yr, 457 MW AMD MI455X/Helios compute deal for OpenAI, online 1H 2027-early 2028.",
+      "why_it_matters": "OpenAI volume flowing through a neocloud intermediary - the kind of partner AMD's lease guarantees and capacity backstops support.",
+      "source_url": "https://stockrow.com/AMD/news"
+    },
+    {
+      "date": "2026-11-19",
+      "headline_summary": "Anthropic IPO at $83; AMD buys $2.5B in concurrent private placement; Anthropic fell 8.5% on day two and AMD fell sharply.",
+      "why_it_matters": "AMD now holds marked-to-market equity in a customer; customer stock weakness hits AMD twice (investment value and demand confidence).",
+      "source_url": "https://www.tikr.com/blog/amd-is-a-direct-stakeholder-in-anthropic-thats-up-to-5-billion-riding-on-its-ipo"
+    },
+    {
+      "date": "2026-11-19",
+      "headline_summary": "Hunterbrook short report on China/IEIT firmware plus new US license rule for 5 Asian/LatAm countries; AMD -8% Nov 19 and ~-13% Nov 20.",
+      "why_it_matters": "Regulatory risk to the Asia shipment pipeline that backs the Q4 and 2027 ramp; AMD denies the claims.",
+      "source_url": "https://www.theglobeandmail.com/business/article-amd-shares-china-ai-chips/"
+    }
+  ],
+  "hidden_leverage_assessment": {
+    "rating": "Elevated",
+    "rationale": "On its own books AMD looks safe: $15.8B cash vs $7.1B debt and A-grade ratings. But the 10-Q shows AMD is now propping up its customers: it guarantees $8.5B of partners' data-center leases and loans, has signed $13.3B of data-center leases it plans to pass to partners, promises to buy $6.2B of cloud capacity nobody else rents, and is investing up to $5B in Anthropic. It also pays OpenAI and Meta in its own stock (up to 320M shares) to buy its GPUs, and owes $48.8B to suppliers, mostly by end-2027. Those customer-support items (~$33B) are about 4-5x AMD's yearly free cash flow, which shrank to $554M last quarter as inventory piled up.",
+    "biggest_hidden_risk": "If OpenAI, Anthropic or the neoclouds it backs slow their GPU purchases, AMD gets hit at once by unsold inventory against $48.8B of supply commitments plus calls on up to ~$28B of lease guarantees and capacity backstops.",
+    "what_would_change_my_mind": "Seeing MI450/Helios revenue convert to strong free cash flow in Q4 2026-Q1 2027 (inventory falling) while the guarantee, lease and capacity-backstop totals shrink rather than grow."
+  },
+  "sources": [
+    "https://convergedigest.com/amd-q3-2026-data-center-revenue-helios-ai/",
+    "https://finance.yahoo.com/markets/stocks/articles/amd-borrows-4-75-billion-094859885.html",
+    "https://ir.amd.com/financial-information/sec-filings/content/0000002488-26-000188/amdq32026earningsslidesf.htm",
+    "https://ir.amd.com/financial-information/sec-filings/content/0000002488-26-000188/q32026991.htm",
+    "https://longbridge.com/en/news/304960634",
+    "https://newsroom.amd.com/news/amd-anthropic-strategic-partnership/",
+    "https://observer.com/2026/11/dario-amodei-takes-anthropic-to-wall-street-in-record-81-billion-ipo/",
+    "https://sg.finance.yahoo.com/news/amd-stocks-fall-4-25-181859958.html",
+    "https://stockrow.com/AMD/news",
+    "https://www.brewmarkets.com/stories/chip-off-the-china-block",
+    "https://www.coinlive.com/news/2008-revisited-a-comprehensive-guide-to-wall-street-s-hottest-trading",
+    "https://www.datacenterdynamics.com/en/news/amd-underwrites-300m-crusoe-loan-so-data-center-firm-can-buy-its-ai-chips-report/",
+    "https://www.reuters.com/business/amd-clinches-second-mega-chip-supply-deal-this-time-with-meta-2026-02-24/",
+    "https://www.reuters.com/technology/amd-backstop-300-million-crusoe-loan-information-reports-2026-02-19/",
+    "https://www.sec.gov/Archives/edgar/data/0000002488/000119312526354029/d142696d8k.htm",
+    "https://www.sec.gov/Archives/edgar/data/2488/000000248826000045/amd-20260223.htm",
+    "https://www.sec.gov/Archives/edgar/data/2488/000000248826000191/amd-20260926.htm",
+    "https://www.sec.gov/Archives/edgar/data/2488/000119312525230895/d28189d8k.htm",
+    "https://www.sec.gov/Archives/edgar/data/2488/000119312525230895/d28189dex991.htm",
+    "https://www.sec.gov/Archives/edgar/data/2488/000119312526349669/d323988dfwp.htm",
+    "https://www.theglobeandmail.com/business/article-amd-shares-china-ai-chips/",
+    "https://www.tikr.com/blog/amd-is-a-direct-stakeholder-in-anthropic-thats-up-to-5-billion-riding-on-its-ipo",
+    "https://www.trefis.com/stock/amd/articles/626808/should-one-overlooked-number-scare-you-about-amd-stock/2026-11-19"
+  ]
+}

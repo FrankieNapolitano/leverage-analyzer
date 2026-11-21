@@ -89,3 +89,100 @@ if not ok.empty:
         hide_index=True, width="stretch")
     st.caption("Interest cover shows 'inf' when a company has essentially no interest expense. "
                "Open a ticker on the main page for the full profile and an options idea. Not financial advice.")
+
+# ------------------------------------------------------------------------------------------ hidden leverage
+st.divider()
+st.header("🕳️ Hidden leverage: what the balance sheet doesn't show")
+st.write("The score above only reads each company's **reported** balance sheet. Some of the biggest risks in the AI "
+         "buildout never show up as debt: data-center leases that are signed but haven't started, multi-year purchase "
+         "and compute commitments, guarantees of other companies' debt, money a supplier has put into its own customers "
+         "(vendor financing), and revenue that depends on a few AI labs that are themselves funded this way. "
+         "This section adds that research, with a source for every number.")
+
+if HS.empty:
+    st.info("Research files not found in research/.")
+else:
+    order = ["Severe", "High", "Elevated", "Moderate", "Low"]
+    hs = HS.copy()
+    hs["_o"] = hs["Hidden leverage rating"].map({r: i for i, r in enumerate(order)})
+    hs = hs.sort_values(["_o", "Off-balance total ($B)"], ascending=[True, False])
+
+    if not ok.empty:
+        m = ok[["Ticker", "Risk score", "Tier"]].merge(hs[["Ticker", "Hidden leverage rating", "Score add-on"]],
+                                                       on="Ticker", how="left")
+        m["Score add-on"] = m["Score add-on"].fillna(0)
+        m["Full-picture score"] = (m["Risk score"] + m["Score add-on"]).clip(upper=100)
+        m["Full-picture tier"] = m["Full-picture score"].map(tier_of)
+        m = m.sort_values("Full-picture score")
+        fig2 = go.Figure()
+        fig2.add_bar(y=m["Ticker"], x=m["Risk score"], orientation="h", name="Balance sheet only",
+                     marker=dict(color="#9db4d3", cornerradius=3))
+        fig2.add_bar(y=m["Ticker"], x=m["Full-picture score"], orientation="h", name="Full picture (incl. hidden)",
+                     marker=dict(color=[STATUS[TIER_STATUS[t]] for t in m["Full-picture tier"]], cornerradius=3),
+                     text=[f"{s:.0f} · {t}" for s, t in zip(m["Full-picture score"], m["Full-picture tier"])],
+                     textposition="outside")
+        fig2.update_layout(barmode="group", title="Balance-sheet score vs. full-picture score (higher = more fragile)",
+                           height=80 + 52 * len(m), margin=dict(l=10, r=10, t=40, b=10),
+                           paper_bgcolor="rgba(0,0,0,0)", plot_bgcolor="rgba(0,0,0,0)",
+                           legend=dict(orientation="h", y=1.08, x=0))
+        fig2.update_xaxes(range=[0, 115], showgrid=False)
+        st.plotly_chart(fig2, width="stretch")
+        st.caption("Full-picture score = balance-sheet score + hidden-leverage add-on (Low 0, Moderate +8, "
+                   "Elevated +15, High +22, Severe +30), capped at 100. The add-on is a research judgment, explained "
+                   "for each company below.")
+    else:
+        st.caption("Run the scan above to see balance-sheet vs. full-picture scores side by side.")
+
+    st.subheader("Hidden-leverage ratings")
+    show_hs = hs[["Ticker", "Company", "Hidden leverage rating", "Off-balance total ($B)", "Biggest hidden risk"]]
+    st.dataframe(show_hs.style.format({"Off-balance total ($B)": "${:,.0f}B"}, na_rep="n/a").map(
+        lambda v: f"color: {RATING_COLOR.get(v, 'inherit')}; font-weight: 600", subset=["Hidden leverage rating"]),
+        hide_index=True, width="stretch")
+    st.caption("Off-balance totals aren't directly comparable: some include ordinary supplier purchases (Alphabet's is "
+               "mostly normal multi-year purchasing), others are mostly leases and guarantees. The rating weighs them "
+               "against each company's cash generation and how concentrated the risk is.")
+
+    st.subheader("Company deep dives")
+    for _, r in hs.iterrows():
+        tk = r["Ticker"]
+        with st.expander(f"{tk} · {r['Company']} · {r['Hidden leverage rating']}"):
+            st.markdown(f"**Why:** {r['Why']}")
+            st.markdown(f"**Biggest hidden risk:** {r['Biggest hidden risk']}")
+            st.markdown(f"**What would change my mind:** {r['What would change my mind']}")
+            it = ITEMS[ITEMS["Ticker"] == tk].drop(columns="Ticker")
+            if not it.empty:
+                st.markdown("**Obligations and exposures not on the balance sheet**")
+                st.dataframe(it, hide_index=True, width="stretch",
+                             column_config={"Link": st.column_config.LinkColumn("Link", display_text="source"),
+                                            "Amount ($B)": st.column_config.NumberColumn(format="$%.1fB")})
+            if isinstance(r.get("How the total was counted"), str):
+                st.caption("How the total was counted: " + r["How the total was counted"])
+            nw = NEWS[NEWS["Ticker"] == tk].drop(columns="Ticker").sort_values("Date", ascending=False)
+            if not nw.empty:
+                st.markdown("**Recent news that matters**")
+                st.dataframe(nw, hide_index=True, width="stretch",
+                             column_config={"Link": st.column_config.LinkColumn("Link", display_text="source")})
+            cr = CREDIT[CREDIT["Ticker"] == tk].drop(columns="Ticker").dropna(axis=1, how="all")
+            if not cr.empty:
+                st.markdown("**Credit-market signals**")
+                st.dataframe(cr, hide_index=True, width="stretch")
+
+    st.subheader("Download the data")
+    st.write("Everything behind these ratings, so anyone can check or re-use it.")
+    d1, d2, d3 = st.columns(3)
+    xl = os.path.join(RES, "Hidden_Leverage_Research.xlsx")
+    if os.path.exists(xl):
+        d1.download_button("📊 Full research workbook (Excel)", open(xl, "rb").read(),
+                           file_name="Hidden_Leverage_Research.xlsx",
+                           mime="application/vnd.openxmlformats-officedocument.spreadsheetml.sheet")
+    d2.download_button("🧾 Off-balance items (CSV)", ITEMS.to_csv(index=False).encode(),
+                       file_name="off_balance_items.csv", mime="text/csv")
+    if not SNAPS.empty:
+        d3.download_button("📅 Daily balance-sheet snapshots (CSV)", SNAPS.to_csv(index=False).encode(),
+                           file_name="company_snapshots.csv", mime="text/csv")
+    else:
+        d3.caption("Daily balance-sheet snapshots start with the next automatic refresh.")
+    asof = HS["As of"].dropna().max() if "As of" in HS else ""
+    st.caption(f"Research as of {asof}. Sources: SEC filings (10-Q/10-K/8-K/S-1), company releases, Reuters, Bloomberg, "
+               "WSJ, CNBC and others; each row is marked high/medium/low confidence. Also on GitHub under research/. "
+               "Not financial advice.")

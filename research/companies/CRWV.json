@@ -1,0 +1,263 @@
+{
+  "ticker": "CRWV",
+  "company": "CoreWeave, Inc.",
+  "as_of": "2026-11-21",
+  "reported_snapshot": {
+    "period": "Q3 2026 (quarter ended 2026-09-30; results 2026-11-10, 10-Q filed 2026-11-12)",
+    "total_debt_usd_bn": 47.5,
+    "total_debt_note": "Total indebtedness (principal) $47.5B ($46.9B carrying: $41.6B recourse, $5.3B non-recourse), up from $35.6B at 2026-06-30 and $21.6B at 2025-12-31. ~$11.0B of principal due in 2027. Weighted effective rate ~7.9%. Includes $7.7B of OEM (equipment-maker) financing. Plus $18.7B operating and $0.65B finance lease liabilities on balance sheet => ~$66.9B debt + leases.",
+    "cash_usd_bn": 4.12,
+    "cash_note": "Cash & equivalents $4.12B plus $2.28B restricted cash ($6.4B total); $5.7B undrawn facility capacity; total liquidity ~$9.8B.",
+    "latest_quarter_operating_cash_flow_usd_bn": 1.975,
+    "latest_quarter_fcf_usd_bn": -7.47,
+    "fcf_note": "Q3 OCF $1.975B less cash purchases of PP&E $9.441B (cash-flow statement). Company-defined capex (incl. some leased/vendor-financed equipment) was $14.5B. TTM OCF $7.2B vs TTM PP&E purchases $27.6B.",
+    "latest_quarter_capex_usd_bn": 14.5,
+    "capex_guidance": "FY2026 capex $37-39B (low end raised from $35B); 2027 capex roughly in line with 2026 if only committed backlog is served.",
+    "rpo_usd_bn": 132.5,
+    "rpo_note": "Revenue backlog ~$132.5B (RPO $132.3B per 10-Q), up from ~$104B at 2026-06-30; ~36% expected within 24 months. >50% of backlog tied to one contract with delivery starting by end-2026.",
+    "other": "Q3 revenue $3.661B (+168% y/y); net loss $709M; interest expense $846M vs GAAP operating income $207M; Q4 interest guided $1.05-1.15B; FY26 revenue guide $13.0-13.3B; adj. EBITDA $2.26B. Stockholders' equity ~$4.0B.",
+    "sources": [
+      "https://investors.coreweave.com/news/news-details/2026/CoreWeave-Reports-Strong-Third-Quarter-2026-Results/default.aspx",
+      "https://www.cnbc.com/2026/11/10/coreweave-crwv-q3-earnings-report-2026.html",
+      "https://www.listed.markets/filings/0001769628-26-000465",
+      "https://ccir.io/research/coreweave-debt-by-entity-q3-2026",
+      "https://mlq.ai/research/coreweave-q3-2026-revenue-up-168-to-3-66b-backlog-132-5b-interest-expense-up-173-to-846m/",
+      "https://cityfort.co/stocks/coreweave",
+      "https://www.techtimes.com/articles/330522/20261112/coreweave-q3-earnings-recourse-debt-climbs-10b-one-quarter-9b-customer-prepayments-expected.htm",
+      "https://filinginsights.substack.com/p/coreweaves-10-q-sec-filing-risk-factors"
+    ]
+  },
+  "off_balance_items": [
+    {
+      "category": "leases_not_commenced",
+      "description": "Executed leases (primarily data centers, equipment, offices) not yet commenced; estimated future undiscounted payments; commence 2026-2029, terms 7-17 years. Up from $35.5B at June 30 and $38.5B at Dec 31, 2025.",
+      "amount_usd_bn": 47.4,
+      "counterparty": "Data-center landlords/developers (not named; includes AMD-related leases ~530 MW signed July 2026)",
+      "as_of_date": "2026-09-30",
+      "source_title": "CoreWeave 10-Q Q3 2026 (StockTitan filing summary)",
+      "source_url": "https://www.stocktitan.net/sec-filings/CRWV/10-q-core-weave-inc-quarterly-earnings-report-f12417e8443a.html",
+      "confidence": "high"
+    },
+    {
+      "category": "leases_not_commenced",
+      "description": "Single-site data-center lease (453 MW delivered in phases 2026-2028) with rent capped at $16.9B over ~16 years; payments depend on landlord construction cost and are excluded from the $47.4B figure.",
+      "amount_usd_bn": 16.9,
+      "counterparty": "Unnamed landlord",
+      "as_of_date": "2026-09-30",
+      "source_title": "CoreWeave 10-Q Q3 2026, via sec-api.io / Filing Insights",
+      "source_url": "https://sec-api.io/insights/coreweave-crwv-q3-2026-earnings-132-5b-backlog-4-6-gw-contracted-power-and-46-9bn-of-debt-sec-filing-analysis",
+      "confidence": "medium"
+    },
+    {
+      "category": "purchase_commitments",
+      "description": "Committed future data-center construction costs ($2.1B) plus ~$4B of other enforceable purchase commitments (technology equipment, software/services). Separately ~$4.5B of equipment purchases sat in accrued liabilities (on balance sheet).",
+      "amount_usd_bn": 6.1,
+      "counterparty": "Construction contractors, equipment vendors",
+      "as_of_date": "2026-09-30",
+      "source_title": "CoreWeave 10-Q Q3 2026 contractual obligations (listed.markets); Filing Insights",
+      "source_url": "https://www.listed.markets/filings/0001769628-26-000465",
+      "confidence": "medium"
+    },
+    {
+      "category": "guarantees_backstops",
+      "description": "Unconsolidated VIEs/joint ventures: maximum exposure to loss ~$1.9B (JV) plus a VIE-lessor lease with $1.2B committed payments (already within lease figures). DDTL 5.0/5.5 SPV loans carry unconditional parent guarantees (on balance sheet).",
+      "amount_usd_bn": 1.9,
+      "counterparty": "Unconsolidated JV / VIE lessor (not named)",
+      "as_of_date": "2026-09-30",
+      "source_title": "CoreWeave 10-Q Q3 2026 (Equibles; Filing Insights)",
+      "source_url": "https://equibles.com/stocks/crwv/documents/287fd8e6-ac4e-431d-b60f-a133d9296e33",
+      "confidence": "medium"
+    },
+    {
+      "category": "vendor_financing",
+      "description": "Nvidia (key/sole GPU supplier) bought $2.0B of CoreWeave stock in Jan 2026 (22.9M shares at $87.20) and holds roughly 10-11%; CoreWeave spends most of its $37-39B capex on Nvidia systems. CoreWeave is the RECIPIENT of this vendor support.",
+      "amount_usd_bn": 2.0,
+      "counterparty": "Nvidia",
+      "as_of_date": "2026-01-26",
+      "source_title": "Yahoo Finance: Nvidia is CoreWeave's key sole supplier and $6.3B backstop",
+      "source_url": "https://finance.yahoo.com/technology/ai/articles/nvidia-coreweave-key-sole-supplier-124957651.html",
+      "confidence": "high"
+    },
+    {
+      "category": "guarantees_backstops",
+      "description": "Nvidia capacity backstop: Sept 2025 order (initial value $6.3B) obliging Nvidia to buy CoreWeave's residual unsold capacity through 2032-04-13, subject to delivery/service conditions and termination for breach or insolvency. Supports lender confidence; worth ~$1B/yr vs ~$3.4B+/yr interest run-rate. Nvidia interim CEO said (Nov 2026) it will be more selective on future guarantees; existing commitments unchanged.",
+      "amount_usd_bn": 6.3,
+      "counterparty": "Nvidia",
+      "as_of_date": "2025-09-09",
+      "source_title": "Yahoo Finance: 'Stay away from CoreWeave' - Huang scandal puts Nvidia's $6.3B backstop in focus",
+      "source_url": "https://finance.yahoo.com/markets/stocks/articles/stay-away-coreweave-huang-scandal-164432942.html",
+      "confidence": "high"
+    },
+    {
+      "category": "vendor_financing",
+      "description": "OEM/equipment-maker financing ($6.9B recourse + $0.8B non-recourse) - suppliers lending CoreWeave money to buy their servers; $1.5B of equipment payables were converted into OEM debt in 9M 2026 without cash moving. On balance sheet as debt (not added to off-balance total).",
+      "amount_usd_bn": 7.66,
+      "counterparty": "Server OEMs (e.g., Dell) - not individually named",
+      "as_of_date": "2026-09-30",
+      "source_title": "06.ai W.117 (10-Q debt table); Filing Insights",
+      "source_url": "https://06.ai/wire/w117/",
+      "confidence": "medium"
+    },
+    {
+      "category": "customer_concentration",
+      "description": "Two unnamed customers were 30% and 24% of Q3 revenue (top customer 67% a year earlier; Microsoft was 67% of FY2025 revenue). Named commitments: OpenAI up to ~$22.4B cumulative (latest order $6.5B through May 2031), Meta ~$14.2B (to Dec 2031) + ~$21.0B (to Dec 2032), Jane Street ~$6B. >50% of backlog tied to a single contract. OpenAI is itself vendor-financed (Nvidia equity).",
+      "amount_usd_bn": 63.6,
+      "counterparty": "Microsoft, OpenAI, Meta (plus Jane Street)",
+      "as_of_date": "2026-09-30",
+      "source_title": "CoreWeave 10-Q Q3 2026 risk factors (listed.markets); Inside Deep Tech",
+      "source_url": "https://www.listed.markets/filings/0001769628-26-000465",
+      "confidence": "medium"
+    },
+    {
+      "category": "circular_deals",
+      "description": "Nvidia is supplier, shareholder, customer (renting capacity) and backstop for CoreWeave, and also an equity investor in OpenAI, a CoreWeave customer. Nvidia equity/backstop -> CoreWeave borrows against GPUs -> buys more Nvidia GPUs.",
+      "amount_usd_bn": null,
+      "counterparty": "Nvidia, OpenAI",
+      "as_of_date": "2026-11-20",
+      "source_title": "Luminix: Circular Financing in AI",
+      "source_url": "https://www.useluminix.com/reports/industry-analysis/ai-circular-deals",
+      "confidence": "medium"
+    },
+    {
+      "category": "other",
+      "description": "Expected ~$9B of customer prepayments/deposits over the following three months (>$3B tied to recontracting paid-off infrastructure). Funds capex but creates a delivery obligation; converts financing risk into execution risk.",
+      "amount_usd_bn": 9.0,
+      "counterparty": "Customers (not named)",
+      "as_of_date": "2026-11-10",
+      "source_title": "TechTimes: CoreWeave Q3 - $9B customer prepayments expected",
+      "source_url": "https://www.techtimes.com/articles/330522/20261112/coreweave-q3-earnings-recourse-debt-climbs-10b-one-quarter-9b-customer-prepayments-expected.htm",
+      "confidence": "medium"
+    }
+  ],
+  "total_off_balance_usd_bn": 72.3,
+  "total_note": "Hard, quantified obligations not on the balance sheet: $47.4B leases not yet commenced + up to $16.9B single-site capped lease + $2.1B construction commitments + ~$4.0B other purchase commitments + $1.9B JV max loss exposure = ~$72.3B. Excludes Nvidia's $6.3B backstop (an asset/support for CoreWeave, not an obligation), Nvidia's $2B equity, OEM financing (already in debt), prepayments (future liabilities), and backlog/customer commitments (revenue, not obligations). Adding on-balance debt ($47.5B) and lease liabilities ($19.3B), total fixed obligations ~$139B vs TTM operating cash flow ~$7.2B (~19x) and equity ~$4B.",
+  "credit_signals": [
+    {
+      "type": "rating",
+      "detail": "Moody's Ba3 corporate family, B1 senior unsecured (stable), affirmed 2026-10-20. S&P B+ issuer; B on 9.625% 2032 notes. Fitch issuer BB- (positive outlook, July 2026). Contract-backed DDTL 4.0 rated A3 (Moody's) / A(low) DBRS; DDTL 5.0/5.5 Ba2 / BB+.",
+      "date": "2026-10-20",
+      "source_url": "https://www.versusapps.com/blog/will-coreweave-go-bankrupt-prediction"
+    },
+    {
+      "type": "cds",
+      "detail": "5-year CDS rose as much as 76bp to 1,232.6bp on Nov 20 (implies >65% 5-yr default probability); Deutsche Bank data showed >1,289bp on Nov 19; ~1,140bp after the midterms.",
+      "date": "2026-11-20",
+      "source_url": "https://leprivatebanker.com/2026/11/20/ai-credit-gauges-worsen-as-coreweave-default-swaps-widen-toward-1233-basis-points-and-oracle-hits-a-one-month-high/"
+    },
+    {
+      "type": "bond_yields",
+      "detail": "Unsecured notes (coupons 8.5-9.75%) trading ~80 cents: 9.75% 2031 at 79.75 (15.83% yield) on Nov 2; 9.625% 2032 yield >16% on Nov 6, 14.21% on Nov 11. CEO: will not use unsecured market at current yields.",
+      "date": "2026-11-11",
+      "source_url": "https://fourweekmba.com/ai-coreweaves-7-75b-of-dollar-bonds-now-trade-near-6-3b/"
+    },
+    {
+      "type": "debt_raise",
+      "detail": "$4.2B 2.875% convertible senior notes due 2033 closed Sept 22, 2026 (conversion ~$97.85). DDTL 5.5 $2.6B at SOFR+5.50% (Aug 2026, $1.56B drawn). Seeking >= $4B investment-grade loan backed by Meta contracts via Morgan Stanley/MUFG at ~7-7.5% (Nov 2026, not closed).",
+      "date": "2026-11-13",
+      "source_url": "https://www.semafor.com/article/11/13/2026/coreweave-tunes-out-nvidia-noise-looks-to-raise-4b"
+    },
+    {
+      "type": "equity_raise",
+      "detail": "ATM program for up to 35M Class A shares (with collared forwards) set up Sept 17, 2026.",
+      "date": "2026-09-17",
+      "source_url": "https://sec-api.io/insights/coreweave-crwv-q3-2026-earnings-132-5b-backlog-4-6-gw-contracted-power-and-46-9bn-of-debt-sec-filing-analysis"
+    },
+    {
+      "type": "interest_burden",
+      "detail": "Q3 net interest expense $846M (4x GAAP operating income of $207M); Q4 guided $1.05-1.15B.",
+      "date": "2026-11-10",
+      "source_url": "https://investors.coreweave.com/news/news-details/2026/CoreWeave-Reports-Strong-Third-Quarter-2026-Results/default.aspx"
+    }
+  ],
+  "news_context": [
+    {
+      "date": "2026-10-14",
+      "headline_summary": "CoreWeave shares fall 15.5% in a day; unsecured bond yields hit ~15-16%, CDS >1,000bp amid rumors about debt and financing access (later cited in 10-Q risk factors).",
+      "why_it_matters": "Unsecured funding window effectively closed; company now depends on asset-backed loans, converts, prepayments and equity.",
+      "source_url": "https://acquinox.capital/insights/compute-energy/neocloud-financing-balance-sheet-test"
+    },
+    {
+      "date": "2026-10-28",
+      "headline_summary": "Microsoft capex $45.2B misses, citing delayed third-party capacity deliveries; trims CY2026 capex to ~$170B; neoclouds sell off.",
+      "why_it_matters": "Microsoft was 67% of CoreWeave's 2025 revenue; delivery delays defer revenue while interest keeps accruing.",
+      "source_url": "https://ground.news/article/coreweave-and-other-neocloud-stocks-drop-after-microsoft-capex-comes-in-below-expectations"
+    },
+    {
+      "date": "2026-11-04",
+      "headline_summary": "Democratic midterm sweep and 41 local data-center ballot measures; CoreWeave -9%, CDS ~1,140bp.",
+      "why_it_matters": "Political/permitting backlash slows new capacity, hitting the most leveraged builders first.",
+      "source_url": "https://www.thinkingtechstocks.com/p/microsoft-up-coreweave-down-the-market"
+    },
+    {
+      "date": "2026-11-06",
+      "headline_summary": "Microsoft shrinking its roster of neocloud partners and prioritizing own data centers (CNBC/Bloomberg); also winds down Oracle rental deal.",
+      "why_it_matters": "Key anchor customer reducing third-party reliance raises renewal and concentration risk for CoreWeave's backlog.",
+      "source_url": "https://www.cnbc.com/2026/11/06/microsoft-moves-to-consolidate-its-relationships-with-neoclouds-in-ai.html"
+    },
+    {
+      "date": "2026-11-10",
+      "headline_summary": "Q3 beat: revenue $3.66B (+168%), backlog $132.5B, FY guide raised; but net loss $709M, interest $846M, capex $14.5B, debt $47.5B; ~$9B prepayments expected.",
+      "why_it_matters": "Strong demand but growth is almost entirely debt- and prepayment-funded; interest cost exceeds operating profit.",
+      "source_url": "https://www.cnbc.com/2026/11/10/coreweave-crwv-q3-earnings-report-2026.html"
+    },
+    {
+      "date": "2026-11-12",
+      "headline_summary": "Nvidia CEO Jensen Huang resigns; interim CEO Kress says Nvidia will be more selective on future investments and guarantees, existing neocloud commitments unchanged.",
+      "why_it_matters": "Nvidia is CoreWeave's supplier, ~10% shareholder and $6.3B capacity backstop; perceived support is central to lender confidence.",
+      "source_url": "https://longbridge.com/en/quote/CRWV.US/news/306001367"
+    },
+    {
+      "date": "2026-11-13",
+      "headline_summary": "CoreWeave marketing >= $4B Meta-contract-backed IG loan at ~7.5% vs ~16% on its unsecured bonds.",
+      "why_it_matters": "Lenders underwrite CoreWeave's customers, not CoreWeave; access depends on keeping AA-rated customer contracts.",
+      "source_url": "https://www.semafor.com/article/11/13/2026/coreweave-tunes-out-nvidia-noise-looks-to-raise-4b"
+    },
+    {
+      "date": "2026-11-20",
+      "headline_summary": "CoreWeave CDS widens to ~1,233bp as AI selloff spreads to credit.",
+      "why_it_matters": "Market prices a majority chance of default within five years.",
+      "source_url": "https://leprivatebanker.com/2026/11/20/ai-credit-gauges-worsen-as-coreweave-default-swaps-widen-toward-1233-basis-points-and-oracle-hits-a-one-month-high/"
+    }
+  ],
+  "hidden_leverage_assessment": {
+    "rating": "Severe",
+    "rationale": "CoreWeave already owes about $47.5B of debt plus $19B of booked leases, and on top of that has ~$72B of signed obligations that are not on its balance sheet yet (mostly data-center leases starting 2026-2029). That is many times its ~$7B of yearly operating cash flow and ~$4B of equity, and its interest bill alone is bigger than its operating profit. It survives by continuously raising new money - GPU-backed loans, convertibles, share sales and customer prepayments - and lenders mainly trust the contracts of a few giant customers (Microsoft, OpenAI, Meta), one of which (OpenAI) is itself funded partly by Nvidia. Nvidia's $2B stock purchase and $6.3B 'buy unsold capacity' backstop make the loop look safer, but they are small relative to the obligations, and bond and CDS markets (~16% yields, ~1,200bp CDS) are pricing real default risk.",
+    "biggest_hidden_risk": "If a top customer (e.g., Microsoft consolidating neoclouds) cuts or delays capacity while credit markets stay shut, CoreWeave is still on the hook for ~$64B of signed, mostly long-dated leases with no cash cushion to cover them.",
+    "what_would_change_my_mind": "Several quarters of positive free cash flow plus investment-grade asset loans closing at ~7% with backlog diversifying away from Microsoft/OpenAI/Meta and CDS falling well below 500bp."
+  },
+  "sources": [
+    "http://rmb.reuters.com/rmd/rss/item/tag:reuters.com,2026:newsml_KCN3WG2UP?channel=frL012",
+    "https://06.ai/wire/w117/",
+    "https://247wallst.com/investing/2026/11/16/coreweave-shed-50-of-its-value-over-3-months-one-noted-analyst-predicts-prices-triple-several-others-close-behind/",
+    "https://acquinox.capital/insights/compute-energy/neocloud-financing-balance-sheet-test",
+    "https://ccir.io/research/coreweave-debt-by-entity-q3-2026",
+    "https://cityfort.co/stocks/coreweave",
+    "https://equibles.com/stocks/crwv/documents/287fd8e6-ac4e-431d-b60f-a133d9296e33",
+    "https://filinginsights.substack.com/p/coreweaves-10-q-sec-filing-risk-factors",
+    "https://finance.yahoo.com/markets/stocks/articles/stay-away-coreweave-huang-scandal-164432942.html",
+    "https://finance.yahoo.com/technology/ai/articles/nvidia-coreweave-key-sole-supplier-124957651.html",
+    "https://flashfinanceusa.com/stock/CRWV/",
+    "https://fourweekmba.com/ai-coreweaves-7-75b-of-dollar-bonds-now-trade-near-6-3b/",
+    "https://fourweekmba.com/ai-investment-grade-vs-high-yield-how-coreweave-borrows-money/",
+    "https://ground.news/article/coreweave-and-other-neocloud-stocks-drop-after-microsoft-capex-comes-in-below-expectations",
+    "https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Announces-CEO-Transition/",
+    "https://investors.coreweave.com/news/news-details/2026/CoreWeave-Reports-Strong-Third-Quarter-2026-Results/default.aspx",
+    "https://leprivatebanker.com/2026/11/20/ai-credit-gauges-worsen-as-coreweave-default-swaps-widen-toward-1233-basis-points-and-oracle-hits-a-one-month-high/",
+    "https://longbridge.com/en/quote/CRWV.US/news/306001367",
+    "https://mlq.ai/research/coreweave-q3-2026-revenue-up-168-to-3-66b-backlog-132-5b-interest-expense-up-173-to-846m/",
+    "https://savrn.com/research/series/neocloud-earnings-q3-2026-research-series",
+    "https://sec-api.io/insights/coreweave-crwv-q3-2026-earnings-132-5b-backlog-4-6-gw-contracted-power-and-46-9bn-of-debt-sec-filing-analysis",
+    "https://transcripts.platformaeronaut.com/transcripts/CRWV-3Q26-transcript",
+    "https://www.cnbc.com/2026/11/06/microsoft-moves-to-consolidate-its-relationships-with-neoclouds-in-ai.html",
+    "https://www.cnbc.com/2026/11/10/coreweave-crwv-q3-earnings-report-2026.html",
+    "https://www.insidedeeptech.com/coreweave-ai-neocloud-gpu-fleet-debt-full-guide/",
+    "https://www.kentucky.com/news/business/article318063393.html",
+    "https://www.listed.markets/filings/0001769628-26-000465",
+    "https://www.semafor.com/article/11/13/2026/coreweave-tunes-out-nvidia-noise-looks-to-raise-4b",
+    "https://www.stocktitan.net/sec-filings/CRWV/10-q-core-weave-inc-quarterly-earnings-report-f12417e8443a.html",
+    "https://www.techtimes.com/articles/330522/20261112/coreweave-q3-earnings-recourse-debt-climbs-10b-one-quarter-9b-customer-prepayments-expected.htm",
+    "https://www.thinkingtechstocks.com/p/microsoft-up-coreweave-down-the-market",
+    "https://www.useluminix.com/reports/industry-analysis/ai-circular-deals",
+    "https://www.versusapps.com/blog/will-coreweave-go-bankrupt-prediction"
+  ]
+}

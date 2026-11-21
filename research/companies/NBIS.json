@@ -1,0 +1,259 @@
+{
+  "ticker": "NBIS",
+  "company": "Nebius Group N.V.",
+  "as_of": "2026-11-21",
+  "reported_snapshot": {
+    "period": "Q3 2026 (quarter ended 2026-09-30), reported 2026-11-12",
+    "revenue_q3_usd_bn": 0.981,
+    "revenue_note": "Q3 revenue $980.8M (+571% y/y) included ~$325M of nonrecurring partner revenue. Adjusted EBITDA $465.8M; net loss from continuing ops $37.5M after $112.5M interest and $49.5M induced-conversion expense.",
+    "total_debt_usd_bn": 14.19,
+    "total_debt_note": "Carrying value: current $187.5M + non-current $14,003.3M. Principal outstanding $16.48B (eight convertible note series ~$15.7B + $751.8M term loan at SOFR+2.5%). Up from $4.1B at 2025 year-end. Excludes the $3.5B 364-day Citi senior secured facility signed 2026-10-22 (after quarter end). Non-current operating lease liabilities another $1.77B.",
+    "cash_usd_bn": 7.43,
+    "operating_cash_flow_q3_usd_bn": -0.273,
+    "capex_q3_usd_bn": 7.30,
+    "free_cash_flow_q3_usd_bn": -7.57,
+    "operating_cash_flow_9m_usd_bn": 4.23,
+    "capex_9m_usd_bn": 15.43,
+    "cash_flow_note": "9M operating cash flow is positive only because of customer prepayments (deferred revenue rose from $1.58B to $9.41B). FCF = OCF minus capex (our arithmetic).",
+    "deferred_revenue_prepayments_usd_bn": 9.41,
+    "rpo_usd_bn": 38.7,
+    "rpo_note": "40% expected within 24 months, 40% in months 25-48, rest after.",
+    "capex_guidance": "2026 ~$27B (raised from $20-25B); 2027 $40-45B, 75-85% to be covered by customer prepayments ($17-20B expected in 2027) and asset-backed financing of Microsoft/Meta contracts.",
+    "revenue_guidance": "2026 $3.0-3.2B (cut from $3.0-3.4B); 2027 $12-13B; pre-tax breakeven targeted Q4 2027.",
+    "equity_raised_9m": "Convertible notes $10.09B gross and ~$3.9B ATM treasury share sales in 9M 2026; diluted shares +24% y/y.",
+    "sources": [
+      "https://www.sec.gov/Archives/edgar/data/0001513845/000110465926126238/nbis-ex99d2.htm",
+      "https://assets.nebius.com/assets/508584f1-b73d-484f-b64f-f96a5bc3b515/Nebius%20Q3%202026%20Financial%20Results%20Press%20Release.pdf?cache-buster=2026-11-12T11:39:45.923Z",
+      "https://evidinvest.com/blog/nbis-q3-2026-read-back-contracts-capex-financing-2026-11-13",
+      "https://sec-api.io/insights/nebius-group-nbis-q3-2026-earnings-980-8m-revenue-38-7bn-rpo-and-a-12bn-to-13bn-2027-outlook-sec-filing-analysis",
+      "https://convergedigest.com/nebius-q3-2026-earnings-ai-cloud-capex-2027/"
+    ]
+  },
+  "off_balance_items": [
+    {
+      "category": "leases_not_commenced",
+      "description": "Signed data center facility and equipment leases not yet commenced: aggregate future undiscounted payments $13.86B ($13.24B remaining after $619.7M prepaid; $572.7M due in next 12 months, $12.67B thereafter). Largely third-party colocation sites that are now running late.",
+      "amount_usd_bn": 13.86,
+      "counterparty": "Data center landlords / colocation providers (e.g., DataOne in Vineland, NJ)",
+      "as_of_date": "2026-09-30",
+      "source_title": "Nebius Q3 2026 condensed financial statements (6-K Ex. 99.2)",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/0001513845/000110465926126238/nbis-ex99d2.htm",
+      "confidence": "high"
+    },
+    {
+      "category": "other",
+      "description": "Take-or-pay style energy and power supply agreements with fixed/minimum guaranteed payments: $27.2M 2026, ~$287M/yr 2027-2030, $1,563.8M thereafter.",
+      "amount_usd_bn": 2.73,
+      "counterparty": "Power suppliers",
+      "as_of_date": "2026-09-30",
+      "source_title": "Nebius Q3 2026 condensed financial statements (6-K Ex. 99.2)",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/0001513845/000110465926126238/nbis-ex99d2.htm",
+      "confidence": "high"
+    },
+    {
+      "category": "guarantees_backstops",
+      "description": "Parent guarantees: non-recourse 'bad acts' guaranty on the $751.8M contract-backed term loan, and performance guarantees of certain subsidiaries' obligations (amounts not disclosed).",
+      "amount_usd_bn": null,
+      "counterparty": "Term loan lenders; subsidiaries' counterparties",
+      "as_of_date": "2026-09-30",
+      "source_title": "Nebius Q3 2026 condensed financial statements (6-K Ex. 99.2)",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/0001513845/000110465926126238/nbis-ex99d2.htm",
+      "confidence": "high"
+    },
+    {
+      "category": "other",
+      "description": "$3.5B senior secured 364-day facility from Citi (Term SOFR+2.75%, stepping up toward 3.50%) for data center development and GPU purchases, signed after quarter end - a bridge that must be refinanced in late 2027.",
+      "amount_usd_bn": 3.5,
+      "counterparty": "Citigroup",
+      "as_of_date": "2026-10-22",
+      "source_title": "Banks, investors grow wary of AI debt (Reuters); Nebius 6-K",
+      "source_url": "https://www.reuters.com/legal/transactional/banks-investors-grow-wary-ai-debt-spooked-by-market-selloff-2026-11-09/",
+      "confidence": "high"
+    },
+    {
+      "category": "vendor_financing",
+      "description": "RECIPIENT of vendor financing: Nvidia (its GPU supplier) paid $2B for pre-funded warrants over ~21.07M shares in March 2026; Nvidia holds 9.3% (22.26M shares). Proceeds fund data centers filled with Nvidia GPUs.",
+      "amount_usd_bn": 2.0,
+      "counterparty": "Nvidia",
+      "as_of_date": "2026-07-20",
+      "source_title": "Nvidia Reveals 9.3% Stake in AI Cloud Firm Nebius (Moscow Times / Reuters); Nebius 6-K Note 14",
+      "source_url": "https://www.themoscowtimes.com/2026/07/21/nvidia-reveals-93-stake-in-ai-cloud-firm-nebius-sending-shares-higher-a93303/pdf",
+      "confidence": "high"
+    },
+    {
+      "category": "vendor_financing",
+      "description": "Customer prepayments used to fund capex (deferred revenue $9.41B). Q3 contracts' prepayments covered >100% of related capex. These are refundable/penalty-bearing if capacity is late: the Microsoft contract allows termination of affected service after a grace period if delivery dates are missed, plus late-delivery penalties.",
+      "amount_usd_bn": 9.41,
+      "counterparty": "Microsoft, Meta, other AI cloud customers",
+      "as_of_date": "2026-09-30",
+      "source_title": "Nebius tests the neocloud playbook with $40 billion in planned spending (TechCrunch)",
+      "source_url": "https://techcrunch.com/2026/11/12/nebius-tests-the-neocloud-playbook-with-40-billion-in-planned-spending/",
+      "confidence": "high"
+    },
+    {
+      "category": "customer_concentration",
+      "description": "Microsoft: dedicated GPU capacity at Vineland, NJ, ~$17.4B through 2031 (up to ~$19.4B with additional purchases). Remaining tranches slipped to Q2 2027 after site operator DataOne retired temporary generation.",
+      "amount_usd_bn": 17.4,
+      "counterparty": "Microsoft",
+      "as_of_date": "2025-09-08",
+      "source_title": "Nebius results: revenue up 571%, and the stock fell 16.8% (citing Nebius 6-K)",
+      "source_url": "https://news.skipandgrow.com/en/news/nebius-q3-2026-results-ai-cloud-explained-november-2026",
+      "confidence": "high"
+    },
+    {
+      "category": "customer_concentration",
+      "description": "Meta: five-year agreement from early 2027 on Nvidia Vera Rubin - $12B dedicated capacity plus commitment to buy up to ~$15B of other capacity (up to ~$27B).",
+      "amount_usd_bn": 27,
+      "counterparty": "Meta Platforms",
+      "as_of_date": "2026-03-31",
+      "source_title": "Nebius Group Q3 2026 Earnings SEC filing analysis (sec-api.io)",
+      "source_url": "https://sec-api.io/insights/nebius-group-nbis-q3-2026-earnings-980-8m-revenue-38-7bn-rpo-and-a-12bn-to-13bn-2027-outlook-sec-filing-analysis",
+      "confidence": "high"
+    },
+    {
+      "category": "customer_concentration",
+      "description": "Three unnamed customers = 33%, 22%, 15% of Q3 revenue (70%); one customer = 75% of accounts receivable ($4.04B AR). RPO $38.7B dominated by Microsoft and Meta.",
+      "amount_usd_bn": 38.7,
+      "counterparty": "Unnamed (Customers C, D, E)",
+      "as_of_date": "2026-09-30",
+      "source_title": "Nebius Q3 2026 condensed financial statements (6-K Ex. 99.2)",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/0001513845/000110465926126238/nbis-ex99d2.htm",
+      "confidence": "high"
+    },
+    {
+      "category": "circular_deals",
+      "description": "Nvidia invests $2B in Nebius -> Nebius buys Nvidia GPUs (Vera Rubin for Meta contract) -> Nebius borrows against those GPUs/contracts. Nvidia also stated it will be more 'disciplined and selective' supporting neoclouds going forward.",
+      "amount_usd_bn": null,
+      "counterparty": "Nvidia",
+      "as_of_date": "2026-11-17",
+      "source_title": "Nvidia, CoreWeave, and Nebius: Inside the Circular Financing of the GPU Boom (I/O Fund)",
+      "source_url": "https://io-fund.com/ai-stocks/nvidia-coreweave-nebius-circular-financing-gpu-boom",
+      "confidence": "medium"
+    },
+    {
+      "category": "other",
+      "description": "Unfunded 2027 capex: guidance $40-45B with only 75-85% expected from prepayments and asset-backed financing, leaving ~$6-11B to be raised (our arithmetic), on top of refinancing the $3.5B Citi bridge.",
+      "amount_usd_bn": 8.5,
+      "counterparty": "Capital markets",
+      "as_of_date": "2026-11-12",
+      "source_title": "Nebius pares back 2026 revenue forecast on capacity delays (Reuters)",
+      "source_url": "https://www.reuters.com/5f374b32b07b/technology/nebius-beats-quarterly-revenue-estimates-strong-ai-demand-2026-11-12",
+      "confidence": "medium"
+    }
+  ],
+  "total_off_balance_usd_bn": 20.1,
+  "total_note": "Hard, quantified off-balance obligations: leases not commenced $13.86B + energy take-or-pay $2.73B + post-quarter Citi facility $3.5B = $20.1B. Compare to ~$14.2B on-balance debt, $7.4B cash and negative Q3 FCF of ~$7.6B. Excluded: customer contracts (they are revenue, not obligations), prepayments (already on balance sheet as deferred revenue), Nvidia equity (already funded), and the ~$6-11B unfunded 2027 capex gap (a forecast, not a contract).",
+  "credit_signals": [
+    {
+      "item": "Credit rating",
+      "detail": "No public S&P/Moody's corporate rating found; capital structure is almost entirely convertible notes plus secured contract-backed loans.",
+      "date": "2026-11-12",
+      "source_url": "https://cbonds.com/company/35447/",
+      "confidence": "medium"
+    },
+    {
+      "item": "Shelved high-yield bond",
+      "detail": "Explored a $3-4B five-year high-yield bond (Goldman) in September, balked at costs, dropped it in October.",
+      "date": "2026-11-09",
+      "source_url": "https://www.reuters.com/legal/transactional/banks-investors-grow-wary-ai-debt-spooked-by-market-selloff-2026-11-09/"
+    },
+    {
+      "item": "Convertible price/yield",
+      "detail": "August 2026 convertibles (issued with 4.5% coupon tranche) fell to ~70 cents on the dollar, yields >12%.",
+      "date": "2026-11-17",
+      "source_url": "https://www.star-telegram.com/news/business/article318114814.html"
+    },
+    {
+      "item": "Convertible issuance",
+      "detail": "$4.34B converts (March 2026) and $5.75B converts (Aug 24, 2026: 0.50% due 2030 and 4.50% due 2034); ~$10.09B gross in 9M 2026.",
+      "date": "2026-08-24",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/0001513845/000110465926126238/nbis-ex99d2.htm"
+    },
+    {
+      "item": "Secured loans",
+      "detail": "$775M term loan (Jul 2026, SOFR+2.50%) secured on an investment-grade customer contract; $3.5B Citi 364-day bridge (Oct 2026, SOFR+2.75% stepping up).",
+      "date": "2026-10-22",
+      "source_url": "https://fourweekmba.com/how-ai-cloud-companies-borrow/"
+    },
+    {
+      "item": "Equity issuance",
+      "detail": "ATM program: ~$2.8B at ~$224/share through Q2; ~$3.9B net treasury share sales in 9M 2026.",
+      "date": "2026-11-12",
+      "source_url": "https://www.panabee.com/news/nebius-earnings-q3-2026"
+    }
+  ],
+  "news_context": [
+    {
+      "date": "2026-03-12",
+      "headline_summary": "Nvidia invests $2B in Nebius; Meta signs up-to-$27B five-year capacity deal around the same time.",
+      "why_it_matters": "Supplier funding plus a mega-contract that requires massive new GPU spending.",
+      "source_url": "https://pharmaphorum.com/news/nvidia-sinks-2bn-ai-cloud-provider-nebius"
+    },
+    {
+      "date": "2026-08-24",
+      "headline_summary": "Nebius closes $5.75B convertible note offering, total debt reaches ~$14B by Sept 30 (from $4.1B at year-end 2025).",
+      "why_it_matters": "Debt more than tripled in nine months to fund the build.",
+      "source_url": "https://www.panabee.com/news/nebius-earnings-q3-2026"
+    },
+    {
+      "date": "2026-10-22",
+      "headline_summary": "After abandoning a high-yield bond, Nebius takes a $3.5B one-year secured bridge from Citi.",
+      "why_it_matters": "Short-dated, rising-margin debt signals bond markets are closing for neoclouds.",
+      "source_url": "https://sg.finance.yahoo.com/news/banks-raced-fund-neoclouds-coreweave-020300823.html"
+    },
+    {
+      "date": "2026-11-12",
+      "headline_summary": "Q3: revenue $981M, but 2026 guide cut on third-party capacity delays (Microsoft NJ tranches slip to Q2 2027); 2026 capex raised to ~$27B, 2027 capex $40-45B; stock fell ~17%.",
+      "why_it_matters": "Spending rises while revenue timing slips; Microsoft has termination rights if delivery dates are missed.",
+      "source_url": "https://www.reuters.com/5f374b32b07b/technology/nebius-beats-quarterly-revenue-estimates-strong-ai-demand-2026-11-12"
+    },
+    {
+      "date": "2026-11-12",
+      "headline_summary": "Nvidia CEO Jensen Huang resigns; neocloud stocks sell off ('Neoclouds buckle under Nvidia scare').",
+      "why_it_matters": "Nebius's key supplier and 9.3% shareholder is in turmoil and later says it will be more selective backing neoclouds.",
+      "source_url": "https://www.reuters.com/business/retail-consumer/nvidia-ceo-jensen-huang-step-down-big-blow-ai-boom-2026-11-12/"
+    },
+    {
+      "date": "2026-11-17",
+      "headline_summary": "Reuters: Nvidia turmoil marks end of easy money; Nebius converts at 70 cents (>12% yield); stock down 57% since Oct 6.",
+      "why_it_matters": "Cost of new capital has jumped right when Nebius needs tens of billions.",
+      "source_url": "https://www.star-telegram.com/news/business/article318114814.html"
+    },
+    {
+      "date": "2026-11-17",
+      "headline_summary": "Nvidia's Kress: will stay 'disciplined and selective' supporting neoclouds and is 'rigorously evaluating future investments, commitments, and guarantees'.",
+      "why_it_matters": "Vendor-financing backstop for neoclouds may shrink.",
+      "source_url": "https://morethanmoore.substack.com/p/nvidia-q3-fy27-a-record-quarter"
+    }
+  ],
+  "hidden_leverage_assessment": {
+    "rating": "High",
+    "rationale": "Nebius plans to spend $40-45B next year while it has $7.4B of cash, burned about $7.6B of free cash flow last quarter, and already owes about $14B (plus a $3.5B one-year Citi bridge). It has also signed about $14B of data center leases that have not started yet and $2.7B of fixed power contracts that are not on the balance sheet as debt. Its plan only works if Microsoft and Meta keep prepaying and lenders keep lending against those contracts, and about 70% of revenue comes from three customers. The bond market is already pulling back (it shelved a junk bond and its converts trade around 70 cents), and its supplier-investor Nvidia is in turmoil. The saving grace is that its biggest customers are investment-grade and prepay a lot.",
+    "biggest_hidden_risk": "If third-party data center delays continue, Microsoft could terminate tranches and demand penalties while Nebius is still on the hook for $13.9B of leases and needs to refinance a 364-day bridge in a closed high-yield market.",
+    "what_would_change_my_mind": "Delivery of the remaining Microsoft capacity on the new schedule plus a long-dated, investment-grade asset-backed financing of the Meta/Microsoft contracts that covers 2027 capex without more bridge loans would move me to Elevated."
+  },
+  "sources": [
+    "https://www.sec.gov/Archives/edgar/data/0001513845/000110465926126238/nbis-ex99d2.htm",
+    "https://assets.nebius.com/assets/508584f1-b73d-484f-b64f-f96a5bc3b515/Nebius%20Q3%202026%20Financial%20Results%20Press%20Release.pdf?cache-buster=2026-11-12T11:39:45.923Z",
+    "https://www.reuters.com/5f374b32b07b/technology/nebius-beats-quarterly-revenue-estimates-strong-ai-demand-2026-11-12",
+    "https://techcrunch.com/2026/11/12/nebius-tests-the-neocloud-playbook-with-40-billion-in-planned-spending/",
+    "https://evidinvest.com/blog/nbis-q3-2026-read-back-contracts-capex-financing-2026-11-13",
+    "https://sec-api.io/insights/nebius-group-nbis-q3-2026-earnings-980-8m-revenue-38-7bn-rpo-and-a-12bn-to-13bn-2027-outlook-sec-filing-analysis",
+    "https://news.skipandgrow.com/en/news/nebius-q3-2026-results-ai-cloud-explained-november-2026",
+    "https://convergedigest.com/nebius-q3-2026-earnings-ai-cloud-capex-2027/",
+    "https://www.theglobeandmail.com/investing/markets/stocks/NBIS/pressreleases/8806586/nebius-group-nbis-q3-2026-earnings-call-transcript/",
+    "https://www.panabee.com/news/nebius-earnings-q3-2026",
+    "https://www.reuters.com/legal/transactional/banks-investors-grow-wary-ai-debt-spooked-by-market-selloff-2026-11-09/",
+    "https://www.star-telegram.com/news/business/article318114814.html",
+    "https://sg.finance.yahoo.com/news/banks-raced-fund-neoclouds-coreweave-020300823.html",
+    "https://9fin.com/insights/goldman-sachs-billion-nebius-high-yield",
+    "https://fourweekmba.com/how-ai-cloud-companies-borrow/",
+    "https://cbonds.com/company/35447/",
+    "https://www.themoscowtimes.com/2026/07/21/nvidia-reveals-93-stake-in-ai-cloud-firm-nebius-sending-shares-higher-a93303/pdf",
+    "https://pharmaphorum.com/news/nvidia-sinks-2bn-ai-cloud-provider-nebius",
+    "https://io-fund.com/ai-stocks/nvidia-coreweave-nebius-circular-financing-gpu-boom",
+    "https://www.tikr.com/blog/the-open-checkbook-is-over-nebius-backed-by-2-billion-from-nvidia-stands-to-gain",
+    "https://morethanmoore.substack.com/p/nvidia-q3-fy27-a-record-quarter",
+    "https://www.reuters.com/business/retail-consumer/nvidia-ceo-jensen-huang-step-down-big-blow-ai-boom-2026-11-12/"
+  ]
+}

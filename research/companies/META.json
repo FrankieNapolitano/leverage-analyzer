@@ -1,0 +1,269 @@
+{
+  "ticker": "META",
+  "company": "Meta Platforms, Inc.",
+  "as_of": "2026-11-21",
+  "reported_snapshot": {
+    "total_debt": {
+      "value_usd_bn": 84.0,
+      "note": "Face value of long-term debt $84.0B (carrying $80.9B) at 2026-09-30, incl. $25B May 2026 notes. Excludes ~$15B USD notes (Nov 3) and ~EUR9B (~$10B) euro notes (closed ~Nov 12) issued after quarter-end, and operating lease liabilities ($31.2B).",
+      "as_of": "2026-09-30",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1326801/000162828026066773/meta-20260930.htm"
+    },
+    "cash_and_marketable_securities": {
+      "value_usd_bn": 82.4,
+      "note": "Cash & equivalents $11.2B + marketable securities $71.2B.",
+      "as_of": "2026-09-30",
+      "source_url": "https://investor.atmeta.com/investor-news/press-release-details/2026/Meta-Reports-Third-Quarter-2026-Results/default.aspx"
+    },
+    "operating_cash_flow": {
+      "q3_2026_usd_bn": 32.8,
+      "source_url": "https://investor.atmeta.com/investor-news/press-release-details/2026/Meta-Reports-Third-Quarter-2026-Results/default.aspx"
+    },
+    "capex": {
+      "q3_2026_usd_bn": 34.9,
+      "note": "Purchases of PP&E $33.9B + finance lease principal $1.0B.",
+      "guidance_2026_usd_bn": "135-145 (incl. finance lease principal)",
+      "guidance_2027": "'notably larger' AI investments in 2027",
+      "source_url": "https://investor.atmeta.com/investor-news/press-release-details/2026/Meta-Reports-Third-Quarter-2026-Results/default.aspx"
+    },
+    "free_cash_flow": {
+      "q3_2026_usd_bn": -2.1,
+      "note": "S&P (negative outlook) projects free operating cash flow deficits of ~$22B (2026), $71B (2027), $39B (2028).",
+      "source_url": "https://investor.atmeta.com/investor-news/press-release-details/2026/Meta-Reports-Third-Quarter-2026-Results/default.aspx"
+    },
+    "shareholder_returns": {
+      "buybacks_q3_2026_usd_bn": 0.0,
+      "buybacks_ytd_2026_usd_bn": 0.0,
+      "dividends_q3_2026_usd_bn": 1.36,
+      "remaining_authorization_usd_bn": 25.03,
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1326801/000162828026066773/meta-20260930.htm"
+    },
+    "q3_2026_income": {
+      "revenue_usd_bn": 64.6,
+      "operating_income_usd_bn": 13.0,
+      "operating_margin": "20% (vs 40%)",
+      "net_income_usd_bn": 9.86,
+      "note": "Operating income cut by $9.89B legal charge (Aug 2026 multistate AG agreement); 2026 total expense guide $175-179B.",
+      "source_url": "https://investor.atmeta.com/investor-news/press-release-details/2026/Meta-Reports-Third-Quarter-2026-Results/default.aspx"
+    },
+    "rpo_backlog": {
+      "note": "Not relevant (advertising business)."
+    }
+  },
+  "off_balance_items": [
+    {
+      "category": "purchase_commitments",
+      "description": "Non-cancelable contractual commitments (servers, network, data center/energy, cloud compute capacity incl. CoreWeave, Nebius, Google, Oracle contracts); ~$45.85B due rest of 2026 and $121.41B in 2027.",
+      "amount_usd_bn": 454.52,
+      "counterparty": "Suppliers incl. CoreWeave, Nebius, Google Cloud, Oracle, Nvidia/hardware vendors",
+      "as_of_date": "2026-09-30",
+      "source_title": "Meta Form 10-Q Q3 2026 (Commitments)",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1326801/000162828026066773/meta-20260930.htm",
+      "confidence": "high"
+    },
+    {
+      "category": "purchase_commitments",
+      "description": "Additional contingent obligations to purchase up to $14.72B of cloud capacity over five years (consistent with Nebius' $15B 'unsold capacity' option). Not in the $454.5B.",
+      "amount_usd_bn": 14.72,
+      "counterparty": "Nebius (likely) / cloud providers",
+      "as_of_date": "2026-09-30",
+      "source_title": "Meta Form 10-Q Q3 2026",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1326801/000162828026066773/meta-20260930.htm",
+      "confidence": "medium"
+    },
+    {
+      "category": "leases_not_commenced",
+      "description": "Operating and finance leases signed but not yet commenced: data centers, energy infrastructure, colocations and network infrastructure, commencing rest of 2026 through 2036, terms >1 to 30 years.",
+      "amount_usd_bn": 355.73,
+      "counterparty": "Data center developers/JVs (incl. Hyperion/Beignet), energy, colo providers",
+      "as_of_date": "2026-09-30",
+      "source_title": "Meta Form 10-Q Q3 2026, Leases note",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1326801/000162828026066773/meta-20260930.htm",
+      "confidence": "high"
+    },
+    {
+      "category": "guarantees_backstops",
+      "description": "Maximum residual value guarantees (RVGs) to unconsolidated data-center JVs (Hyperion/Beignet with Blue Owl, plus others). Meta says payment is not probable; carried at ~zero.",
+      "amount_usd_bn": 41.49,
+      "counterparty": "Blue Owl/Beignet Investor LLC and other data center JVs",
+      "as_of_date": "2026-09-30",
+      "source_title": "Meta Form 10-Q Q3 2026 (VIE note)",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1326801/000162828026066773/meta-20260930.htm",
+      "confidence": "high"
+    },
+    {
+      "category": "guarantees_backstops",
+      "description": "Total maximum exposure to loss in unconsolidated data-center ventures: $68.40B (up 49% from $45.95B at YE2025) = equity carrying value $4.73B + lease commitments $18.48B + future funding commitments $3.70B + RVGs $41.49B. Includes new July 2026 Texas JV (Meta 20%, ~$14B development cost).",
+      "amount_usd_bn": 68.4,
+      "counterparty": "Data center JVs (Hyperion, Texas JV, others)",
+      "as_of_date": "2026-09-30",
+      "source_title": "Meta Form 10-Q Q3 2026; FourWeekMBA summary",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1326801/000162828026066773/meta-20260930.htm",
+      "confidence": "high"
+    },
+    {
+      "category": "guarantees_backstops",
+      "description": "Hyperion (Louisiana, ~5GW): Blue Owl funds own 80%, Meta 20%; SPV Beignet Investor issued ~$27.3B of bonds (PIMCO anchor) kept off Meta's balance sheet. Meta leases the campus (lease reported to start June 2029) and provides an RVG (reported capped near ~$28B) if it doesn't renew. Counted inside the $68.4B above; not summed separately.",
+      "amount_usd_bn": 27.3,
+      "counterparty": "Blue Owl / Beignet Investor LLC / PIMCO bondholders",
+      "as_of_date": "2026-07-20",
+      "source_title": "Global Data Center Hub: Hyperion financing",
+      "source_url": "https://www.globaldatacenterhub.com/p/the-hyperion-financing-is-the-signal",
+      "confidence": "medium"
+    },
+    {
+      "category": "vendor_financing",
+      "description": "Meta is a RECIPIENT of vendor/structured financing: Blue Owl JV equity (~$23B per GDCH) and SPV debt fund Hyperion; Meta took ~$3B one-time distribution. Separately, CoreWeave's $8.5B DDTL 4.0 is backstopped by its Meta contract, i.e., Meta's commitments are collateral for neocloud debt.",
+      "amount_usd_bn": 27.3,
+      "counterparty": "Blue Owl, PIMCO, CoreWeave lenders",
+      "as_of_date": "2026-07-20",
+      "source_title": "Global Data Center Hub; MeasuredAI neocloud report",
+      "source_url": "https://privatecreditprep.com/deals/meta-hyperion-27bn-off-balance-sheet",
+      "confidence": "medium"
+    },
+    {
+      "category": "customer_concentration",
+      "description": "Meta as a concentrated BUYER of neocloud capacity: CoreWeave ~$35B total (14.2B Sept 2025 + $21B Apr 2026 through 2032); Nebius up to $27B (Mar 2026: $12B dedicated + up to $15B); Oracle ~$20B (Oct 2025); Google TPU rental multi-billion (Feb 2026). These neoclouds are debt-financed against Meta's contracts. Presumed inside the $454.5B commitments; not summed.",
+      "amount_usd_bn": 82.0,
+      "counterparty": "CoreWeave, Nebius, Oracle, Google",
+      "as_of_date": "2026-04-09",
+      "source_title": "CoreWeave/Nebius press releases; CNBC; Reuters",
+      "source_url": "https://investors.coreweave.com/news/news-details/2026/CoreWeave-and-Meta-Announce-21-Billion-Expanded-AI-Infrastructure-Agreement/default.aspx",
+      "confidence": "medium"
+    },
+    {
+      "category": "other",
+      "description": "New Mexico court ordered Meta to pay $25B civil penalty (Oct 21, 2026) with 15% annual interest pending appeal; Meta appealing. 10-Q references accrual for loss contingencies; accrual status of full amount unclear.",
+      "amount_usd_bn": 25.0,
+      "counterparty": "State of New Mexico",
+      "as_of_date": "2026-10-21",
+      "source_title": "Reuters: Meta ordered to pay $25 billion penalty",
+      "source_url": "https://www.reuters.com/business/meta-ordered-pay-25-billion-new-mexico-after-jury-finds-company-misled-consumers-2026-10-21/",
+      "confidence": "medium"
+    },
+    {
+      "category": "other",
+      "description": "New Class C (non-voting) common stock via one-time 1:1 stock dividend (effective ~Jan 19, 2027), explicitly to support capital raising, compensation and acquisitions while preserving Zuckerberg's control — sets up future equity funding of AI capex.",
+      "amount_usd_bn": null,
+      "counterparty": "Public equity market",
+      "as_of_date": "2026-10-21",
+      "source_title": "Meta Q3 2026 earnings release",
+      "source_url": "https://investor.atmeta.com/investor-news/press-release-details/2026/Meta-Reports-Third-Quarter-2026-Results/default.aspx",
+      "confidence": "high"
+    }
+  ],
+  "total_off_balance_usd_bn": 855.44,
+  "total_note": "Sum: non-cancelable commitments $454.52B + leases not yet commenced $355.73B + JV residual value guarantees $41.49B + JV future funding commitments $3.70B = $855.44B. Excluded to avoid double counting: JV lease commitments $18.48B (assumed within uncommenced leases), JV equity $4.73B (already a balance-sheet asset), Hyperion $27.3B (inside the $68.4B JV exposure), named cloud contracts ~$82B (inside the $454.5B), $14.72B contingent cloud purchases (contingent), $25B New Mexico judgment (litigation, under appeal). Off-balance total is ~6.5x annualized Q3 operating cash flow (~$131B) and ~10x debt face value.",
+  "credit_signals": [
+    {
+      "item": "Moody's rating",
+      "detail": "Aa3 senior unsecured, stable; assigned to Nov 2026 notes, expecting conservative financial policy and positive net cash.",
+      "date": "2026-11-04",
+      "source_url": "https://finance.yahoo.com/markets/stocks/articles/meta-just-paid-7-5-131327635.html"
+    },
+    {
+      "item": "S&P rating",
+      "detail": "AA-, outlook revised to NEGATIVE (late Oct 2026). S&P projects FOCF deficits of ~$22B/$71B/$39B for 2026-2028 and leverage of 1.1x (2027) and 1.3x (2028), above its 1.0x downgrade threshold.",
+      "date": "2026-11-04",
+      "source_url": "https://finance.yahoo.com/markets/stocks/articles/meta-just-paid-7-5-131327635.html"
+    },
+    {
+      "item": "USD bond Nov 2026",
+      "detail": "$15B five-tranche deal (2031 5.85% +110bp ... 2056 7.50% +220bp, ~7.53% yield); orders ~$58B (3.9x).",
+      "date": "2026-11-03",
+      "source_url": "https://finance.yahoo.com/markets/stocks/articles/meta-just-paid-7-5-131327635.html"
+    },
+    {
+      "item": "Debut euro bond",
+      "detail": "~EUR8.25-9B six-tranche debut euro deal (4.30%-6.40% coupons, to 2065); Meta paid ~1.4x Alphabet's euro spreads.",
+      "date": "2026-11-05",
+      "source_url": "https://247wallst.com/investing/2026/11/05/meta-paid-1-4-times-what-alphabet-did-to-borrow-in-euros/"
+    },
+    {
+      "item": "May 2026 notes",
+      "detail": "$25.0B fixed-rate senior notes in six series maturing 2031-2066, 4.55%-6.45%.",
+      "date": "2026-09-30",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1326801/000162828026066773/meta-20260930.htm"
+    },
+    {
+      "item": "Hyperion SPV bonds",
+      "detail": "Beignet Investor ~$27.3B bonds priced ~140bp over Meta's own curve; reports the bonds hit record low price in Sept 2026.",
+      "date": "2026-09",
+      "source_url": "https://privatecreditprep.com/deals/meta-hyperion-27bn-off-balance-sheet"
+    }
+  ],
+  "news_context": [
+    {
+      "date": "2026-10-21",
+      "headline_summary": "Q3 2026: revenue $64.6B (+26%) but operating margin halved to 20% on $9.9B legal charge and AI costs; capex $34.9B, FCF -$2.1B; 2026 capex guide $135-145B, 2027 AI spend 'notably larger'.",
+      "why_it_matters": "Meta's internal cash no longer covers its buildout; it now relies on bond markets and off-balance JVs.",
+      "source_url": "https://finance.yahoo.com/news/meta-stock-sinks-after-tax-hit-weighs-on-earnings-company-touts-notably-larger-ai-investments-in-year-ahead-201015549.html"
+    },
+    {
+      "date": "2026-10-21",
+      "headline_summary": "Meta creates new non-voting Class C stock via 1:1 stock dividend (effective Jan 2027) to 'finance its growth' and support capital raising.",
+      "why_it_matters": "Signals equity issuance to fund AI without diluting Zuckerberg's control.",
+      "source_url": "https://investor.atmeta.com/investor-news/press-release-details/2026/Meta-Reports-Third-Quarter-2026-Results/default.aspx"
+    },
+    {
+      "date": "2026-10-21",
+      "headline_summary": "New Mexico judge orders Meta to pay $25B penalty (15% interest during appeal) in Cambridge Analytica privacy case.",
+      "why_it_matters": "A large new cash claim on top of the $9.9B multistate AG settlement, competing with capex for cash.",
+      "source_url": "https://www.reuters.com/business/meta-ordered-pay-25-billion-new-mexico-after-jury-finds-company-misled-consumers-2026-10-21/"
+    },
+    {
+      "date": "2026-10-22",
+      "headline_summary": "10-Q: max exposure to unconsolidated data-center JVs rises 49% to $68.4B ($41.5B RVGs); uncommenced leases $355.7B; non-cancelable commitments $454.5B.",
+      "why_it_matters": "The off-balance obligation stack is ~10x Meta's on-balance debt.",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1326801/000162828026066773/meta-20260930.htm"
+    },
+    {
+      "date": "2026-11-03",
+      "headline_summary": "Meta sells $15B of USD bonds (30-yr at ~7.5%) and debut ~EUR9B euro deal; S&P outlook negative.",
+      "why_it_matters": "Borrowing costs are rising and a ratings agency is openly flagging downgrade risk tied to AI capex.",
+      "source_url": "https://finance.yahoo.com/markets/stocks/articles/meta-just-paid-7-5-131327635.html"
+    },
+    {
+      "date": "2026-07",
+      "headline_summary": "Meta enters new Texas data center JV (20% stake, ~$14B development cost), following Hyperion/Blue Owl template.",
+      "why_it_matters": "Meta keeps replicating the off-balance JV + RVG structure, so hidden exposure keeps compounding.",
+      "source_url": "https://fourweekmba.com/ai-metas-data-center-venture-exposure-rises-49-to-68-4b/"
+    },
+    {
+      "date": "2026-04-09",
+      "headline_summary": "Meta expands CoreWeave deal by $21B through 2032 (total ~$35B); Nebius deal up to $27B (Mar 2026).",
+      "why_it_matters": "Meta is the anchor tenant whose contracts collateralize leveraged neoclouds' debt — if Meta cuts back, those lenders are exposed.",
+      "source_url": "https://augment.market/pulse/coreweave-has-now-signed-the-four-biggest-ai-labs"
+    }
+  ],
+  "hidden_leverage_assessment": {
+    "rating": "High",
+    "rationale": "On paper Meta has only ~$84B of debt and ~$82B of cash, so a balance-sheet scorecard says it's fine. But it has signed ~$356B of data-center/energy leases that haven't started yet, ~$455B of non-cancelable purchase commitments (including big neocloud contracts with CoreWeave, Nebius, Oracle and Google), and guarantees up to $41.5B of residual value on JVs like Hyperion, where Blue Owl and bondholders put up ~$27B that never shows up as Meta debt. That's roughly $855B of obligations versus maybe ~$130B a year of operating cash flow, at a moment when free cash flow is already negative, buybacks are zero, S&P has a negative outlook, and a $25B court penalty is pending. It isn't Severe because ads revenue still grows 26% and Meta can still borrow at AA-level rates, but it's the most structurally off-balance-sheet hyperscaler.",
+    "biggest_hidden_risk": "If AI returns disappoint and Meta wants to cut back, the $356B of signed leases and Hyperion-style residual value guarantees mean it can't easily walk away, so the 'flexible' capex is really fixed, debt-like spending.",
+    "what_would_change_my_mind": "Seeing Meta return to positive FCF in 2027 while S&P moves back to stable and the uncommenced-lease and JV exposure totals stop growing would drop this to Elevated."
+  },
+  "sources": [
+    "https://247wallst.com/investing/2026/11/05/meta-paid-1-4-times-what-alphabet-did-to-borrow-in-euros/",
+    "https://augment.market/pulse/coreweave-has-now-signed-the-four-biggest-ai-labs",
+    "https://finance.yahoo.com/markets/stocks/articles/meta-just-paid-7-5-131327635.html",
+    "https://finance.yahoo.com/news/meta-stock-sinks-after-tax-hit-weighs-on-earnings-company-touts-notably-larger-ai-investments-in-year-ahead-201015549.html",
+    "https://fourweekmba.com/ai-metas-data-center-venture-exposure-rises-49-to-68-4b/",
+    "https://investor.atmeta.com/investor-news/press-release-details/2025/Meta-Announces-Joint-Venture-with-Funds-Managed-by-Blue-Owl-Capital-to-Develop-Hyperion-Data-Center/default.aspx",
+    "https://investor.atmeta.com/investor-news/press-release-details/2026/Meta-Reports-Third-Quarter-2026-Results/default.aspx",
+    "https://investors.coreweave.com/news/news-details/2026/CoreWeave-and-Meta-Announce-21-Billion-Expanded-AI-Infrastructure-Agreement/default.aspx",
+    "https://measuredai.substack.com/p/neoclouds-ai-middle-layer",
+    "https://nebius.com/newsroom/nebius-signs-new-ai-infrastructure-agreement-with-meta",
+    "https://privatecreditprep.com/deals/meta-hyperion-27bn-off-balance-sheet",
+    "https://ratings.moodys.com/ratings-news/419044",
+    "https://sec-api.io/insights/financial-analysis-of-meta-platforms-meta-q3-2026-earnings",
+    "https://www.cnbc.com/2025/10/16/oracle-confirms-meta-cloud-deal-.html",
+    "https://www.cnbc.com/2026/10/21/meta-new-mexico-cambridge-analytica-penalty.html",
+    "https://www.globaldatacenterhub.com/p/the-hyperion-financing-is-the-signal",
+    "https://www.news4jax.com/business/2026/10/21/meta-q3-revenue-tops-estimates-and-zuckerberg-says-muse-accounts-have-topped-10-million/",
+    "https://www.reuters.com/business/google-signs-multibillion-dollar-ai-chip-deal-with-meta-information-reports-2026-02-26/",
+    "https://www.reuters.com/business/meta-ordered-pay-25-billion-new-mexico-after-jury-finds-company-misled-consumers-2026-10-21/",
+    "https://www.sec.gov/Archives/edgar/data/1326801/000162828026066773/meta-20260930.htm",
+    "https://www.useluminix.com/reports/industry-analysis/meta-debt-bonds-and-credit-rating",
+    "https://www.wsj.com/business/meta-seeks-to-raise-9-2-billion-in-debut-euro-bond-sale-317db009"
+  ]
+}
