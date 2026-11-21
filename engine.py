@@ -755,7 +755,13 @@ def scan(tickers):
                          "Interest cover": L["interest_coverage"], "FCF margin": L["fcf_margin"],
                          "Capex/OCF": L["capex_to_ocf"], "Debt growth 1y": L["debt_growth_1y"],
                          "Rate sens /25bp": M["rate_sens_25bp"], "6m return": M["ret_6m"],
-                         "Stock view": a["stock_view"]})
+                         "Stock view": a["stock_view"],
+                         "Total debt ($B)": (L["total_debt"] or 0) / 1e9 if L.get("total_debt") is not None else None,
+                         "Cash ($B)": L["cash"] / 1e9 if L.get("cash") is not None else None,
+                         "Operating cash flow TTM ($B)": L["ocf_ttm"] / 1e9 if L.get("ocf_ttm") is not None else None,
+                         "Capex TTM ($B)": abs(L["capex_ttm"]) / 1e9 if L.get("capex_ttm") is not None else None,
+                         "Free cash flow TTM ($B)": L["fcf_ttm"] / 1e9 if L.get("fcf_ttm") is not None else None,
+                         "Market cap ($B)": L["market_cap"] / 1e9 if L.get("market_cap") else None})
         except Exception as e:
             rows.append({"Ticker": tk, "Name": f"Error: {e}"})
     return pd.DataFrame(rows)

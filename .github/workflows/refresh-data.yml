@@ -20,9 +20,11 @@ jobs:
         env:
           FRED_API_KEY: ${{ secrets.FRED_API_KEY }}
         run: python timemachine/update_data.py
+      - name: Snapshot the AI-chain company numbers
+        run: python snapshot_companies.py || echo "snapshot failed; continuing"
       - name: Save the new data
         run: |
           git config user.name "data-bot"
           git config user.email "data-bot@users.noreply.github.com"
-          git add timemachine/data
+          git add timemachine/data research
           git diff --cached --quiet && echo "No changes" || (git commit -m "Daily data refresh $(date -u +%F)" && git push)
