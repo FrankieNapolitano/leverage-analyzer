@@ -40,4 +40,4 @@ id,peak_date,trough_date,recovery_date,peak,trough,depth_pct,days_to_trough,days
 39,2022-01-03,2022-10-12,2024-01-19,4796.56,3577.03,-25.4,282,464.0,new_bull,True,False,daily,Bear (20-30%)
 40,2023-07-31,2023-10-27,2023-12-01,4588.96,4117.37,-10.3,88,35.0,recovered,False,False,daily,Correction (10-20%)
 41,2025-02-19,2025-04-08,2025-06-27,6144.15,4982.77,-18.9,48,80.0,recovered,True,False,daily,Correction (10-20%)
-42,2026-10-06,2026-11-20,,7818.93,6957.35,-11.0,45,,open,True,False,daily,Correction (10-20%)
+42,2026-10-06,2026-11-20,,7818.93,6910.39,-11.6,45,,open,True,False,daily,Correction (10-20%)

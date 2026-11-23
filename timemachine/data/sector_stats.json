@@ -4,12 +4,12 @@
   "n": 13,
   "n_tightened": 8,
   "gap_when_tightened": -3.8575,
-  "gap_when_not": -0.09200000000000005,
-  "difference": -3.7655,
-  "perm_p_value": 0.186,
-  "corr_gap_vs_spread_change": -0.47662696674608346,
-  "corr_p_value": 0.0553,
-  "share_heavy_worse": 0.6153846153846154
+  "gap_when_not": -0.332,
+  "difference": -3.5255,
+  "perm_p_value": 0.20275,
+  "corr_gap_vs_spread_change": -0.4694007290657337,
+  "corr_p_value": 0.05825,
+  "share_heavy_worse": 0.6923076923076923
  },
  "french_1928_plus": {
   "label": "Ken French 49 industries, 1928+",

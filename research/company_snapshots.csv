@@ -1,0 +1,11 @@
+Date,Ticker,Name,Risk score,Tier,Bias,Net debt/EBITDA,Interest cover,FCF margin,Capex/OCF,Debt growth 1y,Rate sens /25bp,6m return,Stock view,Total debt ($B),Cash ($B),Operating cash flow TTM ($B),Capex TTM ($B),Free cash flow TTM ($B),Market cap ($B)
+2026-11-23,ORCL,Oracle Corporation,67.4693,Fragile,Bearish,3.151,5.2582,-0.4001,1.6118,0.5003,-0.0271,-0.4069,Avoid; bearish trades small and defined-risk only (leverage alone hasn't predicted underperformance),155.931,37.077,46.94,75.66,-28.72,354.421
+2026-11-23,CRWV,"CoreWeave, Inc.",92.0,Fragile,Bearish,11.6033,0.0402,-2.0656,3.8374,1.8081,-0.0025,-0.5436,Avoid; bearish trades small and defined-risk only (leverage alone hasn't predicted underperformance),66.219,4.184,7.1969,27.6178,-20.4208,26.8776
+2026-11-23,NBIS,Nebius Group N.V.,89.2765,Fragile,Bearish,5.3394,1.3255,-5.6723,3.4522,99.4667,0.0079,-0.5299,Avoid; bearish trades small and defined-risk only (leverage alone hasn't predicted underperformance),16.0723,7.4256,5.0654,17.4867,-12.4213,28.6459
+2026-11-23,MSFT,Microsoft Corporation,2.4238,Fortress,Bullish,-0.0318,56.0996,0.1731,0.6939,-0.0621,-0.0013,0.1883,Long - core holding candidate,57.2,64.294,195.878,135.921,59.957,3657.4008
+2026-11-23,GOOGL,Alphabet Inc.,32.4078,Healthy,Bearish,-0.3865,94.5101,0.0419,0.89,1.6265,0.0102,-0.2737,Avoid / reduce,141.917,265.098,179.551,159.804,19.747,3468.1373
+2026-11-23,AMZN,"Amazon.com, Inc.",31.7405,Healthy,Neutral,0.7833,33.7611,-0.0484,1.2376,0.1687,0.0033,-0.0373,Hold,271.949,114.226,158.438,196.079,-37.641,2761.5672
+2026-11-23,META,"Meta Platforms, Inc.",24.6297,Fortress,Neutral,0.304,29.3884,0.1186,0.7847,0.7101,0.002,-0.0224,Hold / accumulate slowly,114.842,82.449,133.087,104.438,28.649,1527.6097
+2026-11-23,NVDA,NVIDIA Corporation,4.6636,Fortress,Neutral,-0.1031,497.2073,0.4192,0.0547,0.106,0.0116,-0.2301,Hold / accumulate slowly,38.351,62.469,134.36,7.354,127.006,3985.4623
+2026-11-23,AMD,"Advanced Micro Devices, Inc.",19.7045,Fortress,Neutral,-0.6063,48.0756,0.1553,0.2266,0.7392,0.0168,-0.1001,Hold / accumulate slowly,8.916,15.776,9.123,2.067,7.056,750.506
+2026-11-23,AVGO,Broadcom Inc.,1.2898,Fortress,Bearish,0.6771,13.9875,0.4422,0.0307,-0.036,0.0295,-0.2545,"Avoid for now - strong company, weak trend (often a buy-the-dip watchlist name)",59.419,23.975,40.653,1.25,39.403,1496.7716

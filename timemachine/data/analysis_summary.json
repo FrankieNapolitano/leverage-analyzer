@@ -2,25 +2,25 @@
  "asof": "2026-11-30",
  "clusters": {
   "k": 4,
-  "silhouette": 0.1665775960714127,
+  "silhouette": 0.1665979990345185,
   "today": {
    "nearest_type": "Expensive market meets a shock",
    "distances": {
-    "Credit stress in a slowing economy": 1.19,
-    "Expensive market meets a shock": 0.657,
-    "Aftershock in a young recovery": 1.241,
-    "Fed-tightening / inflation squeeze": 0.989
+    "Credit stress in a slowing economy": 1.204,
+    "Expensive market meets a shock": 0.674,
+    "Aftershock in a young recovery": 1.227,
+    "Fed-tightening / inflation squeeze": 1.005
    },
    "today_percentiles": {
     "cape_vs_20y": 0.78,
-    "sp500_ret_12m": 0.33,
+    "sp500_ret_12m": 0.4,
     "short_rate_chg_12m": 0.46,
     "t10y_chg_12m": 0.88,
     "real_short_rate": 0.43,
     "curve_10y_3m": 0.3,
     "spread_vs_10y": 0.22,
     "baa_aaa_chg_12m": 0.35,
-    "vol_vs_10y": 0.72,
+    "vol_vs_10y": 0.85,
     "cpi_chg_12m": 0.63,
     "indpro_yoy": 0.51
    }
@@ -46,7 +46,7 @@
   {
    "crash_type": "Expensive market meets a shock",
    "n": 23,
-   "avg_depth": -22.48,
+   "avg_depth": -22.5,
    "worst": -56.8,
    "median_days_to_trough": 113.0,
    "recession_rate": 0.39
@@ -122,46 +122,46 @@
   {
    "id": 42,
    "peak_date": "2026-10-06",
-   "depth_pct": -11.0,
+   "depth_pct": -11.6,
    "crash_type": "Expensive market meets a shock",
-   "similarity": 78.0,
+   "similarity": 75.0,
    "most_similar_on": "Unemployment change, Oil price change, Real short rate",
-   "most_different_on": "Prior 12m return, Volatility, Fed tightening (12m)"
+   "most_different_on": "Volatility, Prior 12m return, Fed tightening (12m)"
   },
   {
    "id": 30,
    "peak_date": "1999-07-16",
    "depth_pct": -12.1,
    "crash_type": "Expensive market meets a shock",
-   "similarity": 65.0,
+   "similarity": 66.0,
    "most_similar_on": "Unemployment, Inflation, Industrial production",
    "most_different_on": "Prior 12m return, Credit spread change, Oil price change"
-  },
-  {
-   "id": 37,
-   "peak_date": "2018-09-20",
-   "depth_pct": -19.8,
-   "crash_type": "Fed-tightening / inflation squeeze",
-   "similarity": 59.0,
-   "most_similar_on": "Industrial production, Inflation, Real short rate",
-   "most_different_on": "Volatility, CAPE valuation, Prior 12m return"
   },
   {
    "id": 41,
    "peak_date": "2025-02-19",
    "depth_pct": -18.9,
    "crash_type": "Expensive market meets a shock",
-   "similarity": 58.0,
+   "similarity": 59.0,
    "most_similar_on": "Inflation, Real short rate, Industrial production",
-   "most_different_on": "Oil price change, Prior 12m return, Fed tightening (12m)"
+   "most_different_on": "Oil price change, Prior 12m return, Volatility"
+  },
+  {
+   "id": 37,
+   "peak_date": "2018-09-20",
+   "depth_pct": -19.8,
+   "crash_type": "Fed-tightening / inflation squeeze",
+   "similarity": 58.0,
+   "most_similar_on": "Industrial production, Inflation, Real short rate",
+   "most_different_on": "Volatility, CAPE valuation, 10-yr yield"
   },
   {
    "id": 32,
    "peak_date": "2007-10-09",
    "depth_pct": -56.8,
    "crash_type": "Expensive market meets a shock",
-   "similarity": 55.0,
-   "most_similar_on": "Inflation, Industrial production, Real short rate",
+   "similarity": 56.0,
+   "most_similar_on": "Volatility, Inflation, Industrial production",
    "most_different_on": "CAPE valuation, 10-yr change (12m), Oil price change"
   },
   {
@@ -171,37 +171,37 @@
    "crash_type": "Expensive market meets a shock",
    "similarity": 52.0,
    "most_similar_on": "Unemployment, Fed tightening (12m), Oil price change",
-   "most_different_on": "Unemployment change, Prior 12m return, 10-yr yield"
+   "most_different_on": "Unemployment change, 10-yr yield, Prior 12m return"
   },
   {
    "id": 36,
    "peak_date": "2018-01-26",
    "depth_pct": -10.2,
    "crash_type": "Expensive market meets a shock",
-   "similarity": 51.0,
+   "similarity": 49.0,
    "most_similar_on": "Industrial production, Real short rate, Inflation",
    "most_different_on": "Volatility, Oil price change, 10-yr change (12m)"
   },
   {
-   "id": 14,
-   "peak_date": "1966-02-09",
-   "depth_pct": -22.2,
+   "id": 31,
+   "peak_date": "2000-03-24",
+   "depth_pct": -49.1,
    "crash_type": "Expensive market meets a shock",
    "similarity": 47.0,
-   "most_similar_on": "Inflation, Real short rate, Unemployment",
-   "most_different_on": "CAPE valuation, Oil price change, Volatility"
+   "most_similar_on": "Volatility, Inflation, Real short rate",
+   "most_different_on": "Oil price change, 10-yr change (12m), 10-yr yield"
   }
  ],
  "analog_months": [
   {
-   "month": "2000-07",
-   "distance": 0.38,
-   "next_12m_return": -15.35,
+   "month": "2000-04",
+   "distance": 0.36,
+   "next_12m_return": -13.97,
    "next_12m_max_drawdown": -27.45
   },
   {
    "month": "1999-07",
-   "distance": 0.39,
+   "distance": 0.37,
    "next_12m_return": 7.68,
    "next_12m_max_drawdown": -11.19
   },
@@ -212,46 +212,34 @@
    "next_12m_max_drawdown": -19.78
   },
   {
+   "month": "2000-10",
+   "distance": 0.5,
+   "next_12m_return": -25.86,
+   "next_12m_max_drawdown": -32.56
+  },
+  {
    "month": "2025-01",
-   "distance": 0.54,
+   "distance": 0.53,
    "next_12m_return": 14.87,
    "next_12m_max_drawdown": -18.9
   },
   {
    "month": "2007-10",
-   "distance": 0.55,
+   "distance": 0.54,
    "next_12m_return": -37.47,
    "next_12m_max_drawdown": -45.21
   },
   {
-   "month": "1996-12",
-   "distance": 0.58,
-   "next_12m_return": 31.01,
-   "next_12m_max_drawdown": -10.8
-  },
-  {
    "month": "2022-02",
-   "distance": 0.58,
+   "distance": 0.56,
    "next_12m_return": -9.23,
    "next_12m_max_drawdown": -22.77
   },
   {
-   "month": "2006-05",
-   "distance": 0.59,
-   "next_12m_return": 20.51,
-   "next_12m_max_drawdown": -5.86
-  },
-  {
-   "month": "2025-09",
-   "distance": 0.59,
-   "next_12m_return": 14.4,
-   "next_12m_max_drawdown": -9.1
-  },
-  {
-   "month": "2005-03",
-   "distance": 0.6,
-   "next_12m_return": 9.68,
-   "next_12m_max_drawdown": -5.48
+   "month": "1997-01",
+   "distance": 0.58,
+   "next_12m_return": 24.69,
+   "next_12m_max_drawdown": -10.8
   },
   {
    "month": "2024-04",
@@ -260,40 +248,52 @@
    "next_12m_max_drawdown": -18.9
   },
   {
+   "month": "2025-09",
+   "distance": 0.62,
+   "next_12m_return": 14.4,
+   "next_12m_max_drawdown": -9.1
+  },
+  {
    "month": "2018-11",
    "distance": 0.62,
    "next_12m_return": 13.8,
    "next_12m_max_drawdown": -15.74
   },
   {
-   "month": "2017-09",
+   "month": "2006-05",
+   "distance": 0.62,
+   "next_12m_return": 20.51,
+   "next_12m_max_drawdown": -5.86
+  },
+  {
+   "month": "2005-03",
    "distance": 0.63,
+   "next_12m_return": 9.68,
+   "next_12m_max_drawdown": -5.48
+  },
+  {
+   "month": "2017-09",
+   "distance": 0.66,
    "next_12m_return": 15.66,
    "next_12m_max_drawdown": -10.16
   },
   {
-   "month": "2017-03",
-   "distance": 0.65,
-   "next_12m_return": 11.77,
-   "next_12m_max_drawdown": -10.16
-  },
-  {
-   "month": "2000-01",
-   "distance": 0.65,
-   "next_12m_return": -2.04,
-   "next_12m_max_drawdown": -17.2
+   "month": "1996-07",
+   "distance": 0.66,
+   "next_12m_return": 49.12,
+   "next_12m_max_drawdown": -9.63
   }
  ],
  "analog_months_stats": {
   "n": 15,
   "median_next_12m_return": 10.591799943836877,
-  "share_with_10pct_drawdown": 0.8,
-  "share_with_20pct_drawdown": 0.2
+  "share_with_10pct_drawdown": 0.7333333333333333,
+  "share_with_20pct_drawdown": 0.26666666666666666
  },
  "sector_gap_by_credit": [
   {
    "credit_tightened": false,
-   "mean": -0.09,
+   "mean": -0.33,
    "count": 5
   },
   {
