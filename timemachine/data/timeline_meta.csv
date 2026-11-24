@@ -23388,7 +23388,7 @@ asof,obs_date,available,method,indicator
 2026-08-31,2026-08-31,2026-08-31,market,sp500
 2026-09-30,2026-09-30,2026-09-30,market,sp500
 2026-10-31,2026-10-30,2026-10-30,market,sp500
-2026-11-30,2026-11-23,2026-11-23,market,sp500
+2026-11-30,2026-11-24,2026-11-24,market,sp500
 1928-01-31,1928-01-31,1928-01-31,market_monthly_avg,sp500_ret_12m
 1928-02-29,1928-02-29,1928-02-29,market_monthly_avg,sp500_ret_12m
 1928-03-31,1928-03-31,1928-03-31,market_monthly_avg,sp500_ret_12m
@@ -24575,7 +24575,7 @@ asof,obs_date,available,method,indicator
 2026-08-31,2026-08-31,2026-08-31,market,sp500_ret_12m
 2026-09-30,2026-09-30,2026-09-30,market,sp500_ret_12m
 2026-10-31,2026-10-30,2026-10-30,market,sp500_ret_12m
-2026-11-30,2026-11-23,2026-11-23,market,sp500_ret_12m
+2026-11-30,2026-11-24,2026-11-24,market,sp500_ret_12m
 1928-01-31,1928-01-31,1928-01-31,market_monthly_avg,sp500_ret_6m
 1928-02-29,1928-02-29,1928-02-29,market_monthly_avg,sp500_ret_6m
 1928-03-31,1928-03-31,1928-03-31,market_monthly_avg,sp500_ret_6m
@@ -25762,7 +25762,7 @@ asof,obs_date,available,method,indicator
 2026-08-31,2026-08-31,2026-08-31,market,sp500_ret_6m
 2026-09-30,2026-09-30,2026-09-30,market,sp500_ret_6m
 2026-10-31,2026-10-30,2026-10-30,market,sp500_ret_6m
-2026-11-30,2026-11-23,2026-11-23,market,sp500_ret_6m
+2026-11-30,2026-11-24,2026-11-24,market,sp500_ret_6m
 1928-01-31,1928-01-31,1928-01-31,market_monthly_avg,realized_vol
 1928-02-29,1928-02-29,1928-02-29,market_monthly_avg,realized_vol
 1928-03-31,1928-03-31,1928-03-31,market_monthly_avg,realized_vol
@@ -26949,7 +26949,7 @@ asof,obs_date,available,method,indicator
 2026-08-31,2026-08-31,2026-08-31,market,realized_vol
 2026-09-30,2026-09-30,2026-09-30,market,realized_vol
 2026-10-31,2026-10-30,2026-10-30,market,realized_vol
-2026-11-30,2026-11-23,2026-11-23,market,realized_vol
+2026-11-30,2026-11-24,2026-11-24,market,realized_vol
 1928-01-31,1928-01-31,1928-01-31,market_monthly_avg,drawdown_from_ath
 1928-02-29,1928-02-29,1928-02-29,market_monthly_avg,drawdown_from_ath
 1928-03-31,1928-03-31,1928-03-31,market_monthly_avg,drawdown_from_ath
@@ -28136,7 +28136,7 @@ asof,obs_date,available,method,indicator
 2026-08-31,2026-08-31,2026-08-31,market,drawdown_from_ath
 2026-09-30,2026-09-30,2026-09-30,market,drawdown_from_ath
 2026-10-31,2026-10-30,2026-10-30,market,drawdown_from_ath
-2026-11-30,2026-11-23,2026-11-23,market,drawdown_from_ath
+2026-11-30,2026-11-24,2026-11-24,market,drawdown_from_ath
 1986-01-31,1986-01-01,1986-01-31,market,vix
 1986-02-28,1986-02-01,1986-02-28,market,vix
 1986-03-31,1986-03-01,1986-03-31,market,vix

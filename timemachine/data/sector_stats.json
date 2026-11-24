@@ -4,11 +4,11 @@
   "n": 13,
   "n_tightened": 8,
   "gap_when_tightened": -3.8575,
-  "gap_when_not": -0.332,
-  "difference": -3.5255,
-  "perm_p_value": 0.20275,
-  "corr_gap_vs_spread_change": -0.4694007290657337,
-  "corr_p_value": 0.05825,
+  "gap_when_not": -0.4,
+  "difference": -3.4575,
+  "perm_p_value": 0.2083,
+  "corr_gap_vs_spread_change": -0.46715578157245496,
+  "corr_p_value": 0.05915,
   "share_heavy_worse": 0.6923076923076923
  },
  "french_1928_plus": {
