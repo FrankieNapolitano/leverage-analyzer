@@ -7,9 +7,9 @@
    "nearest_type": "Expensive market meets a shock",
    "distances": {
     "Credit stress in a slowing economy": 1.204,
-    "Expensive market meets a shock": 0.681,
-    "Aftershock in a young recovery": 1.231,
-    "Fed-tightening / inflation squeeze": 1.008
+    "Expensive market meets a shock": 0.683,
+    "Aftershock in a young recovery": 1.233,
+    "Fed-tightening / inflation squeeze": 1.009
    },
    "today_percentiles": {
     "cape_vs_20y": 0.78,
@@ -142,7 +142,7 @@
    "peak_date": "2025-02-19",
    "depth_pct": -18.9,
    "crash_type": "Expensive market meets a shock",
-   "similarity": 59.0,
+   "similarity": 58.0,
    "most_similar_on": "Inflation, Real short rate, Industrial production",
    "most_different_on": "Oil price change, Prior 12m return, Volatility"
   },
@@ -237,27 +237,27 @@
   },
   {
    "month": "1997-01",
-   "distance": 0.58,
+   "distance": 0.59,
    "next_12m_return": 24.69,
    "next_12m_max_drawdown": -10.8
   },
   {
    "month": "2024-04",
-   "distance": 0.61,
+   "distance": 0.62,
    "next_12m_return": 10.59,
    "next_12m_max_drawdown": -18.9
-  },
-  {
-   "month": "2025-09",
-   "distance": 0.62,
-   "next_12m_return": 14.4,
-   "next_12m_max_drawdown": -9.1
   },
   {
    "month": "2018-11",
    "distance": 0.62,
    "next_12m_return": 13.8,
    "next_12m_max_drawdown": -15.74
+  },
+  {
+   "month": "2025-09",
+   "distance": 0.62,
+   "next_12m_return": 14.4,
+   "next_12m_max_drawdown": -9.1
   },
   {
    "month": "2006-05",
@@ -293,7 +293,7 @@
  "sector_gap_by_credit": [
   {
    "credit_tightened": false,
-   "mean": -0.4,
+   "mean": -0.16,
    "count": 5
   },
   {
