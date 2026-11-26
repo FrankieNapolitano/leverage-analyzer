@@ -7,7 +7,7 @@
    "nearest_type": "Expensive market meets a shock",
    "distances": {
     "Credit stress in a slowing economy": 1.204,
-    "Expensive market meets a shock": 0.683,
+    "Expensive market meets a shock": 0.682,
     "Aftershock in a young recovery": 1.233,
     "Fed-tightening / inflation squeeze": 1.009
    },
@@ -142,7 +142,7 @@
    "peak_date": "2025-02-19",
    "depth_pct": -18.9,
    "crash_type": "Expensive market meets a shock",
-   "similarity": 58.0,
+   "similarity": 59.0,
    "most_similar_on": "Inflation, Real short rate, Industrial production",
    "most_different_on": "Oil price change, Prior 12m return, Volatility"
   },
@@ -243,7 +243,7 @@
   },
   {
    "month": "2024-04",
-   "distance": 0.62,
+   "distance": 0.61,
    "next_12m_return": 10.59,
    "next_12m_max_drawdown": -18.9
   },

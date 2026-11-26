@@ -29,3 +29,13 @@ Date,Ticker,Name,Risk score,Tier,Bias,Net debt/EBITDA,Interest cover,FCF margin,
 2026-11-25,NVDA,NVIDIA Corporation,4.6636,Fortress,Neutral,-0.1031,497.2073,0.4192,0.0547,0.106,0.0114,-0.3016,Hold / accumulate slowly,38.351,62.469,134.36,7.354,127.006,3605.1472
 2026-11-25,AMD,"Advanced Micro Devices, Inc.",19.7045,Fortress,Neutral,-0.6063,48.0756,0.1553,0.2266,0.7392,0.0194,-0.2163,Hold / accumulate slowly,8.916,15.776,9.123,2.067,7.056,672.0063
 2026-11-25,AVGO,Broadcom Inc.,1.2898,Fortress,Bearish,0.6771,13.9875,0.4422,0.0307,-0.036,0.0308,-0.2923,"Avoid for now - strong company, weak trend (often a buy-the-dip watchlist name)",59.419,23.975,40.653,1.25,39.403,1436.1942
+2026-11-26,ORCL,Oracle Corporation,67.6911,Fragile,Bearish,3.151,5.2582,-0.4001,1.6118,0.5003,-0.0254,-0.4864,Avoid; bearish trades small and defined-risk only (leverage alone hasn't predicted underperformance),155.931,37.077,46.94,75.66,-28.72,323.8675
+2026-11-26,CRWV,"CoreWeave, Inc.",92.0,Fragile,Bearish,11.6033,0.0402,-2.0656,3.8374,1.8081,0.0,-0.6016,Avoid; bearish trades small and defined-risk only (leverage alone hasn't predicted underperformance),66.219,4.184,7.1969,27.6178,-20.4208,23.6743
+2026-11-26,NBIS,Nebius Group N.V.,89.5197,Fragile,Bearish,5.3394,1.3255,-5.6723,3.4522,99.4667,0.0105,-0.6245,Avoid; bearish trades small and defined-risk only (leverage alone hasn't predicted underperformance),16.0723,7.4256,5.0654,17.4867,-12.4213,24.8938
+2026-11-26,MSFT,Microsoft Corporation,2.4238,Fortress,Bullish,-0.0318,56.0996,0.1731,0.6939,-0.0621,-0.0009,0.1518,Long - core holding candidate,57.2,64.294,195.878,135.921,59.957,3638.3155
+2026-11-26,GOOGL,Alphabet Inc.,32.4078,Healthy,Bearish,-0.3865,94.5101,0.0419,0.89,1.6265,0.0107,-0.2991,Avoid / reduce,141.917,265.098,179.551,159.804,19.747,3357.4913
+2026-11-26,AMZN,"Amazon.com, Inc.",31.7405,Healthy,Neutral,0.7833,33.7611,-0.0484,1.2376,0.1687,0.0044,-0.1079,Hold,271.949,114.226,158.438,196.079,-37.641,2643.0553
+2026-11-26,META,"Meta Platforms, Inc.",24.6297,Fortress,Neutral,0.304,29.3884,0.1186,0.7847,0.7101,0.0013,-0.0383,Hold / accumulate slowly,114.842,82.449,133.087,104.438,28.649,1559.0259
+2026-11-26,NVDA,NVIDIA Corporation,4.6636,Fortress,Neutral,-0.1031,497.2073,0.4192,0.0547,0.106,0.0114,-0.3016,Hold / accumulate slowly,38.351,62.469,134.36,7.354,127.006,3605.1472
+2026-11-26,AMD,"Advanced Micro Devices, Inc.",19.7045,Fortress,Neutral,-0.6063,48.0756,0.1553,0.2266,0.7392,0.0194,-0.2163,Hold / accumulate slowly,8.916,15.776,9.123,2.067,7.056,672.0063
+2026-11-26,AVGO,Broadcom Inc.,1.2898,Fortress,Bearish,0.6771,13.9875,0.4422,0.0307,-0.036,0.0308,-0.2923,"Avoid for now - strong company, weak trend (often a buy-the-dip watchlist name)",59.419,23.975,40.653,1.25,39.403,1436.1942

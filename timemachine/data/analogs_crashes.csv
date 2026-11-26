@@ -1,32 +1,32 @@
 id,distance,features_compared,most_similar_on,most_different_on,peak_date,trough_date,depth_pct,severity,recession_followed,similarity,crash_type
 42,0.29,15,"Unemployment change, Oil price change, Real short rate","Volatility, Prior 12m return, Fed tightening (12m)",2026-10-06,2026-11-20,-11.6,Correction (10-20%),False,75.0,Expensive market meets a shock
 30,0.414,15,"Unemployment, Inflation, Industrial production","Prior 12m return, Credit spread change, Oil price change",1999-07-16,1999-10-15,-12.1,Correction (10-20%),False,66.0,Expensive market meets a shock
-41,0.537,15,"Inflation, Real short rate, Industrial production","Oil price change, Prior 12m return, Volatility",2025-02-19,2025-04-08,-18.9,Correction (10-20%),False,58.0,Expensive market meets a shock
+41,0.536,15,"Inflation, Real short rate, Industrial production","Oil price change, Prior 12m return, Volatility",2025-02-19,2025-04-08,-18.9,Correction (10-20%),False,59.0,Expensive market meets a shock
 37,0.554,15,"Industrial production, Inflation, Real short rate","Volatility, CAPE valuation, 10-yr yield",2018-09-20,2018-12-24,-19.8,Correction (10-20%),False,57.0,Fed-tightening / inflation squeeze
-32,0.588,15,"Volatility, Inflation, Industrial production","CAPE valuation, 10-yr change (12m), Oil price change",2007-10-09,2009-03-09,-56.8,Crash (50%+),True,56.0,Expensive market meets a shock
+32,0.587,15,"Volatility, Inflation, Industrial production","CAPE valuation, 10-yr change (12m), Oil price change",2007-10-09,2009-03-09,-56.8,Crash (50%+),True,56.0,Expensive market meets a shock
 39,0.659,15,"Unemployment, Fed tightening (12m), Oil price change","Unemployment change, 10-yr yield, Prior 12m return",2022-01-03,2022-10-12,-25.4,Bear (20-30%),False,52.0,Expensive market meets a shock
 36,0.711,15,"Industrial production, Real short rate, Inflation","Volatility, Oil price change, 10-yr change (12m)",2018-01-26,2018-02-08,-10.2,Correction (10-20%),False,49.0,Expensive market meets a shock
 31,0.746,15,"Volatility, Inflation, Real short rate","Oil price change, 10-yr change (12m), 10-yr yield",2000-03-24,2002-10-09,-49.1,Severe bear (30-50%),True,47.0,Expensive market meets a shock
 14,0.793,15,"Inflation, Real short rate, Unemployment","CAPE valuation, Volatility, Oil price change",1966-02-09,1966-10-07,-22.2,Bear (20-30%),False,45.0,Expensive market meets a shock
 28,0.849,15,"Unemployment change, Credit spread change, Inflation","Oil price change, Prior 12m return, 10-yr change (12m)",1997-10-07,1997-10-27,-10.8,Correction (10-20%),False,43.0,Expensive market meets a shock
 38,0.849,15,"Real short rate, Inflation, Industrial production","10-yr change (12m), Volatility, 10-yr yield",2020-02-19,2020-03-23,-33.9,Severe bear (30-50%),True,43.0,Expensive market meets a shock
+15,0.857,15,"Inflation, Real short rate, Industrial production","CAPE valuation, Oil price change, Volatility",1967-09-25,1968-03-05,-10.1,Correction (10-20%),False,42.0,Expensive market meets a shock
 11,0.858,15,"Yield curve, Real short rate, Industrial production","CAPE valuation, Oil price change, Volatility",1956-08-03,1957-10-22,-21.5,Bear (20-30%),True,42.0,Expensive market meets a shock
-15,0.858,15,"Inflation, Real short rate, Industrial production","CAPE valuation, Oil price change, Volatility",1967-09-25,1968-03-05,-10.1,Correction (10-20%),False,42.0,Expensive market meets a shock
 16,0.872,15,"Inflation, Real short rate, Industrial production","CAPE valuation, Oil price change, Volatility",1968-11-29,1970-05-26,-36.1,Severe bear (30-50%),True,42.0,Fed-tightening / inflation squeeze
-29,0.879,15,"Fed tightening (12m), Inflation, Unemployment","Oil price change, 10-yr change (12m), Prior 12m return",1998-07-17,1998-08-31,-19.3,Correction (10-20%),False,42.0,Expensive market meets a shock
+29,0.878,15,"Fed tightening (12m), Inflation, Unemployment","Oil price change, 10-yr change (12m), Prior 12m return",1998-07-17,1998-08-31,-19.3,Correction (10-20%),False,42.0,Expensive market meets a shock
 18,0.913,15,"Inflation, Real short rate, Industrial production","CAPE valuation, Oil price change, Volatility",1973-01-11,1974-10-03,-48.2,Severe bear (30-50%),True,40.0,Aftershock in a young recovery
-13,0.954,15,"Real short rate, Inflation, Industrial production","CAPE valuation, Unemployment, Oil price change",1961-12-12,1962-06-26,-28.0,Bear (20-30%),False,39.0,Expensive market meets a shock
+13,0.953,15,"Real short rate, Inflation, Industrial production","CAPE valuation, Unemployment, Oil price change",1961-12-12,1962-06-26,-28.0,Bear (20-30%),False,39.0,Expensive market meets a shock
 26,1.013,15,"Industrial production, Inflation, Real short rate","CAPE valuation, 10-yr change (12m), Prior 12m return",1989-10-09,1990-01-30,-10.2,Correction (10-20%),False,36.0,Expensive market meets a shock
 27,1.02,15,"Inflation, Yield curve, Real short rate","CAPE valuation, Oil price change, 10-yr yield",1990-07-16,1990-10-11,-19.9,Correction (10-20%),True,36.0,Expensive market meets a shock
 10,1.02,15,"Credit spread, Real short rate, Inflation","CAPE valuation, Prior 12m return, Oil price change",1955-09-23,1955-10-11,-10.6,Correction (10-20%),False,36.0,Expensive market meets a shock
 5,1.027,12,"Fed tightening (12m), Real short rate, Inflation","CAPE valuation, Yield curve, Credit spread",1937-02-28,1938-04-30,-45.4,Severe bear (30-50%),True,36.0,Expensive market meets a shock
 9,1.048,15,"Industrial production, Real short rate, Inflation","CAPE valuation, Oil price change, Volatility",1953-01-05,1953-09-14,-14.8,Correction (10-20%),True,35.0,Expensive market meets a shock
 12,1.061,15,"Real short rate, Inflation, Credit spread","CAPE valuation, Oil price change, Fed tightening (12m)",1959-08-03,1960-10-25,-14.0,Correction (10-20%),True,35.0,Expensive market meets a shock
-25,1.098,15,"Inflation, Fed tightening (12m), Industrial production","CAPE valuation, Yield curve, Prior 12m return",1987-08-25,1987-12-04,-33.5,Severe bear (30-50%),False,33.0,Expensive market meets a shock
+25,1.097,15,"Inflation, Fed tightening (12m), Industrial production","CAPE valuation, Yield curve, Prior 12m return",1987-08-25,1987-12-04,-33.5,Severe bear (30-50%),False,33.0,Expensive market meets a shock
 7,1.098,12,"Fed tightening (12m), Inflation, Real short rate","CAPE valuation, Prior 12m return, 10-yr change (12m)",1946-05-31,1949-06-30,-25.3,Bear (20-30%),True,33.0,Expensive market meets a shock
 40,1.115,15,"Inflation, Real short rate, Industrial production","Oil price change, Fed tightening (12m), Yield curve",2023-07-31,2023-10-27,-10.3,Correction (10-20%),False,33.0,Fed-tightening / inflation squeeze
 35,1.12,15,"Real short rate, Industrial production, Fed tightening (12m)","Oil price change, 10-yr change (12m), CAPE valuation",2015-05-21,2016-02-11,-14.2,Correction (10-20%),False,33.0,Credit stress in a slowing economy
-8,1.142,15,"Fed tightening (12m), Real short rate, Credit spread change","CAPE valuation, Oil price change, Volatility",1950-06-12,1950-07-17,-14.0,Correction (10-20%),False,32.0,Expensive market meets a shock
+8,1.141,15,"Fed tightening (12m), Real short rate, Credit spread change","CAPE valuation, Oil price change, Volatility",1950-06-12,1950-07-17,-14.0,Correction (10-20%),False,32.0,Expensive market meets a shock
 34,1.157,15,"Fed tightening (12m), Inflation, Real short rate","Unemployment, Yield curve, CAPE valuation",2011-04-29,2011-10-03,-19.4,Correction (10-20%),False,31.0,Credit stress in a slowing economy
 1,1.271,12,"Inflation, Real short rate, Industrial production","Yield curve, Prior 12m return, Credit spread",1929-09-30,1932-06-30,-84.8,Crash (50%+),True,28.0,Fed-tightening / inflation squeeze
 6,1.286,12,"Real short rate, Prior 12m return, Fed tightening (12m)","CAPE valuation, Credit spread, Yield curve",1938-11-30,1942-04-30,-40.0,Severe bear (30-50%),False,28.0,Credit stress in a slowing economy
@@ -34,7 +34,7 @@ id,distance,features_compared,most_similar_on,most_different_on,peak_date,trough
 20,1.348,15,"Real short rate, Inflation, Unemployment change","CAPE valuation, Unemployment, 10-yr change (12m)",1976-09-21,1978-03-06,-19.4,Correction (10-20%),False,26.0,Aftershock in a young recovery
 17,1.387,15,"Industrial production, Real short rate, Inflation","CAPE valuation, 10-yr change (12m), Fed tightening (12m)",1971-04-28,1971-11-23,-13.9,Correction (10-20%),False,25.0,Credit stress in a slowing economy
 22,1.515,15,"Real short rate, Industrial production, Unemployment change","CAPE valuation, Fed tightening (12m), 10-yr yield",1980-02-13,1980-03-27,-17.1,Correction (10-20%),True,22.0,Fed-tightening / inflation squeeze
-23,1.519,15,"Real short rate, Inflation, Industrial production","CAPE valuation, 10-yr yield, Credit spread",1980-11-28,1982-08-12,-27.1,Bear (20-30%),True,22.0,Fed-tightening / inflation squeeze
+23,1.518,15,"Real short rate, Inflation, Industrial production","CAPE valuation, 10-yr yield, Credit spread",1980-11-28,1982-08-12,-27.1,Bear (20-30%),True,22.0,Fed-tightening / inflation squeeze
 33,1.638,15,"10-yr change (12m), Fed tightening (12m), Inflation","Credit spread change, Unemployment, Yield curve",2010-04-23,2010-07-02,-16.0,Correction (10-20%),False,19.0,Aftershock in a young recovery
 4,1.748,12,"Real short rate, Inflation, Industrial production","Credit spread, CAPE valuation, Prior 12m return",1934-02-28,1935-03-31,-25.7,Bear (20-30%),False,17.0,Aftershock in a young recovery
 24,1.801,15,"Inflation, Unemployment change, Real short rate","CAPE valuation, Unemployment, Credit spread change",1983-10-10,1984-07-24,-14.4,Correction (10-20%),False,17.0,Aftershock in a young recovery
