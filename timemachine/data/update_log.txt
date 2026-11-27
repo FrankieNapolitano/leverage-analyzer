@@ -1,11 +1,11 @@
-2026-11-26 20:43
+2026-11-27 20:29
 FAIL  FRED current values: ConnectionError: could not reach FRED; kept the old files
 OK    FRED first-release values: skipped (no fred_key.txt) - first-release files kept as they were (0s)
 FAIL  Latest daily readings: ReadTimeout: HTTPSConnectionPool(host='fred.stlouisfed.org', port=443): Read timed out. (read timeout=60)
-OK    Yahoo S&P 500 + sector ETFs: S&P daily through 2026-11-25; pre-1950 daily rows: 5496 (2s)
+OK    Yahoo S&P 500 + sector ETFs: S&P daily through 2026-11-27; pre-1950 daily rows: 5496 (2s)
 FAIL  Shiller CAPE (multpl): ConnectionError: HTTPSConnectionPool(host='www.multpl.com', port=443): Max retries exceeded with url: /shiller-pe/table/by-month (Caused by NewConnectionError("HTTPSConnection(h
 OK    Ken French 49 industries: 49 industries, 1926-07 to 2026-09 (1s)
-OK    Ken French asset-growth portfolios: asset-growth portfolios 1963-07 to 2026-09 (1s)
+OK    Ken French asset-growth portfolios: asset-growth portfolios 1963-07 to 2026-09 (0s)
 OK    FDIC bank failures: 4117 failures through 2026-07 (0s)
 OK    FINRA margin debt: 358 months through 2026-10 (0s)
-OK    Rebuild database, crash library, analysis, Monte Carlo: pipeline rebuilt (19s)
+OK    Rebuild database, crash library, analysis, Monte Carlo: pipeline rebuilt (12s)
